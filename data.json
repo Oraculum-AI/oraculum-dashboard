@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-23T22:35:03.040Z",
+  "updated": "2026-02-23T22:40:02.353Z",
   "totalPositions": 23,
-  "openPositions": 1,
-  "closedPositions": 22,
+  "openPositions": 2,
+  "closedPositions": 21,
   "trades": [
-    {
-      "token": "Jellybean",
-      "pnl": 0,
-      "reason": "Timeout: 80min, only +0.0%",
-      "time": "2026-02-23 17:24:55",
-      "exitType": "timeout"
-    },
     {
       "token": "CTO:",
       "pnl": -20,
@@ -362,7 +355,7 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 51,
+  "tradeCount": 50,
   "winRate": "10",
   "wins": 5,
   "losses": 33,
@@ -383,12 +376,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is an extreme red flag indicating potential honeypot or sc"
-    },
     {
       "token": "LOBCULT",
       "approved": false,
@@ -442,9 +429,19 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "CTO",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "LOBCULT",
       "strategy": "paper_momentum"
