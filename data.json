@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-23T23:50:02.721Z",
+  "updated": "2026-02-23T23:55:02.035Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "CTO",
-      "pnl": 0.2,
-      "reason": "Timeout: 45min, only +0.2%",
-      "time": "2026-02-23 19:02:07",
-      "exitType": "timeout"
-    },
     {
       "token": "BLOODNUT",
       "pnl": -0.7,
@@ -215,11 +208,11 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 30,
-  "winRate": "13",
-  "wins": 4,
+  "tradeCount": 29,
+  "winRate": "10",
+  "wins": 3,
   "losses": 14,
-  "avgWin": "8.6",
+  "avgWin": "11.4",
   "avgLoss": "-2.1",
   "bestTrade": {
     "token": "Donke",
@@ -236,24 +229,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite po"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed 2.5x s"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag that violat"
-    },
     {
       "token": "AUTISM",
       "approved": false,
@@ -295,6 +270,24 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite de"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m AND 1h windows is an automatic reject"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": []
