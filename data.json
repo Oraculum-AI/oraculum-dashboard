@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T22:50:01.985Z",
+  "updated": "2026-02-23T22:55:02.414Z",
   "totalPositions": 23,
   "openPositions": 1,
   "closedPositions": 22,
@@ -384,36 +384,6 @@
   },
   "decisions": [
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite scanner signal. Pair age o"
-    },
-    {
       "token": "USD0",
       "approved": false,
       "confidence": 5,
@@ -442,12 +412,42 @@
       "approved": false,
       "confidence": 5,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rejection criterion. Pai"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite de"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard stop. Pair age of 0 minu"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT - Zero volume in both 5m and 1h windows is a hard rejection criterion reg"
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
+    },
+    {
+      "token": "Jellybean",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h periods is a critical red flag that violat"
     }
   ],
   "openList": [
     {
       "token": "CTO",
-      "strategy": "paper_momentum"
+      "strategy": "paper_dca_paper_momentum"
     }
   ]
 }
