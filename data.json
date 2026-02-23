@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T23:25:02.159Z",
+  "updated": "2026-02-23T23:30:02.828Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
@@ -370,64 +370,64 @@
   },
   "decisions": [
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "AUTISM",
+      "token": "Xingxing",
       "approved": false,
       "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical failure condition. P"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m AND 1h windows despite claimed 4.4x s"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT - Zero volume in both 5m and 1h windows violates core risk management rul"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows is an automatic disqua"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed 4.5x s"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECTION: Zero volume in both 5m AND 1h windows is a critical red flag despite "
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite dec"
     },
     {
       "token": "PETAH",
       "approved": false,
       "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h periods despite price movement claim. Pair"
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite 1.5x spike signal and 7.0x"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag that disqua"
     },
     {
       "token": "AUTISM",
       "approved": false,
       "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard fail per risk criteria. "
+      "reasoning": "REJECTION: Zero volume in both 5m and 1h windows is a critical red flag that vio"
     },
     {
-      "token": "Xingxing",
+      "token": "PETAH",
       "approved": false,
       "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite dec"
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite claimed 3.0x spike. Pair a"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Pa"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h periods is a critical red flag. Despite po"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite price movement"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m AND 1h windows is a critical red flag despite pos"
     }
   ],
   "openList": []
