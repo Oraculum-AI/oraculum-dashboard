@@ -1,72 +1,9 @@
 {
-  "updated": "2026-02-23T23:35:02.601Z",
+  "updated": "2026-02-23T23:40:02.588Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:52:51",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:53:06",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:53:21",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:53:36",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:53:51",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:54:06",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:54:21",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:54:36",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:54:51",
-      "exitType": "exit"
-    },
     {
       "token": "JAWZ",
       "pnl": -7.7,
@@ -348,12 +285,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 49,
-  "winRate": "8",
+  "tradeCount": 40,
+  "winRate": "10",
   "wins": 4,
-  "losses": 33,
+  "losses": 24,
   "avgWin": "8.6",
-  "avgLoss": "-5.3",
+  "avgLoss": "-4.4",
   "bestTrade": {
     "token": "Donke",
     "pnl": 31,
@@ -369,36 +306,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag that disqua"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECTION: Zero volume in both 5m and 1h windows is a critical red flag that vio"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite claimed 3.0x spike. Pair a"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Pa"
-    },
     {
       "token": "PETAH",
       "approved": false,
@@ -428,6 +335,36 @@
       "approved": false,
       "confidence": 5,
       "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed spike "
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECTION: Zero volume in both 5m and 1h windows is a critical red flag that dis"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification des"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m AND 1h windows is a critical disqualification. Pa"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualifier. Pair a"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": []
