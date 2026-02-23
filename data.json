@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-23T22:17:57.648Z",
+  "updated": "2026-02-23T22:25:02.561Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "TAHLEQUAH:",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-23 17:01:13",
-      "exitType": "stop"
-    },
     {
       "token": "CTO:",
       "pnl": -20,
@@ -397,12 +390,12 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 56,
+  "tradeCount": 55,
   "winRate": "11",
   "wins": 6,
-  "losses": 35,
+  "losses": 34,
   "avgWin": "11.9",
-  "avgLoss": "-6.2",
+  "avgLoss": "-5.7",
   "bestTrade": {
     "token": "KIM",
     "pnl": 35,
@@ -411,43 +404,13 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "TAHLEQUAH:",
+    "token": "CTO:",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-23 17:01:13",
+    "time": "2026-02-23 17:04:38",
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "REJECT - Pair age of 0 minutes is a critical red flag for potential rug/honeypot"
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a critical red flag - likely a fresh launch with no pri"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "REJECT: Pair age of 0 minutes indicates brand new token with zero historical vol"
-    },
-    {
-      "token": "LOBCULT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a major red flag for potential honeypot or flash loan m"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is extreme rug risk despite good holder distribution. Volu"
-    },
     {
       "token": "Xingxing",
       "approved": false,
@@ -477,6 +440,36 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "Pair age of 0 minutes is an extreme red flag - this is a brand new token with ze"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is extreme honeypot risk despite good holder distribution."
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a critical red flag for potential rug/honeypot despite "
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is extreme rug risk despite passing holder checks. Volume "
+    },
+    {
+      "token": "LOBCULT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is an extreme red flag for potential honeypot/scam mechani"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is an extreme red flag indicating this is a brand new toke"
     }
   ],
   "openList": []
