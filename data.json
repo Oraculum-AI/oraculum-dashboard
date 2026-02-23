@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-23T22:25:02.561Z",
+  "updated": "2026-02-23T22:30:02.182Z",
   "totalPositions": 23,
-  "openPositions": 0,
-  "closedPositions": 23,
+  "openPositions": 1,
+  "closedPositions": 22,
   "trades": [
-    {
-      "token": "CTO:",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-23 17:04:38",
-      "exitType": "stop"
-    },
-    {
-      "token": "CLAW",
-      "pnl": 0,
-      "reason": "Timeout: 98min, only +0.0%",
-      "time": "2026-02-23 17:04:55",
-      "exitType": "timeout"
-    },
     {
       "token": "ORANMAMA",
       "pnl": 0,
@@ -390,12 +376,12 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 55,
+  "tradeCount": 53,
   "winRate": "11",
   "wins": 6,
-  "losses": 34,
+  "losses": 33,
   "avgWin": "11.9",
-  "avgLoss": "-5.7",
+  "avgLoss": "-5.3",
   "bestTrade": {
     "token": "KIM",
     "pnl": 35,
@@ -407,70 +393,75 @@
     "token": "CTO:",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-23 17:04:38",
+    "time": "2026-02-23 18:26:25",
     "exitType": "stop"
   },
   "decisions": [
     {
-      "token": "Xingxing",
+      "token": "CTO",
       "approved": false,
       "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a major red flag - cannot verify safety, holder distrib"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a critical red flag - this appears to be a brand new to"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a major red flag—no historical data to validate legitim"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a critical red flag indicating potential honeypot or ma"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is an extreme red flag - this is a brand new token with ze"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is extreme honeypot risk despite good holder distribution."
-    },
-    {
-      "token": "Orangutan",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a critical red flag for potential rug/honeypot despite "
-    },
-    {
-      "token": "Orangutan",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is extreme rug risk despite passing holder checks. Volume "
-    },
-    {
-      "token": "LOBCULT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is an extreme red flag for potential honeypot/scam mechani"
+      "reasoning": "Pair age of 0 minutes is a critical red flag - this is a brand new token with ze"
     },
     {
       "token": "SOL",
       "approved": false,
       "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is an extreme red flag indicating this is a brand new toke"
+      "reasoning": "Pair age of 0 minutes is an extreme red flag indicating potential honeypot or sc"
+    },
+    {
+      "token": "LOBCULT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a critical red flag indicating brand new deployment wit"
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Token is 0 minutes old with zero trading volume in 5m and 1h periods despite cla"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a critical red flag—this is a brand new token with zero"
+    },
+    {
+      "token": "LOBCULT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Token launched 0 minutes ago with zero 1h volume despite 17.2% 5m move—classic p"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "JAWZ fails critical momentum validation: pair age is 0 minutes (brand new, extre"
+    },
+    {
+      "token": "LOBCULT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Token is 0 minutes old with zero trading volume in 5m and 1h windows despite +11"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is an extreme red flag for potential honeypot or manipulat"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "LOBCULT",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
