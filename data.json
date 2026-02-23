@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-23T22:40:02.353Z",
+  "updated": "2026-02-23T22:45:03.354Z",
   "totalPositions": 23,
-  "openPositions": 2,
-  "closedPositions": 21,
+  "openPositions": 1,
+  "closedPositions": 22,
   "trades": [
     {
       "token": "CTO:",
@@ -353,14 +353,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-23 20:38:41",
       "exitType": "exit"
+    },
+    {
+      "token": "LOBCULT:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-23 22:42:46",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 50,
+  "tradeCount": 51,
   "winRate": "10",
   "wins": 5,
-  "losses": 33,
+  "losses": 34,
   "avgWin": "13.9",
-  "avgLoss": "-5.3",
+  "avgLoss": "-5.7",
   "bestTrade": {
     "token": "KIM",
     "pnl": 35,
@@ -376,18 +383,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "LOBCULT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Pair age of 0 minutes is a critical red flag indicating brand new deployment wit"
-    },
-    {
-      "token": "Orangutan",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "Token is 0 minutes old with zero trading volume in 5m and 1h periods despite cla"
-    },
     {
       "token": "SOL",
       "approved": false,
@@ -435,15 +430,23 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite scanner signal. Pair age o"
     }
   ],
   "openList": [
     {
       "token": "CTO",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "LOBCULT",
       "strategy": "paper_momentum"
     }
   ]
