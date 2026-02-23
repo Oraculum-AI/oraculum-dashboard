@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-23T22:55:02.414Z",
+  "updated": "2026-02-23T23:00:02.989Z",
   "totalPositions": 23,
-  "openPositions": 1,
-  "closedPositions": 22,
+  "openPositions": 0,
+  "closedPositions": 23,
   "trades": [
     {
       "token": "CTO:",
@@ -387,30 +387,6 @@
       "token": "USD0",
       "approved": false,
       "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite 16.5% price mo"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is disqualifying regardless of oth"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite pump signal is a major red"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rule violation. Pair age"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rejection criterion. Pai"
     },
     {
@@ -442,12 +418,31 @@
       "approved": false,
       "confidence": 5,
       "reasoning": "REJECT: Zero volume in both 5m and 1h periods is a critical red flag that violat"
-    }
-  ],
-  "openList": [
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite de"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard stop. Pair age of 0 minu"
+    },
     {
       "token": "CTO",
-      "strategy": "paper_dca_paper_momentum"
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT - Zero volume in both 5m and 1h periods is a critical failure. Price chan"
+    },
+    {
+      "token": "CTO",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Pa"
     }
-  ]
+  ],
+  "openList": []
 }
