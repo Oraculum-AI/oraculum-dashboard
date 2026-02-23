@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T23:00:02.989Z",
+  "updated": "2026-02-23T23:05:02.629Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
@@ -384,12 +384,6 @@
   },
   "decisions": [
     {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rejection criterion. Pai"
-    },
-    {
       "token": "Xingxing",
       "approved": false,
       "confidence": 5,
@@ -442,6 +436,12 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Pa"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": []
