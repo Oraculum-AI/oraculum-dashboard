@@ -34,8 +34,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
-
-/* ── TOPBAR ── */
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -43,200 +41,64 @@ body {
   padding: 20px 0;
   border-bottom: 1px solid var(--border);
 }
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
+.brand { display: flex; align-items: center; gap: 14px; }
 .brand-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
+  width: 36px; height: 36px; border-radius: 8px;
   background: linear-gradient(135deg, var(--accent), #6366f1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; align-items: center; justify-content: center;
 }
 .brand-icon svg { width: 20px; height: 20px; fill: white; }
-.brand-name {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: 4px;
-  color: #fff;
-}
-.brand-tag {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  letter-spacing: 0.5px;
-}
-.topbar-right {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+.brand-name { font-family: 'Orbitron', sans-serif; font-size: 1.15rem; font-weight: 700; letter-spacing: 4px; color: #fff; }
+.brand-tag { font-size: 0.7rem; color: var(--text-muted); letter-spacing: 0.5px; }
+.topbar-right { display: flex; align-items: center; gap: 20px; }
 .status-pill {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 5px 14px;
-  border-radius: 100px;
-  font-size: 0.72rem;
-  font-weight: 500;
-  background: var(--green-dim);
-  color: var(--green);
-  border: 1px solid #22c55e33;
+  display: flex; align-items: center; gap: 6px; padding: 5px 14px;
+  border-radius: 100px; font-size: 0.72rem; font-weight: 500;
+  background: var(--green-dim); color: var(--green); border: 1px solid #22c55e33;
 }
-.status-pill .dot {
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--green);
-  animation: blink 2s ease infinite;
-}
+.status-pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); animation: blink 2s ease infinite; }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
-.mode-pill {
-  padding: 5px 14px;
-  border-radius: 100px;
-  font-size: 0.72rem;
-  font-weight: 500;
-  background: var(--accent-dim);
-  color: var(--accent);
-  border: 1px solid #3b82f633;
-}
+.mode-pill { padding: 5px 14px; border-radius: 100px; font-size: 0.72rem; font-weight: 500; background: var(--accent-dim); color: var(--accent); border: 1px solid #3b82f633; }
+.updated-text { font-size: 0.65rem; color: var(--text-muted); }
 
-/* ── METRIC CARDS ── */
 .metrics {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  overflow: hidden;
-  margin: 24px 0;
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px;
+  background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin: 24px 0;
 }
-.metric {
-  background: var(--bg-card);
-  padding: 20px 18px;
-  transition: background 0.2s;
-}
+.metric { background: var(--bg-card); padding: 20px 18px; transition: background 0.2s; }
 .metric:hover { background: var(--bg-elevated); }
-.metric-label {
-  font-size: 0.7rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--text-muted);
-  margin-bottom: 8px;
-}
-.metric-value {
-  font-family: 'DM Mono', monospace;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #fff;
-}
+.metric-label { font-size: 0.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 8px; }
+.metric-value { font-family: 'DM Mono', monospace; font-size: 1.5rem; font-weight: 500; color: #fff; }
 .metric-value.green { color: var(--green); }
 .metric-value.red { color: var(--red); }
 .metric-value.accent { color: var(--accent); }
 .metric-value.gold { color: var(--accent2); }
-.metric-sub {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  margin-top: 4px;
-}
+.metric-sub { font-size: 0.72rem; color: var(--text-muted); margin-top: 4px; }
 
-/* ── SECTION HEADERS ── */
-.section-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 14px;
-}
-.section-title {
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--text-secondary);
-}
-.section-badge {
-  font-size: 0.65rem;
-  padding: 3px 10px;
-  border-radius: 6px;
-  background: var(--bg-elevated);
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-}
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+.section-title { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: var(--text-secondary); }
+.section-badge { font-size: 0.65rem; padding: 3px 10px; border-radius: 6px; background: var(--bg-elevated); color: var(--text-muted); border: 1px solid var(--border); }
 
-/* ── GRID LAYOUT ── */
-.content-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-.card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 20px;
-}
+.content-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 16px; margin-bottom: 16px; }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
 
-/* ── TRADE TABLE ── */
 .trade-table { width: 100%; border-collapse: collapse; }
 .trade-table th {
-  text-align: left;
-  font-size: 0.62rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--text-muted);
-  padding: 0 0 12px;
-  border-bottom: 1px solid var(--border);
+  text-align: left; font-size: 0.62rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 1.5px; color: var(--text-muted); padding: 0 0 12px; border-bottom: 1px solid var(--border);
 }
 .trade-table th:last-child, .trade-table td:last-child { text-align: right; }
 .trade-table th:nth-child(3), .trade-table td:nth-child(3) { text-align: right; }
-.trade-table td {
-  padding: 13px 0;
-  font-size: 0.85rem;
-  border-bottom: 1px solid #1c2538;
-  vertical-align: middle;
-}
+.trade-table td { padding: 13px 0; font-size: 0.85rem; border-bottom: 1px solid #1c2538; vertical-align: middle; }
 .trade-table tr:last-child td { border-bottom: none; }
-.trade-table tr:hover td { background: #1a223622; }
-.token-cell {
-  font-family: 'DM Mono', monospace;
-  font-weight: 500;
-  color: #fff;
-  font-size: 0.78rem;
-}
-.reason-cell {
-  color: var(--text-secondary);
-  font-size: 0.78rem;
-  max-width: 240px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.pnl-cell {
-  font-family: 'DM Mono', monospace;
-  font-weight: 600;
-  font-size: 0.78rem;
-}
+.token-cell { font-family: 'DM Mono', monospace; font-weight: 500; color: #fff; font-size: 0.78rem; }
+.pnl-cell { font-family: 'DM Mono', monospace; font-weight: 600; font-size: 0.78rem; }
 .pnl-cell.pos { color: var(--green); }
 .pnl-cell.neg { color: var(--red); }
 .pnl-cell.flat { color: var(--text-muted); }
-.time-cell {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-}
+.time-cell { font-size: 0.7rem; color: var(--text-muted); }
 .exit-tag {
-  display: inline-block;
-  font-size: 0.6rem;
-  padding: 2px 7px;
-  border-radius: 4px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  display: inline-block; font-size: 0.6rem; padding: 2px 7px; border-radius: 4px; font-weight: 500; letter-spacing: 0.5px;
 }
 .exit-tag.profit { background: var(--green-dim); color: var(--green); }
 .exit-tag.stop { background: var(--red-dim); color: var(--red); }
@@ -244,146 +106,36 @@ body {
 .exit-tag.timeout { background: #f59e0b18; color: #f59e0b; }
 .exit-tag.exit { background: #64748b18; color: #94a3b8; }
 
-/* ── AI FEED ── */
-.ai-entry {
-  padding: 12px 14px;
-  border-radius: 8px;
-  background: var(--bg);
-  margin-bottom: 8px;
-  border: 1px solid var(--border);
-  transition: border-color 0.2s;
-}
-.ai-entry:hover { border-color: var(--border-light); }
-.ai-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 6px;
-}
-.ai-token {
-  font-family: 'DM Mono', monospace;
-  font-weight: 500;
-  font-size: 0.8rem;
-  color: #fff;
-}
-.ai-verdict {
-  font-size: 0.6rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 2px 8px;
-  border-radius: 4px;
-}
+.ai-entry { padding: 12px 14px; border-radius: 8px; background: var(--bg); margin-bottom: 8px; border: 1px solid var(--border); }
+.ai-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+.ai-token { font-family: 'DM Mono', monospace; font-weight: 500; font-size: 0.8rem; color: #fff; }
+.ai-verdict { font-size: 0.6rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; }
 .ai-verdict.buy { background: var(--green-dim); color: var(--green); border: 1px solid #22c55e33; }
 .ai-verdict.pass { background: var(--red-dim); color: var(--red); border: 1px solid #ef444433; }
-.ai-confidence {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 6px 0;
-}
-.conf-bar {
-  flex: 1;
-  height: 3px;
-  background: var(--border);
-  border-radius: 2px;
-  overflow: hidden;
-}
+.ai-confidence { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+.conf-bar { flex: 1; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; }
 .conf-fill { height: 100%; border-radius: 2px; }
-.conf-label {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.65rem;
-  color: var(--text-muted);
-  min-width: 30px;
-}
-.ai-reasoning {
-  font-size: 0.78rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-}
-.ai-plan {
-  margin-top: 6px;
-  font-size: 0.68rem;
-  color: var(--accent);
-}
+.conf-label { font-family: 'DM Mono', monospace; font-size: 0.65rem; color: var(--text-muted); min-width: 30px; }
+.ai-reasoning { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.6; }
 
-/* ── EQUITY ── */
-.equity-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 16px;
-}
-.equity-chart {
-  width: 100%;
-  height: 180px;
-}
-.equity-chart svg { width: 100%; height: 100%; }
-
-/* ── DATA SOURCES ── */
 .sources-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 16px;
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px;
+  background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-bottom: 16px;
 }
-.source {
-  background: var(--bg-card);
-  padding: 16px;
-  text-align: center;
-}
-.source-name {
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 4px;
-}
-.source-desc {
-  font-size: 0.62rem;
-  color: var(--text-muted);
-}
-.source-status {
-  margin-top: 8px;
-  font-size: 0.6rem;
-  font-weight: 500;
-}
+.source { background: var(--bg-card); padding: 16px; text-align: center; }
+.source-name { font-size: 0.72rem; font-weight: 600; color: #fff; margin-bottom: 4px; }
+.source-desc { font-size: 0.62rem; color: var(--text-muted); }
+.source-status { margin-top: 8px; font-size: 0.6rem; font-weight: 500; }
 .source-status.live { color: var(--green); }
 .source-status.soon { color: var(--text-muted); }
 
-/* ── FOOTER ── */
-.footer {
-  text-align: center;
-  padding: 28px 0;
-  border-top: 1px solid var(--border);
-}
-.footer-brand {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.7rem;
-  letter-spacing: 6px;
-  color: var(--text-muted);
-  margin-bottom: 8px;
-}
-.footer-links a {
-  color: var(--text-muted);
-  text-decoration: none;
-  font-size: 0.72rem;
-  margin: 0 12px;
-  transition: color 0.2s;
-}
+.footer { text-align: center; padding: 28px 0; border-top: 1px solid var(--border); }
+.footer-brand { font-family: 'Orbitron', sans-serif; font-size: 0.7rem; letter-spacing: 6px; color: var(--text-muted); margin-bottom: 8px; }
+.footer-links a { color: var(--text-muted); text-decoration: none; font-size: 0.72rem; margin: 0 12px; transition: color 0.2s; }
 .footer-links a:hover { color: var(--accent); }
-.footer-copy {
-  font-size: 0.62rem;
-  color: var(--text-muted);
-  margin-top: 10px;
-  opacity: 0.6;
-}
+.footer-copy { font-size: 0.62rem; color: var(--text-muted); margin-top: 10px; opacity: 0.6; }
+.loading { text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.85rem; }
 
-/* ── RESPONSIVE ── */
 @media (max-width: 1000px) {
   .metrics { grid-template-columns: repeat(3, 1fr); }
   .content-grid { grid-template-columns: 1fr; }
@@ -393,14 +145,12 @@ body {
   .metrics { grid-template-columns: repeat(2, 1fr); }
   .sources-grid { grid-template-columns: repeat(2, 1fr); }
   .topbar { flex-direction: column; gap: 12px; }
-  .brand-name { font-size: 1rem; }
 }
 </style>
 </head>
 <body>
 
 <div class="container">
-  <!-- TOPBAR -->
   <div class="topbar">
     <div class="brand">
       <div class="brand-icon">
@@ -412,258 +162,50 @@ body {
       </div>
     </div>
     <div class="topbar-right">
+      <span class="updated-text" id="lastUpdate">Loading...</span>
       <div class="mode-pill">Paper Trading</div>
       <div class="status-pill"><span class="dot"></span> Agent Online</div>
     </div>
   </div>
 
-  <!-- METRICS -->
-  <div class="metrics">
-    <div class="metric">
-      <div class="metric-label">Trades</div>
-      <div class="metric-value">23</div>
-      <div class="metric-sub">All closed</div>
-    </div>
-    <div class="metric">
-      <div class="metric-label">Win Rate</div>
-      <div class="metric-value green">43%</div>
-      <div class="metric-sub">10W / 13L</div>
-    </div>
-    <div class="metric">
-      <div class="metric-label">Profit Factor</div>
-      <div class="metric-value gold">1.82</div>
-      <div class="metric-sub">Wins outsize losses</div>
-    </div>
-    <div class="metric">
-      <div class="metric-label">Best Trade</div>
-      <div class="metric-value green">+31.0%</div>
-      <div class="metric-sub">DONKE</div>
-    </div>
-    <div class="metric">
-      <div class="metric-label">Avg Hold</div>
-      <div class="metric-value">14m</div>
-      <div class="metric-sub">Per position</div>
-    </div>
-    <div class="metric">
-      <div class="metric-label">Open Now</div>
-      <div class="metric-value accent">0</div>
-      <div class="metric-sub">Max: 5</div>
-    </div>
+  <div class="metrics" id="metricsGrid">
+    <div class="metric"><div class="metric-label">Trades</div><div class="metric-value" id="mTrades">—</div><div class="metric-sub" id="mTradesSub"></div></div>
+    <div class="metric"><div class="metric-label">Win Rate</div><div class="metric-value" id="mWinRate">—</div><div class="metric-sub" id="mWinRateSub"></div></div>
+    <div class="metric"><div class="metric-label">Avg Win</div><div class="metric-value green" id="mAvgWin">—</div><div class="metric-sub">Per winning trade</div></div>
+    <div class="metric"><div class="metric-label">Avg Loss</div><div class="metric-value red" id="mAvgLoss">—</div><div class="metric-sub">Per losing trade</div></div>
+    <div class="metric"><div class="metric-label">Best Trade</div><div class="metric-value green" id="mBest">—</div><div class="metric-sub" id="mBestSub"></div></div>
+    <div class="metric"><div class="metric-label">Open Now</div><div class="metric-value accent" id="mOpen">—</div><div class="metric-sub">Max: 5</div></div>
   </div>
 
-  <!-- EQUITY CURVE -->
-  <div class="equity-card">
-    <div class="section-header">
-      <div class="section-title">Performance</div>
-      <div class="section-badge">Starting Capital: 10 SOL</div>
-    </div>
-    <div class="equity-chart">
-      <svg viewBox="0 0 1000 180" preserveAspectRatio="none">
-        <defs>
-          <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15"/>
-            <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
-          </linearGradient>
-        </defs>
-        <!-- Baseline -->
-        <line x1="0" y1="100" x2="1000" y2="100" stroke="#1e293b" stroke-width="1" stroke-dasharray="6,4"/>
-        <text x="1005" y="103" fill="#64748b" font-size="10" font-family="DM Mono">10.00</text>
-        <!-- Grid -->
-        <line x1="0" y1="50" x2="1000" y2="50" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="4,6"/>
-        <line x1="0" y1="150" x2="1000" y2="150" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="4,6"/>
-        <!-- Area -->
-        <path d="M0,100 L43,102 L87,108 L130,101 L174,95 L217,98 L261,88 L304,82 L348,80 L391,77 L435,85 L478,72 L522,70 L565,74 L609,65 L652,58 L696,62 L739,55 L783,60 L826,56 L870,50 L913,52 L957,48 L1000,44 L1000,180 L0,180 Z" fill="url(#g1)"/>
-        <!-- Line -->
-        <path d="M0,100 L43,102 L87,108 L130,101 L174,95 L217,98 L261,88 L304,82 L348,80 L391,77 L435,85 L478,72 L522,70 L565,74 L609,65 L652,58 L696,62 L739,55 L783,60 L826,56 L870,50 L913,52 L957,48 L1000,44" fill="none" stroke="var(--accent)" stroke-width="2"/>
-        <circle cx="1000" cy="44" r="4" fill="var(--accent)" stroke="#0b0f17" stroke-width="2"/>
-      </svg>
-    </div>
-  </div>
-
-  <!-- MAIN CONTENT -->
   <div class="content-grid">
-    <!-- TRADES -->
     <div class="card">
       <div class="section-header">
         <div class="section-title">Trade History</div>
-        <div class="section-badge">Last 10</div>
+        <div class="section-badge" id="tradeCountBadge">—</div>
       </div>
       <table class="trade-table">
-        <thead>
-          <tr>
-            <th>Token</th>
-            <th>Exit</th>
-            <th>PnL</th>
-            <th>Time</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="token-cell">DONKE</td>
-            <td><span class="exit-tag profit">Profit Tier</span></td>
-            <td class="pnl-cell pos">+31.0%</td>
-            <td class="time-cell">19:43</td>
-          </tr>
-          <tr>
-            <td class="token-cell">CTO</td>
-            <td><span class="exit-tag trail">Trailing</span></td>
-            <td class="pnl-cell pos">+15.8%</td>
-            <td class="time-cell">19:40</td>
-          </tr>
-          <tr>
-            <td class="token-cell">BLOB</td>
-            <td><span class="exit-tag timeout">Timeout</span></td>
-            <td class="pnl-cell pos">+9.8%</td>
-            <td class="time-cell">19:35</td>
-          </tr>
-          <tr>
-            <td class="token-cell">BLOODNUT</td>
-            <td><span class="exit-tag exit">Exit Intel</span></td>
-            <td class="pnl-cell pos">+2.7%</td>
-            <td class="time-cell">19:39</td>
-          </tr>
-          <tr>
-            <td class="token-cell">SOL</td>
-            <td><span class="exit-tag exit">Exit Intel</span></td>
-            <td class="pnl-cell pos">+0.4%</td>
-            <td class="time-cell">19:38</td>
-          </tr>
-          <tr>
-            <td class="token-cell">ORANGUTAN</td>
-            <td><span class="exit-tag timeout">Timeout</span></td>
-            <td class="pnl-cell flat">0.0%</td>
-            <td class="time-cell">19:34</td>
-          </tr>
-          <tr>
-            <td class="token-cell">CLAW</td>
-            <td><span class="exit-tag trail">Trailing</span></td>
-            <td class="pnl-cell neg">-8.2%</td>
-            <td class="time-cell">19:30</td>
-          </tr>
-          <tr>
-            <td class="token-cell">JAWZ</td>
-            <td><span class="exit-tag stop">Stop Loss</span></td>
-            <td class="pnl-cell neg">-20.0%</td>
-            <td class="time-cell">19:25</td>
-          </tr>
-          <tr>
-            <td class="token-cell">TRENCH</td>
-            <td><span class="exit-tag stop">Stop Loss</span></td>
-            <td class="pnl-cell neg">-20.0%</td>
-            <td class="time-cell">19:18</td>
-          </tr>
-          <tr>
-            <td class="token-cell">Xingxing</td>
-            <td><span class="exit-tag trail">Trailing</span></td>
-            <td class="pnl-cell pos">+12.4%</td>
-            <td class="time-cell">19:10</td>
-          </tr>
-        </tbody>
+        <thead><tr><th>Token</th><th>Exit</th><th>PnL</th><th>Time</th></tr></thead>
+        <tbody id="tradeBody"><tr><td colspan="4" class="loading">Loading trade data...</td></tr></tbody>
       </table>
     </div>
 
-    <!-- AI REASONING -->
     <div class="card">
       <div class="section-header">
         <div class="section-title">Agent Decisions</div>
         <div class="section-badge">Live</div>
       </div>
-      <div>
-        <div class="ai-entry">
-          <div class="ai-top">
-            <span class="ai-token">DONKE</span>
-            <span class="ai-verdict buy">Buy</span>
-          </div>
-          <div class="ai-confidence">
-            <div class="conf-bar"><div class="conf-fill" style="width:75%; background: var(--green);"></div></div>
-            <span class="conf-label">75%</span>
-          </div>
-          <div class="ai-reasoning">Strong liquidity at $28K, good buy ratio 1.6x with solid momentum indicators.</div>
-          <div class="ai-plan">momentum &middot; 0.2 SOL &middot; stop -20% &middot; trail +15%</div>
-        </div>
-
-        <div class="ai-entry">
-          <div class="ai-top">
-            <span class="ai-token">ORANGUTAN</span>
-            <span class="ai-verdict buy">Buy</span>
-          </div>
-          <div class="ai-confidence">
-            <div class="conf-bar"><div class="conf-fill" style="width:85%; background: var(--green);"></div></div>
-            <span class="conf-label">85%</span>
-          </div>
-          <div class="ai-reasoning">Exceptional 12.0x buy ratio signals heavy accumulation. Birdeye: healthy holder distribution.</div>
-          <div class="ai-plan">runner &middot; 0.3 SOL &middot; stop -15% &middot; wide trail</div>
-        </div>
-
-        <div class="ai-entry">
-          <div class="ai-top">
-            <span class="ai-token">BLOB</span>
-            <span class="ai-verdict pass">Pass</span>
-          </div>
-          <div class="ai-confidence">
-            <div class="conf-bar"><div class="conf-fill" style="width:15%; background: var(--red);"></div></div>
-            <span class="conf-label">15%</span>
-          </div>
-          <div class="ai-reasoning">Pair is 0 minutes old with no volume data and weak momentum signals — too early for entry.</div>
-        </div>
-
-        <div class="ai-entry">
-          <div class="ai-top">
-            <span class="ai-token">LOBCULT</span>
-            <span class="ai-verdict pass">Pass</span>
-          </div>
-          <div class="ai-confidence">
-            <div class="conf-bar"><div class="conf-fill" style="width:20%; background: var(--red);"></div></div>
-            <span class="conf-label">20%</span>
-          </div>
-          <div class="ai-reasoning">Zero volume in both 5m and 1h windows — no real trading activity despite adequate liquidity.</div>
-        </div>
-
-        <div class="ai-entry">
-          <div class="ai-top">
-            <span class="ai-token">NoLimit</span>
-            <span class="ai-verdict pass">Pass</span>
-          </div>
-          <div class="ai-confidence">
-            <div class="conf-bar"><div class="conf-fill" style="width:15%; background: var(--red);"></div></div>
-            <span class="conf-label">15%</span>
-          </div>
-          <div class="ai-reasoning">Pair age 0 minutes with zero volume. Extremely fresh launch with no data to evaluate.</div>
-        </div>
-      </div>
+      <div id="decisionsContainer"><div class="loading">Loading decisions...</div></div>
     </div>
   </div>
 
-  <!-- DATA SOURCES -->
   <div class="sources-grid">
-    <div class="source">
-      <div class="source-name">DexScreener</div>
-      <div class="source-desc">Price, volume, liquidity</div>
-      <div class="source-status live">&#9679; Live</div>
-    </div>
-    <div class="source">
-      <div class="source-name">Birdeye</div>
-      <div class="source-desc">Holders, security</div>
-      <div class="source-status live">&#9679; Live</div>
-    </div>
-    <div class="source">
-      <div class="source-name">Helius</div>
-      <div class="source-desc">Smart money tracking</div>
-      <div class="source-status live">&#9679; Live</div>
-    </div>
-    <div class="source">
-      <div class="source-name">Claude Sonnet</div>
-      <div class="source-desc">Trade reasoning</div>
-      <div class="source-status live">&#9679; Active</div>
-    </div>
-    <div class="source">
-      <div class="source-name">X / Twitter</div>
-      <div class="source-desc">Narrative detection</div>
-      <div class="source-status soon">&#9675; Coming Soon</div>
-    </div>
+    <div class="source"><div class="source-name">DexScreener</div><div class="source-desc">Price, volume, liquidity</div><div class="source-status live">&#9679; Live</div></div>
+    <div class="source"><div class="source-name">Birdeye</div><div class="source-desc">Holders, security</div><div class="source-status live">&#9679; Live</div></div>
+    <div class="source"><div class="source-name">Helius</div><div class="source-desc">Smart money tracking</div><div class="source-status live">&#9679; Live</div></div>
+    <div class="source"><div class="source-name">Claude AI</div><div class="source-desc">Trade reasoning</div><div class="source-status live">&#9679; Active</div></div>
+    <div class="source"><div class="source-name">X / Twitter</div><div class="source-desc">Narrative detection</div><div class="source-status soon">&#9675; Coming Soon</div></div>
   </div>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-brand">ORACULUM</div>
     <div class="footer-links">
@@ -671,9 +213,125 @@ body {
       <a href="#">Documentation</a>
       <a href="#">GitHub</a>
     </div>
-    <div class="footer-copy">Autonomous trading intelligence built on Solana. Not financial advice.</div>
+    <div class="footer-copy">Autonomous trading intelligence built on Solana. Not financial advice. Data refreshes every 5 minutes.</div>
   </footer>
 </div>
 
+<script>
+var DATA_URL = 'https://raw.githubusercontent.com/Oraculum-AI/oraculum-dashboard/main/data.json';
+
+function cleanToken(name) {
+  return name ? name.replace(/:$/, '').trim() : '?';
+}
+
+function timeAgo(dateStr) {
+  if (!dateStr) return '';
+  var parts = dateStr.split(/[- :]/);
+  var d = new Date(parts[0], parts[1]-1, parts[2], parts[3], parts[4], parts[5]);
+  var diff = Math.floor((Date.now() - d.getTime()) / 60000);
+  if (diff < 1) return 'just now';
+  if (diff < 60) return diff + 'm ago';
+  if (diff < 1440) return Math.floor(diff/60) + 'h ago';
+  return Math.floor(diff/1440) + 'd ago';
+}
+
+function renderData(data) {
+  // Last update
+  var updated = new Date(data.updated);
+  document.getElementById('lastUpdate').textContent = 'Updated ' + updated.toLocaleTimeString();
+
+  // Metrics
+  document.getElementById('mTrades').textContent = data.tradeCount || 0;
+  document.getElementById('mTradesSub').textContent = data.closedPositions + ' positions';
+  
+  var wr = document.getElementById('mWinRate');
+  wr.textContent = (data.winRate || '0') + '%';
+  wr.className = 'metric-value ' + (parseInt(data.winRate) >= 35 ? 'green' : parseInt(data.winRate) > 0 ? 'red' : '');
+  document.getElementById('mWinRateSub').textContent = data.wins + 'W / ' + data.losses + 'L';
+
+  document.getElementById('mAvgWin').textContent = '+' + (data.avgWin || '0') + '%';
+  document.getElementById('mAvgLoss').textContent = (data.avgLoss || '0') + '%';
+
+  if (data.bestTrade) {
+    document.getElementById('mBest').textContent = '+' + data.bestTrade.pnl + '%';
+    document.getElementById('mBestSub').textContent = cleanToken(data.bestTrade.token);
+  }
+  document.getElementById('mOpen').textContent = data.openPositions || 0;
+
+  // Trade table
+  var tbody = document.getElementById('tradeBody');
+  var trades = (data.trades || []).slice(0, 15);
+  document.getElementById('tradeCountBadge').textContent = 'Last ' + trades.length;
+  
+  if (trades.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="4" class="loading">No trades yet</td></tr>';
+    return;
+  }
+
+  var html = '';
+  for (var i = 0; i < trades.length; i++) {
+    var t = trades[i];
+    var token = cleanToken(t.token);
+    var pnlClass = t.pnl > 0 ? 'pos' : t.pnl < 0 ? 'neg' : 'flat';
+    var pnlText = t.pnl > 0 ? '+' + t.pnl + '%' : t.pnl + '%';
+    var exitClass = t.exitType || 'exit';
+    var exitLabel = exitClass.charAt(0).toUpperCase() + exitClass.slice(1);
+    if (exitLabel === 'Stop') exitLabel = 'Stop Loss';
+    if (exitLabel === 'Trail') exitLabel = 'Trailing';
+
+    html += '<tr>';
+    html += '<td class="token-cell">' + token + '</td>';
+    html += '<td><span class="exit-tag ' + exitClass + '">' + exitLabel + '</span></td>';
+    html += '<td class="pnl-cell ' + pnlClass + '">' + pnlText + '</td>';
+    html += '<td class="time-cell">' + timeAgo(t.time) + '</td>';
+    html += '</tr>';
+  }
+  tbody.innerHTML = html;
+
+  // AI Decisions
+  var dc = document.getElementById('decisionsContainer');
+  var decisions = data.decisions || [];
+  if (decisions.length === 0) {
+    dc.innerHTML = '<div class="loading">No recent decisions</div>';
+    return;
+  }
+
+  var dhtml = '';
+  for (var j = 0; j < decisions.length; j++) {
+    var d = decisions[j];
+    var token2 = cleanToken(d.token);
+    var verdictClass = d.approved ? 'buy' : 'pass';
+    var verdictText = d.approved ? 'Buy' : 'Pass';
+    var confColor = d.confidence >= 60 ? 'var(--green)' : d.confidence >= 30 ? 'var(--accent2)' : 'var(--red)';
+
+    dhtml += '<div class="ai-entry">';
+    dhtml += '<div class="ai-top"><span class="ai-token">' + token2 + '</span><span class="ai-verdict ' + verdictClass + '">' + verdictText + '</span></div>';
+    dhtml += '<div class="ai-confidence"><div class="conf-bar"><div class="conf-fill" style="width:' + d.confidence + '%; background:' + confColor + ';"></div></div><span class="conf-label">' + d.confidence + '%</span></div>';
+    dhtml += '<div class="ai-reasoning">' + (d.reasoning || '') + '</div>';
+    dhtml += '</div>';
+  }
+  dc.innerHTML = dhtml;
+}
+
+function loadData() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', DATA_URL + '?t=' + Date.now(), true);
+  xhr.onload = function() {
+    if (xhr.status === 200) {
+      try {
+        var data = JSON.parse(xhr.responseText);
+        renderData(data);
+      } catch(e) {
+        console.error('Parse error:', e);
+      }
+    }
+  };
+  xhr.send();
+}
+
+// Load immediately, then every 5 minutes
+loadData();
+setInterval(loadData, 300000);
+</script>
 </body>
 </html>
