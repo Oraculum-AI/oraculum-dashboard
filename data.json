@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T23:15:02.481Z",
+  "updated": "2026-02-23T23:20:01.815Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
@@ -370,24 +370,6 @@
   },
   "decisions": [
     {
-      "token": "Orangutan",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rule violation. Pair age"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualifier per str"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard kill signal. Despite str"
-    },
-    {
       "token": "Xingxing",
       "approved": false,
       "confidence": 5,
@@ -428,6 +410,24 @@
       "approved": false,
       "confidence": 5,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical failure condition. P"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m AND 1h windows despite claimed 4.4x s"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT - Zero volume in both 5m and 1h windows violates core risk management rul"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows is an automatic disqua"
     }
   ],
   "openList": []
