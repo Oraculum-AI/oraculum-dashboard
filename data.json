@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T23:30:02.828Z",
+  "updated": "2026-02-23T23:35:02.601Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
@@ -372,18 +372,6 @@
     {
       "token": "Xingxing",
       "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite dec"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite 1.5x spike signal and 7.0x"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
       "confidence": 15,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
     },
@@ -428,6 +416,18 @@
       "approved": false,
       "confidence": 5,
       "reasoning": "REJECT: Zero volume in both 5m AND 1h windows is a critical red flag despite pos"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed spike "
     }
   ],
   "openList": []
