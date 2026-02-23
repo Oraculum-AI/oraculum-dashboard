@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-23T23:20:01.815Z",
+  "updated": "2026-02-23T23:25:02.159Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
@@ -370,36 +370,6 @@
   },
   "decisions": [
     {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard disqualification per ris"
-    },
-    {
-      "token": "Orangutan",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rejection criterion rega"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h intervals despite price movement signals a"
-    },
-    {
-      "token": "Orangutan",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Th"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rule violation. Pair age"
-    },
-    {
       "token": "?",
       "approved": false,
       "confidence": 0,
@@ -428,6 +398,36 @@
       "approved": false,
       "confidence": 5,
       "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows is an automatic disqua"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed 4.5x s"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECTION: Zero volume in both 5m AND 1h windows is a critical red flag despite "
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h periods despite price movement claim. Pair"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard fail per risk criteria. "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite dec"
     }
   ],
   "openList": []
