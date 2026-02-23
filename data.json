@@ -1,0 +1,483 @@
+{
+  "updated": "2026-02-23T22:17:57.648Z",
+  "totalPositions": 23,
+  "openPositions": 0,
+  "closedPositions": 23,
+  "trades": [
+    {
+      "token": "TAHLEQUAH:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-23 17:01:13",
+      "exitType": "stop"
+    },
+    {
+      "token": "CTO:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-23 17:04:38",
+      "exitType": "stop"
+    },
+    {
+      "token": "CLAW",
+      "pnl": 0,
+      "reason": "Timeout: 98min, only +0.0%",
+      "time": "2026-02-23 17:04:55",
+      "exitType": "timeout"
+    },
+    {
+      "token": "ORANMAMA",
+      "pnl": 0,
+      "reason": "Timeout: 90min, only +-0.0%",
+      "time": "2026-02-23 17:13:55",
+      "exitType": "timeout"
+    },
+    {
+      "token": "BLOB",
+      "pnl": 2,
+      "reason": "Timeout: 86min, only +2.0%",
+      "time": "2026-02-23 17:17:55",
+      "exitType": "timeout"
+    },
+    {
+      "token": "Jellybean",
+      "pnl": 0,
+      "reason": "Timeout: 80min, only +0.0%",
+      "time": "2026-02-23 17:24:55",
+      "exitType": "timeout"
+    },
+    {
+      "token": "CTO:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-23 18:26:25",
+      "exitType": "stop"
+    },
+    {
+      "token": "KIM",
+      "pnl": 35,
+      "reason": "profit_tier",
+      "time": "2026-02-23 18:30:25",
+      "exitType": "profit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:52:51",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:53:06",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:53:21",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:53:36",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:53:51",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:54:06",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:54:21",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:54:36",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:54:51",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:55:06",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:55:21",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:55:36",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:55:52",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:56:07",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:56:22",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:56:37",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:56:52",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:57:07",
+      "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -7.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 18:57:22",
+      "exitType": "exit"
+    },
+    {
+      "token": "CTO",
+      "pnl": 0.2,
+      "reason": "Timeout: 45min, only +0.2%",
+      "time": "2026-02-23 19:02:07",
+      "exitType": "timeout"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:08:23",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:08:38",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:08:53",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:09:08",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:09:23",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:09:38",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:09:53",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:10:08",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:10:23",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:10:38",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:10:53",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:11:08",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": -0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:11:23",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:17:08",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:17:23",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:17:38",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:17:53",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:18:08",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:18:23",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:18:38",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:18:53",
+      "exitType": "exit"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:19:08",
+      "exitType": "exit"
+    },
+    {
+      "token": "BLOODNUT",
+      "pnl": 2.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 19:39:26",
+      "exitType": "exit"
+    },
+    {
+      "token": "CTO",
+      "pnl": 0,
+      "reason": "trailing_sell",
+      "time": "2026-02-23 19:40:35",
+      "exitType": "trail"
+    },
+    {
+      "token": "Donke",
+      "pnl": 31,
+      "reason": "profit_tier",
+      "time": "2026-02-23 19:43:05",
+      "exitType": "profit"
+    },
+    {
+      "token": "CTO",
+      "pnl": 0,
+      "reason": "Timeout: 49min, only +0.0%",
+      "time": "2026-02-23 20:13:42",
+      "exitType": "timeout"
+    },
+    {
+      "token": "Orangutan",
+      "pnl": 0,
+      "reason": "Timeout: 68min, only +0.0%",
+      "time": "2026-02-23 20:34:42",
+      "exitType": "timeout"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0.4,
+      "reason": "Volume dried up",
+      "time": "2026-02-23 20:38:41",
+      "exitType": "exit"
+    }
+  ],
+  "tradeCount": 56,
+  "winRate": "11",
+  "wins": 6,
+  "losses": 35,
+  "avgWin": "11.9",
+  "avgLoss": "-6.2",
+  "bestTrade": {
+    "token": "KIM",
+    "pnl": 35,
+    "reason": "profit_tier",
+    "time": "2026-02-23 18:30:25",
+    "exitType": "profit"
+  },
+  "worstTrade": {
+    "token": "TAHLEQUAH:",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-23 17:01:13",
+    "exitType": "stop"
+  },
+  "decisions": [
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "REJECT - Pair age of 0 minutes is a critical red flag for potential rug/honeypot"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a critical red flag - likely a fresh launch with no pri"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "REJECT: Pair age of 0 minutes indicates brand new token with zero historical vol"
+    },
+    {
+      "token": "LOBCULT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a major red flag for potential honeypot or flash loan m"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is extreme rug risk despite good holder distribution. Volu"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a major red flag - cannot verify safety, holder distrib"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a critical red flag - this appears to be a brand new to"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a major red flag—no historical data to validate legitim"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is a critical red flag indicating potential honeypot or ma"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "Pair age of 0 minutes is an extreme red flag - this is a brand new token with ze"
+    }
+  ],
+  "openList": []
+}
