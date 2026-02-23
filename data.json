@@ -1,58 +1,9 @@
 {
-  "updated": "2026-02-23T23:40:02.588Z",
+  "updated": "2026-02-23T23:45:02.273Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:55:06",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:55:21",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:55:36",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:55:52",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:56:07",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:56:22",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:56:37",
-      "exitType": "exit"
-    },
     {
       "token": "JAWZ",
       "pnl": -7.7,
@@ -285,12 +236,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 40,
-  "winRate": "10",
+  "tradeCount": 33,
+  "winRate": "12",
   "wins": 4,
-  "losses": 24,
+  "losses": 17,
   "avgWin": "8.6",
-  "avgLoss": "-4.4",
+  "avgLoss": "-3.1",
   "bestTrade": {
     "token": "Donke",
     "pnl": 31,
@@ -306,30 +257,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h periods is a critical red flag. Despite po"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite price movement"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m AND 1h windows is a critical red flag despite pos"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
-    },
     {
       "token": "BLOB",
       "approved": false,
@@ -365,6 +292,30 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite de"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag that overri"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed price "
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite po"
     }
   ],
   "openList": []
