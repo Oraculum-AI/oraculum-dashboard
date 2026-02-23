@@ -1,30 +1,9 @@
 {
-  "updated": "2026-02-23T23:45:02.273Z",
+  "updated": "2026-02-23T23:50:02.721Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:56:52",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:57:07",
-      "exitType": "exit"
-    },
-    {
-      "token": "JAWZ",
-      "pnl": -7.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 18:57:22",
-      "exitType": "exit"
-    },
     {
       "token": "CTO",
       "pnl": 0.2,
@@ -236,12 +215,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 33,
-  "winRate": "12",
+  "tradeCount": 30,
+  "winRate": "13",
   "wins": 4,
-  "losses": 17,
+  "losses": 14,
   "avgWin": "8.6",
-  "avgLoss": "-3.1",
+  "avgLoss": "-2.1",
   "bestTrade": {
     "token": "Donke",
     "pnl": 31,
@@ -258,64 +237,64 @@
   },
   "decisions": [
     {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed spike "
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECTION: Zero volume in both 5m and 1h windows is a critical red flag that dis"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification des"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m AND 1h windows is a critical disqualification. Pa"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualifier. Pair a"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite de"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag that overri"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed price "
-    },
-    {
       "token": "Reduary",
       "approved": false,
       "confidence": 5,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite po"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed 2.5x s"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag that violat"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed 2.5x s"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Th"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite pos"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite the"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m AND 1h windows despite liquidity and "
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m AND 1h windows is an automatic rejection per crit"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Despite de"
     }
   ],
   "openList": []
