@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-23T23:10:01.954Z",
+  "updated": "2026-02-23T23:15:02.481Z",
   "totalPositions": 23,
   "openPositions": 0,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "KIM",
-      "pnl": 35,
-      "reason": "profit_tier",
-      "time": "2026-02-23 18:30:25",
-      "exitType": "profit"
-    },
     {
       "token": "JAWZ",
       "pnl": -7.7,
@@ -355,17 +348,17 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 50,
-  "winRate": "10",
-  "wins": 5,
+  "tradeCount": 49,
+  "winRate": "8",
+  "wins": 4,
   "losses": 33,
-  "avgWin": "13.9",
+  "avgWin": "8.6",
   "avgLoss": "-5.3",
   "bestTrade": {
-    "token": "KIM",
-    "pnl": 35,
+    "token": "Donke",
+    "pnl": 31,
     "reason": "profit_tier",
-    "time": "2026-02-23 18:30:25",
+    "time": "2026-02-23 19:43:05",
     "exitType": "profit"
   },
   "worstTrade": {
@@ -376,42 +369,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows despite price movement and buy rat"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical failure criterion. P"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT - Zero volume in both 5m and 1h windows is a hard stop criterion. Pair ag"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag. Pair age o"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rule violation. Despite "
-    },
     {
       "token": "Orangutan",
       "approved": false,
@@ -435,6 +392,42 @@
       "approved": false,
       "confidence": 5,
       "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard disqualification per ris"
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rejection criterion rega"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h intervals despite price movement signals a"
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Th"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a hard rule violation. Pair age"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 5,
+      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical failure condition. P"
     }
   ],
   "openList": []
