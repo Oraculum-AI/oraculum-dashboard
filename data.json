@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T13:00:02.315Z",
+  "updated": "2026-02-24T13:05:02.331Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,24 +76,6 @@
   },
   "decisions": [
     {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio of 1.5x fails your own 2.0x volume deadness rule and sits pr"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Buy ratio 1.4x fails entry criteria AND violates self-rule requiring 2"
-    },
-    {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Momentum divergence (5m spike +19.6% vs 1h flat 0.0%) s"
-    },
-    {
       "token": "Gaper",
       "approved": false,
       "confidence": 85,
@@ -134,6 +116,24 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.3x violates both entry standards (need >1.5x minimum, pref"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Despite 1.8x buy ratio and +2.3% 5m price, self-discovered rule explic"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x is DECELERATING (below 2.5x+ threshold f"
     }
   ],
   "openList": []
