@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T16:50:02.948Z",
+  "updated": "2026-02-24T16:55:02.676Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -33,24 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "PETAH",
-      "approved": true,
-      "confidence": 82,
-      "reasoning": "[Scout->Analyst->Trader] Exceptional 17.0x buy ratio with positive 5m momentum a"
-    },
-    {
-      "token": "Pippkin",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "ADHD",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Extreme 49.8% price movement in 5 minutes combined with only 41-minute p"
-    },
     {
       "token": "BLOODNUT",
       "approved": false,
@@ -92,6 +74,24 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Entry conditions BARELY met (1.3x vs 1.5x required), but 1h price flat"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] 1h momentum flatline (0.0%) contradicts requirement for"
+    },
+    {
+      "token": "Shire",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no established tr"
     }
   ],
   "openList": []
