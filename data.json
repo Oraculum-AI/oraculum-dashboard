@@ -1,72 +1,9 @@
 {
-  "updated": "2026-02-23T23:55:02.035Z",
-  "totalPositions": 23,
-  "openPositions": 0,
+  "updated": "2026-02-24T00:00:03.441Z",
+  "totalPositions": 24,
+  "openPositions": 1,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:08:23",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:08:38",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:08:53",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:09:08",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:09:23",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:09:38",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:09:53",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:10:08",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:10:23",
-      "exitType": "exit"
-    },
     {
       "token": "BLOODNUT",
       "pnl": -0.7,
@@ -208,12 +145,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 29,
-  "winRate": "10",
+  "tradeCount": 20,
+  "winRate": "15",
   "wins": 3,
-  "losses": 14,
+  "losses": 5,
   "avgWin": "11.4",
-  "avgLoss": "-2.1",
+  "avgLoss": "-4.6",
   "bestTrade": {
     "token": "Donke",
     "pnl": 31,
@@ -290,5 +227,10 @@
       "reasoning": ""
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "Reduary",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
