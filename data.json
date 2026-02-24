@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:55:02.769Z",
+  "updated": "2026-02-24T13:00:02.315Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -79,12 +79,6 @@
       "token": "Limited",
       "approved": false,
       "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.4x violates your self-discovered 2.0x minimum rule—volume "
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
       "reasoning": "[Analyst] Buy ratio of 1.5x fails your own 2.0x volume deadness rule and sits pr"
     },
     {
@@ -134,6 +128,12 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Buy ratio of 1.5x fails your discovered rule requiring >2.0x volume ra"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
