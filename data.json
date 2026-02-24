@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T00:15:02.042Z",
+  "updated": "2026-02-24T00:20:02.789Z",
   "totalPositions": 25,
-  "openPositions": 1,
-  "closedPositions": 24,
+  "openPositions": 2,
+  "closedPositions": 23,
   "trades": [
     {
       "token": "BLOODNUT",
@@ -144,6 +144,10 @@
     }
   ],
   "openList": [
+    {
+      "token": "NoLimit ",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "BLOB",
       "strategy": "paper_momentum"
