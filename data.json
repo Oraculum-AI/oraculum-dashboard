@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:20:02.099Z",
+  "updated": "2026-02-24T12:25:03.028Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,18 +76,6 @@
   },
   "decisions": [
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.3x violates both entry rules (need >1.5x AND >2.0x per sel"
-    },
-    {
       "token": "AUTISM",
       "approved": false,
       "confidence": 35,
@@ -134,6 +122,18 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Your rules explicitly state 'Skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Volume ratio deterioration ($381:$1269 = 0.30x) signals"
     }
   ],
   "openList": []
