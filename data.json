@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T00:20:02.789Z",
+  "updated": "2026-02-24T00:25:02.297Z",
   "totalPositions": 25,
-  "openPositions": 2,
-  "closedPositions": 23,
+  "openPositions": 4,
+  "closedPositions": 21,
   "trades": [
     {
       "token": "BLOODNUT",
@@ -145,7 +145,15 @@
   ],
   "openList": [
     {
+      "token": "Xingxing",
+      "strategy": "paper_momentum"
+    },
+    {
       "token": "NoLimit ",
+      "strategy": "paper_dca_paper_momentum"
+    },
+    {
+      "token": "Orangutan",
       "strategy": "paper_momentum"
     },
     {
