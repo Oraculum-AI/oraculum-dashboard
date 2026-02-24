@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T05:05:02.322Z",
+  "updated": "2026-02-24T05:10:02.990Z",
   "totalPositions": 28,
   "openPositions": 1,
   "closedPositions": 27,
@@ -48,24 +48,6 @@
   },
   "decisions": [
     {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Volume signal fails critical threshold: $687 5m volume "
-    },
-    {
-      "token": "TRENCH",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x with positive 5m momentum (+1.3%) meets "
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "fren",
       "approved": false,
       "confidence": 40,
@@ -106,6 +88,24 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] While liquidity and buy ratio pass thresholds, the extremely low 5m volu"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($382 5m, 0.0% 1h) fails acceleration r"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": [
