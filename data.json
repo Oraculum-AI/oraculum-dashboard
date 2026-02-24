@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:00:02.910Z",
+  "updated": "2026-02-24T09:05:02.329Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -47,12 +47,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "Pigeon",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
     {
       "token": "JAWZ",
       "approved": false,
@@ -106,6 +100,12 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
