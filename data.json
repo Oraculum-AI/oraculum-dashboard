@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T17:25:02.551Z",
+  "updated": "2026-02-24T17:30:03.291Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -33,18 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Entry conditions marginally met but lack conviction—buy ratio at 1.5x "
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
     {
       "token": "DOWN",
       "approved": false,
@@ -92,6 +80,18 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Entry signal fails core requirement: buy/sell ratio must exceed 1.5x f"
+    },
+    {
+      "token": "STIM",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "Jido",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
     }
   ],
   "openList": []
