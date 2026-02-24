@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:40:02.702Z",
+  "updated": "2026-02-24T10:45:02.229Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -62,24 +62,6 @@
   },
   "decisions": [
     {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Token fails multiple entry gates: buy ratio 1.3x << 1.5x minimum, volu"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] TRENCH fails critical entry filters: buy ratio 1.5x is below your self"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Volume ratio under 2.0x threshold and flat 1h momentum "
-    },
-    {
       "token": "CLAW",
       "approved": false,
       "confidence": 40,
@@ -120,6 +102,24 @@
       "approved": true,
       "confidence": 72,
       "reasoning": "[Scout->Analyst->Trader] TRENCH exhibits exceptional buy ratio (7.3x) with posit"
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Token fails both hard gates: buy ratio 1.3x < 1.5x minimum AND < 2.0x "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Price momentum is flat at 1h (+0%) despite 5m bounce, v"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] This token fails your core rule: 'Skip entries when buy volume ratio i"
     }
   ],
   "openList": []
