@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:40:02.279Z",
-  "totalPositions": 51,
-  "openPositions": 4,
-  "closedPositions": 47,
+  "updated": "2026-02-24T20:45:02.676Z",
+  "totalPositions": 53,
+  "openPositions": 3,
+  "closedPositions": 50,
   "trades": [
     {
       "token": "RIZZTER",
@@ -110,20 +110,16 @@
   ],
   "openList": [
     {
-      "token": "JUP",
+      "token": "MOLTIC",
       "strategy": "paper_cluster"
     },
     {
-      "token": "pippin",
+      "token": "BabyPippin",
       "strategy": "paper_cluster"
     },
     {
       "token": "PIGEON ",
       "strategy": "paper_cluster"
-    },
-    {
-      "token": "house",
-      "strategy": "paper_momentum"
     }
   ]
 }
