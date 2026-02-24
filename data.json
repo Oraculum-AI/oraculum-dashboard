@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T11:10:02.872Z",
+  "updated": "2026-02-24T11:15:02.735Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -62,24 +62,6 @@
   },
   "decisions": [
     {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Price momentum is flat at 1h (+0%) despite 5m bounce, v"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] This token fails your core rule: 'Skip entries when buy volume ratio i"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x falls below your self-discovered 2.0x th"
-    },
-    {
       "token": "PETAH",
       "approved": false,
       "confidence": 52,
@@ -120,6 +102,24 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x fails internal 2.0x strict threshold; cr"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.7x is strong, but 1h price momentum is flat"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
