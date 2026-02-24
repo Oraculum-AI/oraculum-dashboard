@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T22:25:02.572Z",
+  "updated": "2026-02-24T22:30:02.751Z",
   "totalPositions": 93,
-  "openPositions": 4,
-  "closedPositions": 89,
+  "openPositions": 3,
+  "closedPositions": 90,
   "trades": [
     {
       "token": "$WAR",
@@ -68,10 +68,6 @@
     }
   ],
   "openList": [
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
-    },
     {
       "token": "pippin",
       "strategy": "paper_cluster"
