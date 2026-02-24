@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T21:45:02.241Z",
-  "totalPositions": 79,
+  "updated": "2026-02-24T21:50:02.668Z",
+  "totalPositions": 82,
   "openPositions": 4,
-  "closedPositions": 75,
+  "closedPositions": 78,
   "trades": [
     {
       "token": "IQUID",
@@ -17,13 +17,27 @@
       "reason": "profit_tier",
       "time": "2026-02-24 21:43:54",
       "exitType": "profit"
+    },
+    {
+      "token": "Pippkin",
+      "pnl": 38,
+      "reason": "profit_tier",
+      "time": "2026-02-24 21:46:44",
+      "exitType": "profit"
+    },
+    {
+      "token": "IQUID",
+      "pnl": -3,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:48:39",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 2,
+  "tradeCount": 4,
   "winRate": "50",
-  "wins": 1,
-  "losses": 1,
-  "avgWin": "7492.0",
+  "wins": 2,
+  "losses": 2,
+  "avgWin": "3765.0",
   "avgLoss": "-3.0",
   "bestTrade": {
     "token": "ZBCN",
@@ -69,23 +83,29 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
+      "token": "CLAW",
+      "strategy": "paper_cluster"
     },
     {
-      "token": "IQUID",
+      "token": "BigTrout",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Djungelskog",
       "strategy": "paper_cluster"
     },
     {
       "token": "COK",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Pippkin",
       "strategy": "paper_cluster"
     }
   ]
