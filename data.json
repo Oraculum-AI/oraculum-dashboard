@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T00:50:02.428Z",
+  "updated": "2026-02-24T00:55:01.982Z",
   "totalPositions": 25,
-  "openPositions": 4,
-  "closedPositions": 21,
+  "openPositions": 3,
+  "closedPositions": 22,
   "trades": [
     {
       "token": "CTO",
@@ -143,10 +143,6 @@
     },
     {
       "token": "Xingxing",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "USD0",
       "strategy": "paper_momentum"
     },
     {
