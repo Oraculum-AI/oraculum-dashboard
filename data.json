@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-24T01:15:03.754Z",
+  "updated": "2026-02-24T01:20:02.445Z",
   "totalPositions": 25,
   "openPositions": 0,
   "closedPositions": 25,
   "trades": [
-    {
-      "token": "Orangutan",
-      "pnl": 0,
-      "reason": "Timeout: 68min, only +0.0%",
-      "time": "2026-02-23 20:34:42",
-      "exitType": "timeout"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0.4,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 20:38:41",
-      "exitType": "exit"
-    },
     {
       "token": "LOBCULT:",
       "pnl": -20,
@@ -54,11 +40,11 @@
       "exitType": "profit"
     }
   ],
-  "tradeCount": 7,
-  "winRate": "57",
-  "wins": 4,
+  "tradeCount": 5,
+  "winRate": "60",
+  "wins": 3,
   "losses": 2,
-  "avgWin": "19.8",
+  "avgWin": "26.3",
   "avgLoss": "-20.0",
   "bestTrade": {
     "token": "Xingxing",
@@ -75,36 +61,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio metrics align with winning patterns, the combination o"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While the buy ratio signals strength, the brand-new pair age combined "
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio meets entry criteria, the combination of minimal liqui"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": true,
-      "confidence": 58,
-      "reasoning": "[Scout->Analyst->Trader] 3.0x buy ratio and 10.3% momentum meet entry criteria, "
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] While buy ratio of 3.2x and momentum align with winning"
-    },
     {
       "token": "BLOB",
       "approved": false,
@@ -134,6 +90,36 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] While buy/sell ratio meets entry threshold, brand tokens with zero pai"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio of 1.3x falls below self-discovered rule requiring 1.5x mini"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio signals pass entry criteria, zero pair age combined wi"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Although buy ratio (1.7x) satisfies your entry rule and momentum is pr"
     }
   ],
   "openList": []
