@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T00:55:01.982Z",
+  "updated": "2026-02-24T01:00:02.702Z",
   "totalPositions": 25,
-  "openPositions": 3,
-  "closedPositions": 22,
+  "openPositions": 1,
+  "closedPositions": 24,
   "trades": [
-    {
-      "token": "CTO",
-      "pnl": 0,
-      "reason": "Timeout: 49min, only +0.0%",
-      "time": "2026-02-23 20:13:42",
-      "exitType": "timeout"
-    },
     {
       "token": "Orangutan",
       "pnl": 0,
@@ -54,8 +47,8 @@
       "exitType": "profit"
     }
   ],
-  "tradeCount": 7,
-  "winRate": "43",
+  "tradeCount": 6,
+  "winRate": "50",
   "wins": 3,
   "losses": 2,
   "avgWin": "14.1",
@@ -75,18 +68,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m AND 1h windows despite liquidity and "
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m AND 1h windows is an automatic rejection per crit"
-    },
     {
       "token": "PETAH",
       "approved": false,
@@ -134,19 +115,23 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "NoLimit ",
-      "strategy": "paper_momentum"
-    },
-    {
       "token": "Xingxing",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "Reduary",
       "strategy": "paper_momentum"
     }
   ]
