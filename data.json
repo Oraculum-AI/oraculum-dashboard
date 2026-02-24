@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T07:50:01.957Z",
+  "updated": "2026-02-24T07:55:02.798Z",
   "totalPositions": 29,
   "openPositions": 1,
   "closedPositions": 28,
@@ -33,18 +33,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Despite reasonable liquidity and strong buy ratio, the 5m volume of $803"
-    },
-    {
-      "token": "PETAH",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x exceeds threshold with positive 5m momen"
-    },
     {
       "token": "BLOODNUT",
       "approved": false,
@@ -92,6 +80,18 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails to meet self-discovered 2.0x accel"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": [
