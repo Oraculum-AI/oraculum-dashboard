@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T07:00:02.514Z",
+  "updated": "2026-02-24T07:05:01.939Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -13,12 +13,6 @@
   "bestTrade": null,
   "worstTrade": null,
   "decisions": [
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-rule explicitly states: 'Skip entries when buy volume ratio is un"
-    },
     {
       "token": "Reduary",
       "approved": false,
@@ -72,6 +66,12 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails to meet your 2.0x volume threshold"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your self-discovered rule explicitly states 'Skip entries when buy vol"
     }
   ],
   "openList": []
