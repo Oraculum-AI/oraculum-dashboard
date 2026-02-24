@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:35:02.639Z",
+  "updated": "2026-02-24T04:40:02.472Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -62,24 +62,6 @@
   },
   "decisions": [
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Your self-discovered rules explicitly state 'Skip entries when buy vol"
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Despite 2.6x buy ratio and 14.8% 5m momentum, liquidity"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Flat 1h price action directly contradicts the 'ONLY app"
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 35,
@@ -120,6 +102,24 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Your rule explicitly states 'Skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Self-rules explicitly reject entries below 2.0x buy volume ratio — 'vo"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of only 26 minutes is too new and high risk for a potential pum"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
     }
   ],
   "openList": []
