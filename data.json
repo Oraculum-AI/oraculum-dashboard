@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T08:45:01.966Z",
+  "updated": "2026-02-24T08:50:03.004Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -48,24 +48,6 @@
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Momentum is NOT accelerating—1h flat (0.0%) directly co"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x falls below your established 2.0x entry "
-    },
-    {
-      "token": "CLAW",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x and 5m momentum (+4.6%) meet entry thres"
-    },
-    {
       "token": "Pigeon",
       "approved": false,
       "confidence": 40,
@@ -106,6 +88,24 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Critical momentum contradiction: 1h price 0.0% vs 5m +1"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Volume stalling (1h $5592 vs 5m $4185) signals momentum"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.3x is below your 1.5x mandate and fails the 2.0x volume ru"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
     }
   ],
   "openList": []
