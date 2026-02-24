@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T02:10:03.142Z",
+  "updated": "2026-02-24T02:15:02.682Z",
   "totalPositions": 28,
-  "openPositions": 1,
-  "closedPositions": 27,
+  "openPositions": 2,
+  "closedPositions": 26,
   "trades": [
     {
       "token": "LOBCULT:",
@@ -78,18 +78,6 @@
     {
       "token": "PETAH",
       "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Brand new pair (0 min age) violates prudent risk management regardless"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy/sell ratio passes entry criteria, the combination of micro-c"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Despite favorable 3.5x buy ratio, pair age of 0 minutes"
     },
@@ -134,9 +122,25 @@
       "approved": true,
       "confidence": 62,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio of 1.5x meets minimum threshold with fresh 6."
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] While buy ratio and initial momentum appear favorable, the critical we"
+    },
+    {
+      "token": "house",
+      "approved": true,
+      "confidence": 58,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 2.0x meets threshold with positive momentu"
     }
   ],
   "openList": [
+    {
+      "token": "house",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "Xingxing",
       "strategy": "paper_momentum"
