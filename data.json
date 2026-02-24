@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T11:15:02.735Z",
+  "updated": "2026-02-24T11:20:02.609Z",
   "totalPositions": 29,
-  "openPositions": 0,
-  "closedPositions": 29,
+  "openPositions": 1,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "PETAH",
@@ -62,18 +62,6 @@
   },
   "decisions": [
     {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Buy ratio is at the 2.0x threshold but price action lacks conviction—1"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x is below your 2.0x self-discovered skip "
-    },
-    {
       "token": "Xingxing",
       "approved": false,
       "confidence": 25,
@@ -120,7 +108,24 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Xingxing",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 5.7x with accelerating 5m momentum (+1.3%) me"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "Xingxing",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
