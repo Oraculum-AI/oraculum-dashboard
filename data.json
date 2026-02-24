@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T01:35:01.820Z",
+  "updated": "2026-02-24T01:40:02.038Z",
   "totalPositions": 25,
   "openPositions": 0,
   "closedPositions": 25,
@@ -64,42 +64,6 @@
     {
       "token": "NoLimit",
       "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Although buy ratio (1.7x) satisfies your entry rule and momentum is pr"
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio meets entry criteria, the 0-minute pair age and micro-"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio and momentum signals are favorable, the brand-new pair"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] While buy ratio meets entry criteria (2.2x > 1.5x), the zero-age pair "
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Despite meeting buy ratio threshold, the combination of brand-new pair"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Despite meeting buy ratio threshold, zero pair age combined with nano-"
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] While buy ratio technically clears your 1.5x minimum rule, the combina"
     },
@@ -120,6 +84,42 @@
       "approved": false,
       "confidence": 28,
       "reasoning": "[Analyst] While buy ratio meets entry criteria, brand-new pair status (0 min old"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio and momentum signal are favorable, the combination of "
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio satisfies entry criteria (4.0x >> 1.5x threshold), the"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 95,
+      "reasoning": "[Scout->Analyst->Trader] Liquidity of $21.2K is critically insufficient and crea"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy/sell ratio passes entry criteria (3.0x > 1.5x threshold), th"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Your self-discovered rules explicitly demand buy/sell ratio >1.5x mini"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Despite passing buy ratio threshold (1.7x), brand-new pair with micros"
     }
   ],
   "openList": []
