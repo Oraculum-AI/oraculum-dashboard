@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T15:30:04.290Z",
+  "updated": "2026-02-24T15:35:02.815Z",
   "totalPositions": 39,
   "openPositions": 0,
   "closedPositions": 39,
@@ -75,12 +75,6 @@
       "reasoning": "[Analyst] Analyst parse failed"
     },
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "TRENCH",
       "approved": false,
       "confidence": 22,
@@ -127,6 +121,12 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
