@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T00:30:01.994Z",
+  "updated": "2026-02-24T00:35:02.634Z",
   "totalPositions": 25,
-  "openPositions": 5,
-  "closedPositions": 20,
+  "openPositions": 4,
+  "closedPositions": 21,
   "trades": [
     {
       "token": "CTO",
@@ -38,19 +38,26 @@
       "reason": "stop_loss",
       "time": "2026-02-24 00:07:19",
       "exitType": "stop"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": 3.9,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 00:35:02",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 5,
-  "winRate": "20",
-  "wins": 1,
+  "tradeCount": 6,
+  "winRate": "33",
+  "wins": 2,
   "losses": 2,
-  "avgWin": "0.4",
+  "avgWin": "2.1",
   "avgLoss": "-20.0",
   "bestTrade": {
-    "token": "SOL",
-    "pnl": 0.4,
+    "token": "JAWZ",
+    "pnl": 3.9,
     "reason": "Volume dried up",
-    "time": "2026-02-23 20:38:41",
+    "time": "2026-02-24 00:35:02",
     "exitType": "exit"
   },
   "worstTrade": {
@@ -123,10 +130,6 @@
     }
   ],
   "openList": [
-    {
-      "token": "BLOODNUT",
-      "strategy": "paper_momentum"
-    },
     {
       "token": "JAWZ",
       "strategy": "paper_momentum"
