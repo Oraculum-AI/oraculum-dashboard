@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T01:20:02.445Z",
+  "updated": "2026-02-24T01:25:02.882Z",
   "totalPositions": 25,
   "openPositions": 0,
   "closedPositions": 25,
@@ -62,54 +62,6 @@
   },
   "decisions": [
     {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Despite favorable 3.0x buy ratio, the combination of ze"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio technically exceeds your 1.5x entry threshold, the zer"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Brand new pair with micro-liquidity and insufficient buy-side dominanc"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 38,
-      "reasoning": "[Analyst] While buy ratio technically qualifies at 1.4x, the combination of near"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] While buy/sell ratio meets entry threshold, brand tokens with zero pai"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio of 1.3x falls below self-discovered rule requiring 1.5x mini"
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 28,
@@ -120,6 +72,54 @@
       "approved": false,
       "confidence": 28,
       "reasoning": "[Analyst] Although buy ratio (1.7x) satisfies your entry rule and momentum is pr"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio meets entry criteria, the 0-minute pair age and micro-"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio and momentum signals are favorable, the brand-new pair"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] While buy ratio meets entry criteria (2.2x > 1.5x), the zero-age pair "
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Despite meeting buy ratio threshold, the combination of brand-new pair"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Despite meeting buy ratio threshold, zero pair age combined with nano-"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] While buy ratio technically clears your 1.5x minimum rule, the combina"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] While buy ratio technically qualifies for entry (2.0x > 1.5x minimum),"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Despite passing buy ratio threshold, pair newness (0 min age) and dete"
     }
   ],
   "openList": []
