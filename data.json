@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T02:50:02.572Z",
+  "updated": "2026-02-24T02:55:02.226Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -69,18 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
       "token": "house",
       "approved": false,
       "confidence": 10,
@@ -127,6 +115,18 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient mark"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with extreme volatilit"
     }
   ],
   "openList": []
