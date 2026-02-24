@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T19:05:03.131Z",
+  "updated": "2026-02-24T19:10:02.921Z",
   "totalPositions": 42,
-  "openPositions": 0,
-  "closedPositions": 42,
+  "openPositions": 1,
+  "closedPositions": 41,
   "trades": [
     {
       "token": "CLAW",
@@ -41,65 +41,70 @@
   },
   "decisions": [
     {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] 1h price change at 0.0% directly contradicts momentum a"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] 1h price stagnation (0.0%) directly contradicts 5m mome"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] This token fails your core entry filter (buy ratio must exceed 1.5x). "
-    },
-    {
-      "token": "J&A",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Token fails CORE entry criteria: buy ratio below 1.5x AND 1h momentum "
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Despite adequate liquidity and positive buy ratio, the 5m volume of $3,6"
-    },
-    {
       "token": "RETURN",
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Fails primary buy rule: buy ratio 1.4x < 1.5x required threshold. Pric"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio pass thresholds, the extremely low 5m volu"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "KOL",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.3x < 1.5x requirement combined with 0% 1h returns signals "
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Fails primary buy signal—buy ratio 1.4x < 1.5x requirement AND price f"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x and +5.2% 5m momentum meet ACCELERATING "
+    },
+    {
+      "token": "SHRIMP",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "SHRIMP",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "SHRIMP",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is zero indicating no sustained trading activity, and pair age"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "RIZZTER",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
