@@ -1,17 +1,44 @@
 {
-  "updated": "2026-02-24T21:55:01.986Z",
+  "updated": "2026-02-24T22:00:02.741Z",
   "totalPositions": 82,
-  "openPositions": 5,
-  "closedPositions": 77,
-  "trades": [],
-  "tradeCount": 0,
-  "winRate": "0",
-  "wins": 0,
-  "losses": 0,
-  "avgWin": "0",
-  "avgLoss": "0",
-  "bestTrade": null,
-  "worstTrade": null,
+  "openPositions": 3,
+  "closedPositions": 79,
+  "trades": [
+    {
+      "token": "SOL",
+      "pnl": -3,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:57:38",
+      "exitType": "exit"
+    },
+    {
+      "token": "COK",
+      "pnl": 35,
+      "reason": "profit_tier",
+      "time": "2026-02-24 21:59:02",
+      "exitType": "profit"
+    }
+  ],
+  "tradeCount": 2,
+  "winRate": "50",
+  "wins": 1,
+  "losses": 1,
+  "avgWin": "35.0",
+  "avgLoss": "-3.0",
+  "bestTrade": {
+    "token": "COK",
+    "pnl": 35,
+    "reason": "profit_tier",
+    "time": "2026-02-24 21:59:02",
+    "exitType": "profit"
+  },
+  "worstTrade": {
+    "token": "SOL",
+    "pnl": -3,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 21:57:38",
+    "exitType": "exit"
+  },
   "decisions": [
     {
       "token": "?",
@@ -24,13 +51,15 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
-    },
     {
       "token": "CLAW",
       "strategy": "paper_cluster"
@@ -41,10 +70,6 @@
     },
     {
       "token": "Djungelskog",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "COK",
       "strategy": "paper_cluster"
     }
   ]
