@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T15:35:02.815Z",
+  "updated": "2026-02-24T15:40:02.816Z",
   "totalPositions": 39,
-  "openPositions": 0,
-  "closedPositions": 39,
+  "openPositions": 1,
+  "closedPositions": 38,
   "trades": [
     {
       "token": "triggered",
@@ -69,42 +69,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 22,
-      "reasoning": "[Analyst] Self-discovered rule is explicit: skip entries when buy ratio < 2.0x r"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 5m momentum spike (+2.9%) lacks confirmation across 1h "
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Buy ratio 1.3x violates your core self-discovered rule requiring minim"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Your core rule states: skip entries when buy volume ratio is under 2.0"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-rule is explicit: skip entries when buy ratio < 2.0x regardless o"
-    },
-    {
       "token": "Limited",
       "approved": false,
       "confidence": 10,
@@ -127,7 +91,48 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Your own pattern identifies buy ratio <2.0x as a skip condition regard"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your rule is explicit: 'Skip entries when buy volume ratio is under 2."
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and volumes are solid with 1.2x buy ratio met, the 417-m"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-discovered rule: SKIP entries when buy ratio <2.0x regardless of "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Your core rule flags this: 'Skip entries when buy volume ratio is unde"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.7x and 5.3% 5m momentum pass entry threshol"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "BLOODNUT",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
