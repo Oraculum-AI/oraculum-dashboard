@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T15:00:02.506Z",
-  "totalPositions": 35,
-  "openPositions": 1,
+  "updated": "2026-02-24T15:05:03.391Z",
+  "totalPositions": 36,
+  "openPositions": 2,
   "closedPositions": 34,
   "trades": [
     {
@@ -62,36 +62,6 @@
   },
   "decisions": [
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 5225 minutes (~3.6 days) is extremely old for a token showin"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the extremely low 5m volum"
-    },
-    {
       "token": "RIZZTER",
       "approved": false,
       "confidence": 42,
@@ -120,9 +90,43 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Entry violates core rules: buy ratio below 1.5x threshold AND below 2."
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 85,
+      "reasoning": "[Scout->Analyst->Trader] 1h price momentum at 0.0% violates ONLY ACCELERATING mo"
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Buy ratio 1.3x violates both critical entry thresholds (1.5x minimum A"
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 22,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: SKIP entries when buy volume r"
     }
   ],
   "openList": [
+    {
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
+    },
     {
       "token": "",
       "strategy": "paper_launchpad_pump_fun"
