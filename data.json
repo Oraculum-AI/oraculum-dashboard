@@ -1,72 +1,9 @@
 {
-  "updated": "2026-02-24T00:05:02.441Z",
-  "totalPositions": 24,
-  "openPositions": 1,
-  "closedPositions": 23,
+  "updated": "2026-02-24T00:10:02.571Z",
+  "totalPositions": 25,
+  "openPositions": 0,
+  "closedPositions": 25,
   "trades": [
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:17:08",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:17:23",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:17:38",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:17:53",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:18:08",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:18:23",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:18:38",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:18:53",
-      "exitType": "exit"
-    },
-    {
-      "token": "SOL",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:19:08",
-      "exitType": "exit"
-    },
     {
       "token": "BLOODNUT",
       "pnl": 2.7,
@@ -115,12 +52,19 @@
       "reason": "stop_loss",
       "time": "2026-02-23 22:42:46",
       "exitType": "stop"
+    },
+    {
+      "token": "AUTISM:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 00:07:19",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 16,
-  "winRate": "19",
+  "tradeCount": 8,
+  "winRate": "38",
   "wins": 3,
-  "losses": 1,
+  "losses": 2,
   "avgWin": "11.4",
   "avgLoss": "-20.0",
   "bestTrade": {
@@ -138,18 +82,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "CRITICAL REJECTION: Zero volume in both 5m and 1h windows despite claimed 2.5x s"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical disqualification. Th"
-    },
     {
       "token": "USD0",
       "approved": false,
@@ -197,12 +129,19 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": [
-    {
-      "token": "SOL",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
