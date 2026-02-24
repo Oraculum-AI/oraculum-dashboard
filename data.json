@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T17:20:02.726Z",
+  "updated": "2026-02-24T17:25:02.551Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -33,30 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] While buy ratio and 5m price meet entry thresholds, the 1h stagnation "
-    },
-    {
-      "token": "Shire",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Zero holder count is a disqualifying red flag indicating either a fres"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
     {
       "token": "BLOODNUT",
       "approved": false,
@@ -92,6 +68,30 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Shire",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "DOWN",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+    },
+    {
+      "token": "STIM",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 min, indicating a brand new token with"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Entry signal fails core requirement: buy/sell ratio must exceed 1.5x f"
     }
   ],
   "openList": []
