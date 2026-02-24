@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T03:40:03.436Z",
+  "updated": "2026-02-24T03:45:01.995Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -69,36 +69,6 @@
   },
   "decisions": [
     {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with extreme volatilit"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with extreme v"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no historical dat"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
       "token": "house",
       "approved": false,
       "confidence": 10,
@@ -124,6 +94,36 @@
     },
     {
       "token": "TRENCH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient hist"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient mark"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "RIZZTER",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
