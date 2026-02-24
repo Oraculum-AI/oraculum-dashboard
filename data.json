@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T19:00:03.014Z",
+  "updated": "2026-02-24T19:05:03.131Z",
   "totalPositions": 42,
   "openPositions": 0,
   "closedPositions": 42,
   "trades": [
-    {
-      "token": "Reduary",
-      "pnl": 0.1,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 17:38:48",
-      "exitType": "exit"
-    },
     {
       "token": "CLAW",
       "pnl": 12.5,
@@ -26,11 +19,11 @@
       "exitType": "timeout"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "67",
-  "wins": 2,
+  "tradeCount": 2,
+  "winRate": "50",
+  "wins": 1,
   "losses": 1,
-  "avgWin": "6.3",
+  "avgWin": "12.5",
   "avgLoss": "-0.9",
   "bestTrade": {
     "token": "CLAW",
@@ -47,30 +40,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Fails primary entry criteria: buy/sell ratio 1.2x < required 1.5x thre"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Entry criteria partially met but critical failure: 1h price flat despi"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Fails your PRIMARY entry rule: buy ratio 1.4x < required 1.5x minimum."
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Does not meet hard requirement: buy ratio 1.4x < 1.5x threshold. Flat "
-    },
     {
       "token": "SOL",
       "approved": false,
@@ -106,6 +75,30 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] This token fails your core entry filter (buy ratio must exceed 1.5x). "
+    },
+    {
+      "token": "J&A",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Token fails CORE entry criteria: buy ratio below 1.5x AND 1h momentum "
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Despite adequate liquidity and positive buy ratio, the 5m volume of $3,6"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Fails primary buy rule: buy ratio 1.4x < 1.5x required threshold. Pric"
     }
   ],
   "openList": []
