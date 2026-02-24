@@ -1,54 +1,38 @@
 {
-  "updated": "2026-02-24T07:10:02.644Z",
+  "updated": "2026-02-24T07:15:02.320Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
-  "trades": [],
-  "tradeCount": 0,
+  "trades": [
+    {
+      "token": "PETAH",
+      "pnl": 0,
+      "reason": "Timeout: 116min, only +0.0%",
+      "time": "2026-02-24 07:14:31",
+      "exitType": "timeout"
+    }
+  ],
+  "tradeCount": 1,
   "winRate": "0",
   "wins": 0,
   "losses": 0,
   "avgWin": "0",
   "avgLoss": "0",
-  "bestTrade": null,
-  "worstTrade": null,
+  "bestTrade": {
+    "token": "PETAH",
+    "pnl": 0,
+    "reason": "Timeout: 116min, only +0.0%",
+    "time": "2026-02-24 07:14:31",
+    "exitType": "timeout"
+  },
+  "worstTrade": {
+    "token": "PETAH",
+    "pnl": 0,
+    "reason": "Timeout: 116min, only +0.0%",
+    "time": "2026-02-24 07:14:31",
+    "exitType": "timeout"
+  },
   "decisions": [
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Your self-discovered rules explicitly state: 'Skip entries when buy vo"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the extremely low 5m volum"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Fails core momentum requirement: flat 1h price + dead volume despite 2"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($1774 5m) with 1h price flat contradic"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio of 2.0x meets minimum criteria but volume is insufficient an"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails to meet self-discovered 2.0x minim"
-    },
     {
       "token": "TRENCH",
       "approved": false,
@@ -72,6 +56,42 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 9657 minutes (~6.7 days) is extremely old for a token screen"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 29103 minutes (20+ days) combined with low absolute volumes "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Despite reasonable liquidity and strong buy ratio, the 5m volume of $803"
+    },
+    {
+      "token": "PETAH",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x exceeds threshold with positive 5m momen"
     }
   ],
   "openList": []
