@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:10:03.823Z",
+  "updated": "2026-02-24T04:15:02.890Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -69,18 +69,6 @@
   },
   "decisions": [
     {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
       "token": "USD0",
       "approved": false,
       "confidence": 10,
@@ -127,6 +115,18 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with insuffici"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
     }
   ],
   "openList": []
