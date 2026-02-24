@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T13:50:02.292Z",
+  "updated": "2026-02-24T13:55:02.605Z",
   "totalPositions": 29,
-  "openPositions": 1,
-  "closedPositions": 28,
+  "openPositions": 2,
+  "closedPositions": 27,
   "trades": [
     {
       "token": "PETAH",
@@ -76,24 +76,6 @@
   },
   "decisions": [
     {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.3x fails mandatory >1.5x entry criteria AND your discovere"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Price action completely stagnant (+0.1% in 5m, 0.0% in "
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 8.5x exceeds threshold and 5m momentum is +3%"
-    },
-    {
       "token": "PETAH",
       "approved": false,
       "confidence": 25,
@@ -134,9 +116,31 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 4.8x is strong, but price action is NOT accel"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "PETAH",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 5.0x significantly exceeds threshold with con"
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Your self-discovered rules explicitly state: 'Skip entries when buy vo"
     }
   ],
   "openList": [
+    {
+      "token": "PETAH",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "BLOODNUT",
       "strategy": "paper_momentum"
