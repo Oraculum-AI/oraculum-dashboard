@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T05:40:02.537Z",
+  "updated": "2026-02-24T05:45:02.123Z",
   "totalPositions": 28,
-  "openPositions": 0,
-  "closedPositions": 28,
+  "openPositions": 1,
+  "closedPositions": 27,
   "trades": [
     {
       "token": "RIZZTER",
@@ -43,48 +43,6 @@
     {
       "token": "Xingxing",
       "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x fails your strict 2.0x volume rule that "
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your self-discovered 2.0x th"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) directly contradicts accelerat"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($926 5m) and 1h price stagnation (0% c"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] CLAW meets minimum buy ratio (2.0x) but lacks sustained momentum—1h pr"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] While liquidity and buy ratio pass thresholds, the volume metrics are co"
     },
@@ -99,7 +57,54 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) violates core ACCELERATING mom"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Critical momentum fragility: 1h flat 0.0% directly cont"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Volume momentum is NOT accelerating—1h volume flat at 0"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) signals non-accelerating momen"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "USD0",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Exceptional 9.3x buy ratio with accelerating 5m momentu"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x violates your established 2.0x volume de"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "USD0",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
