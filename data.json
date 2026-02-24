@@ -1,22 +1,22 @@
 {
-  "updated": "2026-02-24T14:40:03.487Z",
-  "totalPositions": 31,
-  "openPositions": 2,
-  "closedPositions": 29,
+  "updated": "2026-02-24T14:45:02.130Z",
+  "totalPositions": 32,
+  "openPositions": 0,
+  "closedPositions": 32,
   "trades": [
     {
-      "token": "Xingxing",
-      "pnl": -0.4,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 11:23:31",
-      "exitType": "exit"
+      "token": "triggered",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 14:43:17",
+      "exitType": "stop"
     },
     {
-      "token": "JAWZ",
-      "pnl": -1,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 11:31:31",
-      "exitType": "exit"
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 14:43:52",
+      "exitType": "stop"
     }
   ],
   "tradeCount": 2,
@@ -24,52 +24,22 @@
   "wins": 0,
   "losses": 2,
   "avgWin": "0",
-  "avgLoss": "-0.7",
+  "avgLoss": "-20.0",
   "bestTrade": {
-    "token": "Xingxing",
-    "pnl": -0.4,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 11:23:31",
-    "exitType": "exit"
+    "token": "triggered",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-24 14:43:17",
+    "exitType": "stop"
   },
   "worstTrade": {
-    "token": "JAWZ",
-    "pnl": -1,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 11:31:31",
-    "exitType": "exit"
+    "token": "triggered",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-24 14:43:17",
+    "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
-    },
     {
       "token": "Xingxing",
       "approved": false,
@@ -99,16 +69,37 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    }
-  ],
-  "openList": [
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
     },
     {
-      "token": "CLAW",
-      "strategy": "paper_momentum"
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 922 minutes (>15 hours) combined with minimal 5m volume ($22"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 1h price momentum flat (0.0%) contradicts accelerating "
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails critical 2.0x threshold; flat 1h p"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 5224 minutes (~3.6 days) is too old for a meaningful momentu"
     }
-  ]
+  ],
+  "openList": []
 }
