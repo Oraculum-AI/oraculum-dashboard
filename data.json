@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T06:30:02.194Z",
+  "updated": "2026-02-24T06:35:02.195Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -40,12 +40,6 @@
     "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.3x fails both entry criteria (need >1.5x AND volume increa"
-    },
     {
       "token": "CLAW",
       "approved": false,
@@ -99,6 +93,12 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Volume ratio 1.8x falls below your 2.0x minimum thresho"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
