@@ -1,18 +1,71 @@
 {
-  "updated": "2026-02-24T21:20:02.770Z",
-  "totalPositions": 71,
+  "updated": "2026-02-24T21:25:02.341Z",
+  "totalPositions": 75,
   "openPositions": 7,
-  "closedPositions": 64,
-  "trades": [],
-  "tradeCount": 0,
-  "winRate": "0",
-  "wins": 0,
-  "losses": 0,
-  "avgWin": "0",
-  "avgLoss": "0",
-  "bestTrade": null,
-  "worstTrade": null,
+  "closedPositions": 68,
+  "trades": [
+    {
+      "token": "HorseMeat",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:20:56",
+      "exitType": "exit"
+    },
+    {
+      "token": "ELGATO",
+      "pnl": 0.1,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:20:56",
+      "exitType": "exit"
+    },
+    {
+      "token": "PYTH",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:20:57",
+      "exitType": "exit"
+    },
+    {
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 21:23:15",
+      "exitType": "stop"
+    }
+  ],
+  "tradeCount": 4,
+  "winRate": "25",
+  "wins": 1,
+  "losses": 1,
+  "avgWin": "0.1",
+  "avgLoss": "-20.0",
+  "bestTrade": {
+    "token": "ELGATO",
+    "pnl": 0.1,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 21:20:56",
+    "exitType": "exit"
+  },
+  "worstTrade": {
+    "token": ":",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-24 21:23:15",
+    "exitType": "stop"
+  },
   "decisions": [
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
     {
       "token": "?",
       "approved": false,
@@ -28,27 +81,27 @@
   ],
   "openList": [
     {
-      "token": "pippin",
+      "token": "KDOT",
       "strategy": "paper_cluster"
     },
     {
-      "token": "PYTH",
+      "token": "JMoney",
       "strategy": "paper_cluster"
     },
     {
-      "token": "ELGATO",
+      "token": "CUM",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "neet",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "ROVR",
       "strategy": "paper_cluster"
     },
     {
       "token": "COK",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "DOBBY",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "HorseMeat",
       "strategy": "paper_cluster"
     },
     {
