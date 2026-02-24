@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:45:02.082Z",
+  "updated": "2026-02-24T09:50:02.791Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -55,24 +55,6 @@
   },
   "decisions": [
     {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.4x fails entry requirement; self-discovered rule explicitl"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Self-rules explicitly skip entries when buy volume ratio under 2.0x—th"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 15052 minutes (~10.4 days) combined with relatively low 5m v"
-    },
-    {
       "token": "SOL",
       "approved": false,
       "confidence": 8,
@@ -113,6 +95,24 @@
       "approved": false,
       "confidence": 62,
       "reasoning": "[Analyst] Your rule explicitly states 'Skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio at 2.0x violates self-discovered rule demanding >2.0x minimu"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your rules explicitly state 'Skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails critical 2.0x threshold and 1h vol"
     }
   ],
   "openList": []
