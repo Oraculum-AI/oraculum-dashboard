@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T18:35:02.758Z",
+  "updated": "2026-02-24T18:40:02.684Z",
   "totalPositions": 42,
   "openPositions": 0,
   "closedPositions": 42,
@@ -17,14 +17,21 @@
       "reason": "Timeout: 45min, only +12.5%",
       "time": "2026-02-24 18:34:51",
       "exitType": "timeout"
+    },
+    {
+      "token": "fih",
+      "pnl": -0.9,
+      "reason": "Timeout: 45min, only +-0.9%",
+      "time": "2026-02-24 18:38:51",
+      "exitType": "timeout"
     }
   ],
-  "tradeCount": 2,
-  "winRate": "100",
+  "tradeCount": 3,
+  "winRate": "67",
   "wins": 2,
-  "losses": 0,
+  "losses": 1,
   "avgWin": "6.3",
-  "avgLoss": "0",
+  "avgLoss": "-0.9",
   "bestTrade": {
     "token": "CLAW",
     "pnl": 12.5,
@@ -33,72 +40,72 @@
     "exitType": "timeout"
   },
   "worstTrade": {
-    "token": "Reduary",
-    "pnl": 0.1,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 17:38:48",
-    "exitType": "exit"
+    "token": "fih",
+    "pnl": -0.9,
+    "reason": "Timeout: 45min, only +-0.9%",
+    "time": "2026-02-24 18:38:51",
+    "exitType": "timeout"
   },
   "decisions": [
+    {
+      "token": "HORSE",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "fih",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x and 8.4x volume acceleration qualify for"
+    },
+    {
+      "token": "SOLPUMP",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "Pedocast",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+    },
+    {
+      "token": "Pedocast",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum despite decent "
+    },
+    {
+      "token": "Pedocast",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "Pedocast",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+    },
+    {
+      "token": "HORSE",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
     {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] 1h price stalled at 0.0% despite 5m pump signals moment"
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.0x is acceptable, but 1h momentum at 0.0% v"
     },
     {
-      "token": "tappy",
+      "token": "Pedocast",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained momentum, and pair age of 0 minu"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Token shows early 5m spike (+3.7%) but 1h flatness (0.0%) indicates se"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained momentum, and pair age of 0 minu"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] REJECT: Momentum divergence is disqualifying—8.5% 5m sp"
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] REJECT: 1h price action flatlined at 0.0% directly cont"
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
     }
   ],
   "openList": []
