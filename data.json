@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T16:55:02.676Z",
+  "updated": "2026-02-24T17:00:02.503Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -34,54 +34,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair is over 7 days old with minimal 5m volume ($1133) and modest hourly"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Token fails PRIMARY entry criterion (buy ratio <1.5x required). Flat 1"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry conditions FAIL: buy ratio 1.2x < required 1.5x minimum, and 1h "
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry conditions NOT met: buy/sell ratio 1.2x is below required 1.5x m"
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry conditions BARELY met (1.3x vs 1.5x required), but 1h price flat"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
       "token": "RETURN",
       "approved": false,
       "confidence": 25,
@@ -92,6 +44,54 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no established tr"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Flat 1h price action + micro-cap ($79K) with thin liqui"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.0x is strong, but flat 1h price action + mi"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the 5m volume of $237 is e"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio exceeds 1.5x threshold, the combination of micro liqui"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Despite attractive buy ratio, this token fails core criteria: no susta"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
