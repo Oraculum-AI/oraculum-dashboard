@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T17:15:02.398Z",
+  "updated": "2026-02-24T17:20:02.726Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -33,18 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Shire",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
     {
       "token": "RETURN",
       "approved": false,
@@ -92,6 +80,18 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": []
