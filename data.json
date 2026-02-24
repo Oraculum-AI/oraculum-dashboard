@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T05:35:02.043Z",
+  "updated": "2026-02-24T05:40:02.537Z",
   "totalPositions": 28,
-  "openPositions": 1,
-  "closedPositions": 27,
+  "openPositions": 0,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "RIZZTER",
@@ -41,70 +41,65 @@
   },
   "decisions": [
     {
-      "token": "house",
+      "token": "Xingxing",
       "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails critical 2.0x threshold; 1h price "
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     },
     {
       "token": "CLAW",
       "approved": false,
       "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.2x fails to meet your discovered 2.0x volum"
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x fails your strict 2.0x volume rule that "
     },
     {
-      "token": "USD0",
+      "token": "house",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your self-discovered 2.0x th"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) directly contradicts accelerat"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($926 5m) and 1h price stagnation (0% c"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] CLAW meets minimum buy ratio (2.0x) but lacks sustained momentum—1h pr"
+    },
+    {
+      "token": "Xingxing",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 950 minutes (15.8 hours) is too new and lacks sufficient tra"
+      "reasoning": "[Scout] While liquidity and buy ratio pass thresholds, the volume metrics are co"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the 5m volume of $701 is e"
     },
     {
       "token": "CLAW",
       "approved": false,
       "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] 1h price flat (0.0%) contradicts 5m spike—momentum is N"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio fails to exceed 1.5x threshold (meets minimum only) and 1h s"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.2x conflicts with your own 2.0x skip thresh"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Multiple entry filters broken: buy ratio below 1.5x minimum AND below "
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio of 1.2x violates core entry rules (need >1.5x, ideally >2.0x"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio meets minimum 2.0x entry threshold but lacks the >2.0x buffe"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio at 1.5x meets entry floor but fails the >1.5x requirement; c"
+      "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) violates core ACCELERATING mom"
     }
   ],
-  "openList": [
-    {
-      "token": "PETAH",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
