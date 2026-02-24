@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T08:35:02.607Z",
+  "updated": "2026-02-24T08:40:02.051Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -48,36 +48,6 @@
   },
   "decisions": [
     {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Your rules explicitly state: 'Skip entries when buy volume ratio is un"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry violates self-discovered rule requiring buy volume ratio >2.0x; "
-    },
-    {
-      "token": "fren",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.7x and 5m +2.0% momentum meet entry criteri"
-    },
-    {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and volumes pass initial filters, the 46% price swing in"
-    },
-    {
       "token": "PETAH",
       "approved": false,
       "confidence": 40,
@@ -106,6 +76,36 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) contradicts 5m spike—momentum "
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While metrics like 10.0x buy ratio and 17.3% 5m price change appear stro"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x is strong, but 1h momentum flat (0.0%) v"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the 5m volume of $974 is s"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are adequate, the 5m volume of $974 is ext"
     }
   ],
   "openList": []
