@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-24T23:50:02.412Z",
-  "totalPositions": 110,
-  "openPositions": 3,
-  "closedPositions": 107,
+  "updated": "2026-02-24T23:55:01.899Z",
+  "totalPositions": 114,
+  "openPositions": 8,
+  "closedPositions": 106,
   "trades": [
-    {
-      "token": "CPT",
-      "pnl": 17.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 23:23:51",
-      "exitType": "exit"
-    },
-    {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 23:30:25",
-      "exitType": "stop"
-    },
     {
       "token": "Clude",
       "pnl": 32,
@@ -33,12 +19,12 @@
       "exitType": "timeout"
     }
   ],
-  "tradeCount": 4,
-  "winRate": "75",
-  "wins": 3,
-  "losses": 1,
-  "avgWin": "22.7",
-  "avgLoss": "-20.0",
+  "tradeCount": 2,
+  "winRate": "100",
+  "wins": 2,
+  "losses": 0,
+  "avgWin": "25.2",
+  "avgLoss": "0",
   "bestTrade": {
     "token": "Clude",
     "pnl": 32,
@@ -47,13 +33,25 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": ":",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 23:30:25",
-    "exitType": "stop"
+    "token": "Capybara",
+    "pnl": 18.4,
+    "reason": "Timeout: 46min, only +18.4%",
+    "time": "2026-02-24 23:44:40",
+    "exitType": "timeout"
   },
   "decisions": [
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
     {
       "token": "?",
       "approved": false,
@@ -69,15 +67,35 @@
   ],
   "openList": [
     {
+      "token": "PYTH",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "KMNO",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Punch",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "TETSUO",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Percolator",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "ORANMAMA",
+      "strategy": "paper_cluster"
+    },
+    {
       "token": "",
       "strategy": "paper_launchpad_pump_fun"
     },
     {
       "token": "WAR",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "CHUD",
       "strategy": "paper_cluster"
     }
   ]
