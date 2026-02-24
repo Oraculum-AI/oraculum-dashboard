@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T07:40:01.849Z",
+  "updated": "2026-02-24T07:45:02.509Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -33,12 +33,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails to meet your 2.0x volume threshold"
-    },
     {
       "token": "Xingxing",
       "approved": false,
@@ -92,6 +86,12 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Buy ratio at 2.0x is your MINIMUM threshold, not a buy signal—self-rul"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.2x fails accelerating momentum threshold—5m"
     }
   ],
   "openList": []
