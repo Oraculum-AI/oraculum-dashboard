@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T23:20:02.760Z",
+  "updated": "2026-02-24T23:25:02.369Z",
   "totalPositions": 105,
-  "openPositions": 5,
-  "closedPositions": 100,
+  "openPositions": 3,
+  "closedPositions": 102,
   "trades": [
     {
       "token": "Adam",
@@ -24,13 +24,20 @@
       "reason": "stop_loss",
       "time": "2026-02-24 23:14:15",
       "exitType": "stop"
+    },
+    {
+      "token": "CPT",
+      "pnl": 17.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 23:23:51",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "33",
-  "wins": 1,
+  "tradeCount": 4,
+  "winRate": "50",
+  "wins": 2,
   "losses": 2,
-  "avgWin": "33.0",
+  "avgWin": "25.4",
   "avgLoss": "-11.5",
   "bestTrade": {
     "token": "Adam",
@@ -87,14 +94,6 @@
   "openList": [
     {
       "token": "CHUD",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "CPT",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "KIMCHI",
       "strategy": "paper_cluster"
     },
     {
