@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:50:02.288Z",
+  "updated": "2026-02-24T20:55:03.087Z",
   "totalPositions": 61,
-  "openPositions": 10,
-  "closedPositions": 51,
+  "openPositions": 4,
+  "closedPositions": 57,
   "trades": [
     {
       "token": "RIZZTER",
@@ -24,19 +24,47 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 20:34:00",
       "exitType": "exit"
+    },
+    {
+      "token": "MOLTIC",
+      "pnl": -5.1,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 20:50:45",
+      "exitType": "exit"
+    },
+    {
+      "token": "SIGMA",
+      "pnl": -1.8,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 20:52:00",
+      "exitType": "exit"
+    },
+    {
+      "token": "CUM",
+      "pnl": -0.1,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 20:54:46",
+      "exitType": "exit"
+    },
+    {
+      "token": "Moutai",
+      "pnl": 0.3,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 20:54:46",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "0",
-  "wins": 0,
-  "losses": 2,
-  "avgWin": "0",
-  "avgLoss": "-10.2",
+  "tradeCount": 7,
+  "winRate": "14",
+  "wins": 1,
+  "losses": 5,
+  "avgWin": "0.3",
+  "avgLoss": "-5.5",
   "bestTrade": {
-    "token": "SHDW",
-    "pnl": 0,
+    "token": "Moutai",
+    "pnl": 0.3,
     "reason": "Volume dried up",
-    "time": "2026-02-24 20:34:00",
+    "time": "2026-02-24 20:54:46",
     "exitType": "exit"
   },
   "worstTrade": {
@@ -114,23 +142,7 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "Moutai",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "WOJAK",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "COPPERINU",
-      "strategy": "paper_cluster"
-    },
-    {
       "token": "PIGEON ",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "CUM",
       "strategy": "paper_cluster"
     },
     {
@@ -139,14 +151,6 @@
     },
     {
       "token": "COK",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "SIGMA",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "MOLTIC",
       "strategy": "paper_cluster"
     }
   ]
