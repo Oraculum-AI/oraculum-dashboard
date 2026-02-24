@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T09:40:02.452Z",
+  "updated": "2026-02-24T09:45:02.082Z",
   "totalPositions": 29,
-  "openPositions": 1,
-  "closedPositions": 28,
+  "openPositions": 0,
+  "closedPositions": 29,
   "trades": [
     {
       "token": "PETAH",
@@ -24,9 +24,16 @@
       "reason": "Timeout: 45min, only +-10.4%",
       "time": "2026-02-24 08:32:31",
       "exitType": "timeout"
+    },
+    {
+      "token": "SOL",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 09:42:31",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 3,
+  "tradeCount": 4,
   "winRate": "0",
   "wins": 0,
   "losses": 1,
@@ -47,18 +54,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Token fails critical volume rule — buy ratio of 2.0x is at minimum thr"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio fails your own 2.0x volume standard and sits dangerously clo"
-    },
     {
       "token": "TRENCH",
       "approved": false,
@@ -106,12 +101,19 @@
       "approved": true,
       "confidence": 72,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio of 10.0x with accelerating 5m momentum (+0.6%"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x falls below self-discovered 2.0x minimum"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Your rule explicitly states 'Skip entries when buy volume ratio is und"
     }
   ],
-  "openList": [
-    {
-      "token": "SOL",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
