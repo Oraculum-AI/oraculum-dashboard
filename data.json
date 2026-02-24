@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T15:15:02.840Z",
-  "totalPositions": 37,
-  "openPositions": 0,
+  "updated": "2026-02-24T15:20:02.970Z",
+  "totalPositions": 38,
+  "openPositions": 1,
   "closedPositions": 37,
   "trades": [
     {
@@ -69,48 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Momentum is NOT accelerating—5m spike (+2.9%) contradic"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry violates core rules: buy ratio below 1.5x threshold AND below 2."
-    },
-    {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 85,
-      "reasoning": "[Scout->Analyst->Trader] 1h price momentum at 0.0% violates ONLY ACCELERATING mo"
-    },
-    {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Buy ratio 1.3x violates both critical entry thresholds (1.5x minimum A"
-    },
-    {
       "token": "Gaper",
       "approved": false,
       "confidence": 22,
@@ -127,7 +85,54 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] REJECT: 1h price flatness (+0.0%) indicates momentum is"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Buy ratio of exactly 1.2x is at the threshold minimum and lacks the clea"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the 5m volume of $381 is e"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Self-rule violation: buy ratio under 2.0x triggers automatic skip rega"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
+    }
+  ]
 }
