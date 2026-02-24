@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T06:55:01.879Z",
+  "updated": "2026-02-24T07:00:02.514Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -13,18 +13,6 @@
   "bestTrade": null,
   "worstTrade": null,
   "decisions": [
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry signals fail critical thresholds: buy ratio 1.4x < required 1.5x"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.4x < 2.0x threshold violates your self-discovered rule: 'S"
-    },
     {
       "token": "AUTISM",
       "approved": false,
@@ -72,6 +60,18 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails to meet self-discovered 2.0x minim"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x falls short of self-discovered 2.0x thre"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails to meet your 2.0x volume threshold"
     }
   ],
   "openList": []
