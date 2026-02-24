@@ -1,44 +1,17 @@
 {
-  "updated": "2026-02-24T22:15:01.777Z",
-  "totalPositions": 87,
-  "openPositions": 3,
-  "closedPositions": 84,
-  "trades": [
-    {
-      "token": "SOL",
-      "pnl": -3,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 21:57:38",
-      "exitType": "exit"
-    },
-    {
-      "token": "COK",
-      "pnl": 35,
-      "reason": "profit_tier",
-      "time": "2026-02-24 21:59:02",
-      "exitType": "profit"
-    }
-  ],
-  "tradeCount": 2,
-  "winRate": "50",
-  "wins": 1,
-  "losses": 1,
-  "avgWin": "35.0",
-  "avgLoss": "-3.0",
-  "bestTrade": {
-    "token": "COK",
-    "pnl": 35,
-    "reason": "profit_tier",
-    "time": "2026-02-24 21:59:02",
-    "exitType": "profit"
-  },
-  "worstTrade": {
-    "token": "SOL",
-    "pnl": -3,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 21:57:38",
-    "exitType": "exit"
-  },
+  "updated": "2026-02-24T22:20:02.138Z",
+  "totalPositions": 90,
+  "openPositions": 5,
+  "closedPositions": 85,
+  "trades": [],
+  "tradeCount": 0,
+  "winRate": "0",
+  "wins": 0,
+  "losses": 0,
+  "avgWin": "0",
+  "avgLoss": "0",
+  "bestTrade": null,
+  "worstTrade": null,
   "decisions": [
     {
       "token": "?",
@@ -51,39 +24,23 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "$WAR",
+      "token": "ELONGATE",
+      "strategy": "paper_dca_paper_launchpad_pump_fun"
+    },
+    {
+      "token": "SPINE",
       "strategy": "paper_cluster"
     },
     {
-      "token": "Adam",
+      "token": "SHY",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "$WAR",
       "strategy": "paper_cluster"
     },
     {
