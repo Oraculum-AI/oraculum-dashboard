@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:25:02.372Z",
+  "updated": "2026-02-24T10:30:03.140Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -57,12 +57,6 @@
     {
       "token": "JAWZ",
       "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] While buy ratio 5.0x is strong, the combination of crit"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio at 2.0x is exactly at floor with zero margin "
     },
@@ -113,6 +107,12 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Entry criteria failed: buy ratio 2.0x is at threshold minimum (rules r"
     }
   ],
   "openList": []
