@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-24T23:05:02.178Z",
-  "totalPositions": 98,
-  "openPositions": 4,
+  "updated": "2026-02-24T23:10:02.659Z",
+  "totalPositions": 99,
+  "openPositions": 5,
   "closedPositions": 94,
   "trades": [
-    {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 22:24:36",
-      "exitType": "stop"
-    },
-    {
-      "token": "URANUS",
-      "pnl": -3,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 22:37:12",
-      "exitType": "exit"
-    },
     {
       "token": "Adam",
       "pnl": 33,
@@ -26,12 +12,12 @@
       "exitType": "profit"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "33",
+  "tradeCount": 1,
+  "winRate": "100",
   "wins": 1,
-  "losses": 2,
+  "losses": 0,
   "avgWin": "33.0",
-  "avgLoss": "-11.5",
+  "avgLoss": "0",
   "bestTrade": {
     "token": "Adam",
     "pnl": 33,
@@ -40,21 +26,27 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": ":",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 22:24:36",
-    "exitType": "stop"
+    "token": "Adam",
+    "pnl": 33,
+    "reason": "profit_tier",
+    "time": "2026-02-24 22:58:43",
+    "exitType": "profit"
   },
   "decisions": [
     {
-      "token": "PETAH",
+      "token": "Orangutan",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
     },
     {
-      "token": "Orangutan",
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
@@ -90,15 +82,19 @@
       "strategy": "paper_launchpad_pump_fun"
     },
     {
+      "token": "PMPR",
+      "strategy": "paper_dca_paper_dca_paper_launchpad_pump_fun"
+    },
+    {
+      "token": "WAR",
+      "strategy": "paper_cluster"
+    },
+    {
       "token": "Capybara",
       "strategy": "paper_cluster"
     },
     {
       "token": "BIRB",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "GROKIUS",
       "strategy": "paper_cluster"
     }
   ]
