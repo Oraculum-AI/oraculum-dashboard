@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T13:45:02.412Z",
+  "updated": "2026-02-24T13:50:02.292Z",
   "totalPositions": 29,
   "openPositions": 1,
   "closedPositions": 28,
@@ -76,36 +76,6 @@
   },
   "decisions": [
     {
-      "token": "house",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Buy ratio of 1.2x is at the minimum threshold with weak 5m volume of $11"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Self-rule explicitly states: 'Skip entries when buy volume ratio is un"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Token violates your core entry criteria: buy ratio 1.3x is below both "
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 4.0x is strong, but 1h price flatness (0.0%) "
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "RIZZTER",
       "approved": false,
       "confidence": 32,
@@ -134,6 +104,36 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 7.0x is strong, but flat 1h momentum and low "
+    },
+    {
+      "token": "Pigeon",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails critical self-discovered 2.0x thre"
+    },
+    {
+      "token": "Pigeon",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 4.8x is strong, but price action is NOT accel"
     }
   ],
   "openList": [
