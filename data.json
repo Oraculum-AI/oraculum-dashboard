@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T02:05:02.245Z",
-  "totalPositions": 27,
-  "openPositions": 0,
+  "updated": "2026-02-24T02:10:03.142Z",
+  "totalPositions": 28,
+  "openPositions": 1,
   "closedPositions": 27,
   "trades": [
     {
@@ -76,36 +76,6 @@
   },
   "decisions": [
     {
-      "token": "house",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] 5.0x buy ratio significantly exceeds minimum threshold "
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 22,
-      "reasoning": "[Analyst] While buy/sell ratio passes your entry threshold, the combination of m"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Pair age of 0 minutes presents unacceptable unknown ris"
-    },
-    {
       "token": "PETAH",
       "approved": false,
       "confidence": 32,
@@ -134,7 +104,42 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Despite strong buy/sell ratio of 6.0x, the combination "
+    },
+    {
+      "token": "PETAH",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 4.0x significantly exceeds minimum thresho"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] New pair + weak 1h confirmation + buy ratio below your validated 1.5x "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] While buy ratio meets entry threshold (1.3x), the zero-minute pair age"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio meets entry threshold, the combination of zero pair hi"
+    },
+    {
+      "token": "Xingxing",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 1.5x meets minimum threshold with fresh 6."
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "Xingxing",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
