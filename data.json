@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T11:05:02.811Z",
+  "updated": "2026-02-24T11:10:02.872Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -62,18 +62,6 @@
   },
   "decisions": [
     {
-      "token": "TRENCH",
-      "approved": true,
-      "confidence": 72,
-      "reasoning": "[Scout->Analyst->Trader] TRENCH exhibits exceptional buy ratio (7.3x) with posit"
-    },
-    {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Token fails both hard gates: buy ratio 1.3x < 1.5x minimum AND < 2.0x "
-    },
-    {
       "token": "Xingxing",
       "approved": false,
       "confidence": 15,
@@ -120,6 +108,18 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails the self-discovered 2.0x minimum r"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x fails internal 2.0x strict threshold; cr"
     }
   ],
   "openList": []
