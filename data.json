@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T14:50:02.928Z",
-  "totalPositions": 32,
-  "openPositions": 0,
-  "closedPositions": 32,
+  "updated": "2026-02-24T14:55:02.574Z",
+  "totalPositions": 34,
+  "openPositions": 1,
+  "closedPositions": 33,
   "trades": [
     {
       "token": "triggered",
@@ -17,12 +17,26 @@
       "reason": "stop_loss",
       "time": "2026-02-24 14:43:52",
       "exitType": "stop"
+    },
+    {
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 14:51:07",
+      "exitType": "stop"
+    },
+    {
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 14:51:42",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 2,
+  "tradeCount": 4,
   "winRate": "0",
   "wins": 0,
-  "losses": 2,
+  "losses": 4,
   "avgWin": "0",
   "avgLoss": "-20.0",
   "bestTrade": {
@@ -101,5 +115,10 @@
       "reasoning": "[Analyst] Volume deadness is a LOSING PATTERN trigger—your rules explicitly stat"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "",
+      "strategy": "paper_launchpad_raydium_launchlab"
+    }
+  ]
 }
