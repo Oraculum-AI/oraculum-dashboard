@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T03:50:02.438Z",
+  "updated": "2026-02-24T03:55:03.369Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -69,48 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient hist"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient hist"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient mark"
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
       "token": "TRENCH",
       "approved": false,
       "confidence": 10,
@@ -124,6 +82,48 @@
     },
     {
       "token": "TRENCH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with potential"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient trad"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with extreme price vol"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "SOL",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
