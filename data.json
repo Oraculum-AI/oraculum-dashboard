@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T11:00:02.364Z",
+  "updated": "2026-02-24T11:05:02.811Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -62,12 +62,6 @@
   },
   "decisions": [
     {
-      "token": "house",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
-    },
-    {
       "token": "TRENCH",
       "approved": true,
       "confidence": 72,
@@ -114,6 +108,12 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x falls below self-discovered 2.0x minimum"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     },
     {
       "token": "SOL",
