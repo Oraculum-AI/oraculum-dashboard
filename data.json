@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:55:02.657Z",
+  "updated": "2026-02-24T11:00:02.364Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -62,24 +62,6 @@
   },
   "decisions": [
     {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry criteria failed: buy ratio 2.0x is at threshold minimum (rules r"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails to meet self-discovered 2.0x thres"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails the self-discovered 2.0x volume re"
-    },
-    {
       "token": "house",
       "approved": false,
       "confidence": 62,
@@ -120,6 +102,24 @@
       "approved": false,
       "confidence": 52,
       "reasoning": "[Analyst] Buy ratio is at the 2.0x threshold but price action lacks conviction—1"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x is below your 2.0x self-discovered skip "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x falls below self-discovered 2.0x minimum"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
