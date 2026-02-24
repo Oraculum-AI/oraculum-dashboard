@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T00:35:02.634Z",
+  "updated": "2026-02-24T00:40:02.330Z",
   "totalPositions": 25,
-  "openPositions": 4,
-  "closedPositions": 21,
+  "openPositions": 3,
+  "closedPositions": 22,
   "trades": [
     {
       "token": "CTO",
@@ -45,20 +45,27 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 00:35:02",
       "exitType": "exit"
+    },
+    {
+      "token": "Xingxing",
+      "pnl": 38,
+      "reason": "profit_tier",
+      "time": "2026-02-24 00:37:31",
+      "exitType": "profit"
     }
   ],
-  "tradeCount": 6,
-  "winRate": "33",
-  "wins": 2,
+  "tradeCount": 7,
+  "winRate": "43",
+  "wins": 3,
   "losses": 2,
-  "avgWin": "2.1",
+  "avgWin": "14.1",
   "avgLoss": "-20.0",
   "bestTrade": {
-    "token": "JAWZ",
-    "pnl": 3.9,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 00:35:02",
-    "exitType": "exit"
+    "token": "Xingxing",
+    "pnl": 38,
+    "reason": "profit_tier",
+    "time": "2026-02-24 00:37:31",
+    "exitType": "profit"
   },
   "worstTrade": {
     "token": "LOBCULT:",
@@ -131,20 +138,16 @@
   ],
   "openList": [
     {
-      "token": "JAWZ",
+      "token": "USD0",
       "strategy": "paper_momentum"
     },
     {
-      "token": "Xingxing",
+      "token": "Reduary",
       "strategy": "paper_momentum"
     },
     {
       "token": "NoLimit ",
       "strategy": "paper_dca_paper_momentum"
-    },
-    {
-      "token": "Orangutan",
-      "strategy": "paper_momentum"
     }
   ]
 }
