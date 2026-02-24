@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T09:35:02.351Z",
+  "updated": "2026-02-24T09:40:02.452Z",
   "totalPositions": 29,
-  "openPositions": 0,
-  "closedPositions": 29,
+  "openPositions": 1,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "PETAH",
@@ -51,18 +51,6 @@
       "token": "SOL",
       "approved": false,
       "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 2.0x is at threshold but volume is dangerously low—your rule"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 42,
       "reasoning": "[Analyst] Token fails critical volume rule — buy ratio of 2.0x is at minimum thr"
     },
     {
@@ -106,7 +94,24 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Volume is critically insufficient ($301 5m) to support "
+    },
+    {
+      "token": "SOL",
+      "approved": true,
+      "confidence": 72,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 10.0x with accelerating 5m momentum (+0.6%"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "SOL",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
