@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T14:45:02.130Z",
+  "updated": "2026-02-24T14:50:02.928Z",
   "totalPositions": 32,
   "openPositions": 0,
   "closedPositions": 32,
@@ -41,42 +41,6 @@
   },
   "decisions": [
     {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 85,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your hard rule of 2.0x, and "
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Your self-discovered rules explicitly state: skip entries when buy vol"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 922 minutes (>15 hours) combined with minimal 5m volume ($22"
-    },
-    {
       "token": "house",
       "approved": false,
       "confidence": 40,
@@ -99,6 +63,42 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 5224 minutes (~3.6 days) is too old for a meaningful momentu"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 5225 minutes (~3.6 days) is extremely old for a token showin"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the extremely low 5m volum"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Volume deadness is a LOSING PATTERN trigger—your rules explicitly stat"
     }
   ],
   "openList": []
