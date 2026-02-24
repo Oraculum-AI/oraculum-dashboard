@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T04:20:02.730Z",
+  "updated": "2026-02-24T04:25:02.518Z",
   "totalPositions": 28,
-  "openPositions": 1,
-  "closedPositions": 27,
+  "openPositions": 0,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "JAWZ",
@@ -62,54 +62,6 @@
   },
   "decisions": [
     {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no track record, "
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "AUTISM",
       "approved": false,
       "confidence": 10,
@@ -120,12 +72,55 @@
       "approved": true,
       "confidence": 62,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x and positive 5m momentum (+3.2%) meet en"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] 1h flatness despite 5m spike signals momentum trap—sell pressure alrea"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] While buy ratio 3.6x is strong, the 0% 1h price action "
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Your self-discovered rules explicitly state 'Skip entries when buy vol"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Despite 2.6x buy ratio and 14.8% 5m momentum, liquidity"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Flat 1h price action directly contradicts the 'ONLY app"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Flat 1h price action contradicts 5m spike—momentum is N"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio of 1.4x violates your core entry threshold of >1.5x, and you"
     }
   ],
-  "openList": [
-    {
-      "token": "BLOB",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
