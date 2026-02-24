@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T00:40:02.330Z",
+  "updated": "2026-02-24T00:45:02.781Z",
   "totalPositions": 25,
-  "openPositions": 3,
-  "closedPositions": 22,
+  "openPositions": 4,
+  "closedPositions": 21,
   "trades": [
     {
       "token": "CTO",
@@ -138,16 +138,20 @@
   ],
   "openList": [
     {
+      "token": "NoLimit ",
+      "strategy": "paper_momentum"
+    },
+    {
+      "token": "Xingxing",
+      "strategy": "paper_momentum"
+    },
+    {
       "token": "USD0",
       "strategy": "paper_momentum"
     },
     {
       "token": "Reduary",
       "strategy": "paper_momentum"
-    },
-    {
-      "token": "NoLimit ",
-      "strategy": "paper_dca_paper_momentum"
     }
   ]
 }
