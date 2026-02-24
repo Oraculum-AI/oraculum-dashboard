@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:00:02.850Z",
+  "updated": "2026-02-24T04:00:47.352Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -72,12 +72,6 @@
       "token": "USD0",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with extreme price vol"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
     },
     {
@@ -127,6 +121,12 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with insuffici"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
     }
   ],
   "openList": []
