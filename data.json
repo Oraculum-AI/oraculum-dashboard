@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T17:45:02.383Z",
+  "updated": "2026-02-24T17:50:01.919Z",
   "totalPositions": 41,
-  "openPositions": 1,
-  "closedPositions": 40,
+  "openPositions": 2,
+  "closedPositions": 39,
   "trades": [
     {
       "token": "Limited",
@@ -102,6 +102,10 @@
     }
   ],
   "openList": [
+    {
+      "token": "CLAW",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "house",
       "strategy": "paper_momentum"
