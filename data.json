@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T11:35:02.523Z",
+  "updated": "2026-02-24T11:40:03.314Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,30 +76,6 @@
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] While buy ratio 2.2x technically passes entry gate, the flat 1h perfor"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Despite strong buy ratio of 10.0x and decent liquidity, the 5m volume of"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio at exactly 2.0x lacks acceleration cushion an"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 81,478 minutes (~56 days) combined with suspiciously high bu"
-    },
-    {
       "token": "Gaper",
       "approved": false,
       "confidence": 42,
@@ -134,6 +110,30 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Your self-rules explicitly state 'Skip entries when buy volume ratio i"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your strict 2.0x entry thres"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 72,
+      "reasoning": "[Analyst] Despite positive 5m setup, your self-discovered rule mandates skipping"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] REJECT: Volume ratio <2.0x violates core rules despite "
     }
   ],
   "openList": []
