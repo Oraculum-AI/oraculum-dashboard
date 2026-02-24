@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T13:40:02.799Z",
+  "updated": "2026-02-24T13:45:02.412Z",
   "totalPositions": 29,
-  "openPositions": 0,
-  "closedPositions": 29,
+  "openPositions": 1,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "PETAH",
@@ -78,24 +78,6 @@
     {
       "token": "house",
       "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Buy ratio 1.4x violates your strict 2.0x entry rule—historical losses "
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Fails multiple hard rules: buy ratio 1.3x < 1.5x minimum AND < 2.0x vo"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "house",
-      "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Buy ratio of 1.2x is at the minimum threshold with weak 5m volume of $11"
     },
@@ -134,7 +116,30 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Price action completely stagnant (+0.1% in 5m, 0.0% in "
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 8.5x exceeds threshold and 5m momentum is +3%"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] REJECT: Volume is DECREASING (5m $422 = 12.7% of 1h rat"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "BLOODNUT",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
