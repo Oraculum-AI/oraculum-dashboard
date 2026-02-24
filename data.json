@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T08:15:02.084Z",
+  "updated": "2026-02-24T08:20:03.666Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -40,18 +40,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
     {
       "token": "Xingxing",
       "approved": false,
@@ -99,6 +87,18 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Momentum is NOT accelerating—1h flat (0.0%) directly co"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x falls below your established 2.0x entry "
     }
   ],
   "openList": []
