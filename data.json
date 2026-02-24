@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T14:35:02.702Z",
+  "updated": "2026-02-24T14:40:03.487Z",
   "totalPositions": 31,
-  "openPositions": 1,
-  "closedPositions": 30,
+  "openPositions": 2,
+  "closedPositions": 29,
   "trades": [
-    {
-      "token": "TRENCH",
-      "pnl": 0,
-      "reason": "Timeout: 344min, only +0.0%",
-      "time": "2026-02-24 10:35:31",
-      "exitType": "timeout"
-    },
     {
       "token": "Xingxing",
       "pnl": -0.4,
@@ -26,18 +19,18 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 3,
+  "tradeCount": 2,
   "winRate": "0",
   "wins": 0,
   "losses": 2,
   "avgWin": "0",
   "avgLoss": "-0.7",
   "bestTrade": {
-    "token": "TRENCH",
-    "pnl": 0,
-    "reason": "Timeout: 344min, only +0.0%",
-    "time": "2026-02-24 10:35:31",
-    "exitType": "timeout"
+    "token": "Xingxing",
+    "pnl": -0.4,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 11:23:31",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": "JAWZ",
@@ -47,30 +40,6 @@
     "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "CLAW",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x exceeds threshold with accelerating 5m m"
-    },
-    {
-      "token": "Pigeon",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.4x and volume ratio 1.4x both trigger your self-discovered"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Token fails two core entry filters: buy ratio <1.5x and buy volume <2."
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Buy ratio barely meets minimum (1.5x vs preferred 2.0x+) and zero hold"
-    },
     {
       "token": "?",
       "approved": false,
@@ -106,9 +75,37 @@
       "approved": false,
       "confidence": 85,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your hard rule of 2.0x, and "
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your self-discovered rules explicitly state: skip entries when buy vol"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
     }
   ],
   "openList": [
+    {
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
+    },
     {
       "token": "CLAW",
       "strategy": "paper_momentum"
