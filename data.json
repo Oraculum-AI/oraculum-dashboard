@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T18:15:02.418Z",
+  "updated": "2026-02-24T18:20:02.954Z",
   "totalPositions": 42,
-  "openPositions": 2,
-  "closedPositions": 40,
+  "openPositions": 1,
+  "closedPositions": 41,
   "trades": [
     {
       "token": "Reduary",
@@ -34,71 +34,67 @@
   },
   "decisions": [
     {
-      "token": "USEDCAR",
+      "token": "ATELIER",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 min, indicating brand new token with n"
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating no established tra"
     },
     {
-      "token": "USEDCAR",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 (no sustained trading momentum) and pair age of 0 min in"
-    },
-    {
-      "token": "USEDCAR",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume1h is $0 indicating no sustained trading activity, and pair age of"
-    },
-    {
-      "token": "DILWORTH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "USEDCAR",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
-    },
-    {
-      "token": "USEDCAR",
+      "token": "ATELIER",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
     },
     {
-      "token": "USEDCAR",
+      "token": "tappy",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+    },
+    {
+      "token": "tappy",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "tappy",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
     },
     {
-      "token": "USEDCAR",
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Buy ratio of 1.2x meets minimum threshold but lacks compelling momentum—"
+    },
+    {
+      "token": "tappy",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+    },
+    {
+      "token": "ATELIER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "tappy",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
     },
     {
-      "token": "DILWORTH",
+      "token": "AUTISM",
       "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no establ"
-    },
-    {
-      "token": "USEDCAR",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 (no trading activity in past hour) and pair age is 0 min"
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": [
-    {
-      "token": "PETAH",
-      "strategy": "paper_momentum"
-    },
     {
       "token": "CLAW",
       "strategy": "paper_momentum"
