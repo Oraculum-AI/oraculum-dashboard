@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T17:35:02.878Z",
+  "updated": "2026-02-24T17:40:02.751Z",
   "totalPositions": 41,
-  "openPositions": 1,
-  "closedPositions": 40,
+  "openPositions": 0,
+  "closedPositions": 41,
   "trades": [
     {
       "token": "Limited",
@@ -10,20 +10,27 @@
       "reason": "trailing_sell",
       "time": "2026-02-24 16:23:41",
       "exitType": "trail"
+    },
+    {
+      "token": "Reduary",
+      "pnl": 0.1,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 17:38:48",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 1,
-  "winRate": "0",
-  "wins": 0,
+  "tradeCount": 2,
+  "winRate": "50",
+  "wins": 1,
   "losses": 0,
-  "avgWin": "0",
+  "avgWin": "0.1",
   "avgLoss": "0",
   "bestTrade": {
-    "token": "Limited",
-    "pnl": 0,
-    "reason": "trailing_sell",
-    "time": "2026-02-24 16:23:41",
-    "exitType": "trail"
+    "token": "Reduary",
+    "pnl": 0.1,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 17:38:48",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": "Limited",
@@ -94,10 +101,5 @@
       "reasoning": ""
     }
   ],
-  "openList": [
-    {
-      "token": "Reduary",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
