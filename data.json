@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T19:10:02.921Z",
+  "updated": "2026-02-24T19:15:02.544Z",
   "totalPositions": 42,
-  "openPositions": 1,
-  "closedPositions": 41,
+  "openPositions": 0,
+  "closedPositions": 42,
   "trades": [
     {
       "token": "CLAW",
@@ -44,30 +44,6 @@
       "token": "RETURN",
       "approved": false,
       "confidence": 42,
-      "reasoning": "[Analyst] Fails primary buy rule: buy ratio 1.4x < 1.5x required threshold. Pric"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio pass thresholds, the extremely low 5m volu"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "KOL",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.3x < 1.5x requirement combined with 0% 1h returns signals "
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 42,
       "reasoning": "[Analyst] Fails primary buy signal—buy ratio 1.4x < 1.5x requirement AND price f"
     },
     {
@@ -99,12 +75,31 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is zero indicating no sustained trading activity, and pair age"
+    },
+    {
+      "token": "Zerepooch",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume1h is $0 indicating no sustained momentum, and pair age of 0 minut"
+    },
+    {
+      "token": "Zerepooch",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating no established tra"
+    },
+    {
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no trading momentum, and pair age of 0 minute"
     }
   ],
-  "openList": [
-    {
-      "token": "RIZZTER",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
