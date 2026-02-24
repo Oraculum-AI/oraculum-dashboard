@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T22:05:02.217Z",
-  "totalPositions": 83,
+  "updated": "2026-02-24T22:10:02.443Z",
+  "totalPositions": 84,
   "openPositions": 3,
-  "closedPositions": 80,
+  "closedPositions": 81,
   "trades": [
     {
       "token": "SOL",
@@ -79,15 +79,15 @@
   ],
   "openList": [
     {
+      "token": "SOULGUY",
+      "strategy": "paper_cluster"
+    },
+    {
       "token": "HODL",
       "strategy": "paper_cluster"
     },
     {
       "token": "CLAW",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Djungelskog",
       "strategy": "paper_cluster"
     }
   ]
