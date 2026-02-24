@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:55:02.313Z",
+  "updated": "2026-02-24T10:00:03.303Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -55,36 +55,6 @@
   },
   "decisions": [
     {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Volume is critically insufficient ($301 5m) to support "
-    },
-    {
-      "token": "SOL",
-      "approved": true,
-      "confidence": 72,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 10.0x with accelerating 5m momentum (+0.6%"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x falls below self-discovered 2.0x minimum"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Your rule explicitly states 'Skip entries when buy volume ratio is und"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio at 2.0x violates self-discovered rule demanding >2.0x minimu"
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 32,
@@ -113,6 +83,36 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails your self-discovered 2.0x threshol"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 15076 minutes (~10.5 days) is too old for a rapid screening "
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x fails self-rule threshold of 2.0x for en"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] While buy ratio 5.0x is strong, the combination of crit"
     }
   ],
   "openList": []
