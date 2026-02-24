@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T22:35:01.927Z",
+  "updated": "2026-02-24T22:40:02.569Z",
   "totalPositions": 95,
-  "openPositions": 4,
-  "closedPositions": 91,
+  "openPositions": 3,
+  "closedPositions": 92,
   "trades": [
     {
       "token": "$WAR",
@@ -31,14 +31,21 @@
       "reason": "stop_loss",
       "time": "2026-02-24 22:24:36",
       "exitType": "stop"
+    },
+    {
+      "token": "URANUS",
+      "pnl": -3,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 22:37:12",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 4,
+  "tradeCount": 5,
   "winRate": "0",
   "wins": 0,
-  "losses": 4,
+  "losses": 5,
   "avgWin": "0",
-  "avgLoss": "-11.4",
+  "avgLoss": "-9.8",
   "bestTrade": {
     "token": "$WAR",
     "pnl": -2.9,
@@ -76,10 +83,6 @@
   "openList": [
     {
       "token": "BIRB",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "URANUS",
       "strategy": "paper_cluster"
     },
     {
