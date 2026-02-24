@@ -1,19 +1,135 @@
 {
-  "updated": "2026-02-24T20:25:02.038Z",
-  "totalPositions": 44,
-  "openPositions": 3,
+  "updated": "2026-02-24T20:30:02.856Z",
+  "totalPositions": 51,
+  "openPositions": 10,
   "closedPositions": 41,
-  "trades": [],
-  "tradeCount": 0,
+  "trades": [
+    {
+      "token": "RIZZTER",
+      "pnl": -0.3,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 20:19:33",
+      "exitType": "exit"
+    },
+    {
+      "token": "REVAunits:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 20:20:27",
+      "exitType": "stop"
+    }
+  ],
+  "tradeCount": 2,
   "winRate": "0",
   "wins": 0,
-  "losses": 0,
+  "losses": 2,
   "avgWin": "0",
-  "avgLoss": "0",
-  "bestTrade": null,
-  "worstTrade": null,
-  "decisions": [],
+  "avgLoss": "-10.2",
+  "bestTrade": {
+    "token": "RIZZTER",
+    "pnl": -0.3,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 20:19:33",
+    "exitType": "exit"
+  },
+  "worstTrade": {
+    "token": "REVAunits:",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-24 20:20:27",
+    "exitType": "stop"
+  },
+  "decisions": [
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Analyst] CRITICAL RULE VIOLATION: Buy ratio 1.4x is below your mandatory 2.0x e"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Your self-discovered rule explicitly states: 'Skip entries when buy/se"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Buy ratio 1.9x is below self-discovered 2.0x minimum rule—skip entry r"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Flat 1h momentum (0.0%) violates ACCELERATING momentum "
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy/sell ra"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Buy ratio below 2.0x triggers automatic skip per self-discovered rules"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    }
+  ],
   "openList": [
+    {
+      "token": "JUP",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Fartcoin ",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "pippin",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "SHDW",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "pwease",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "ONE",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "PIGEON ",
+      "strategy": "paper_cluster"
+    },
     {
       "token": "house",
       "strategy": "paper_momentum"
