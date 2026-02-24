@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:10:02.951Z",
+  "updated": "2026-02-24T12:15:02.646Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,64 +76,64 @@
   },
   "decisions": [
     {
-      "token": "fih",
+      "token": "Reduary",
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
     },
     {
-      "token": "fih",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.8x conflicts with analyst's self-discovered"
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Self-rule explicitly states: 'Skip entries when buy volume ratio is un"
-    },
-    {
-      "token": "fih",
+      "token": "Reduary",
       "approved": false,
       "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails the 2.0x self-discovered threshold"
+      "reasoning": "[Scout->Analyst->Trader] Volume ratio 3.0x fails to meet strict 2.0x rule; criti"
     },
     {
-      "token": "CLAW",
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicit: 'Skip entries when buy volume ratio is "
+    },
+    {
+      "token": "Reduary",
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
     },
     {
-      "token": "CLAW",
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
+    },
+    {
+      "token": "Reduary",
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
     },
     {
-      "token": "fih",
+      "token": "AUTISM",
       "approved": false,
       "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio of 1.5x is marginal and triggers your self-discovered rule t"
+      "reasoning": "[Analyst] Buy ratio 1.3x violates both entry rules (need >1.5x AND >2.0x per sel"
     },
     {
-      "token": "fih",
+      "token": "AUTISM",
       "approved": false,
       "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio at 1.5x is exactly at floor with zero buffer "
+      "reasoning": "[Analyst] Buy ratio 1.2x fails the 2.0x minimum standard; your winning pattern e"
     },
     {
-      "token": "CLAW",
+      "token": "Reduary",
       "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.3x < 1.5x threshold + volume < 2.0x ratio = immediate skip"
     },
     {
-      "token": "CLAW",
+      "token": "Xingxing",
       "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 1h price change of 0.0% directly contradicts accelerati"
+      "confidence": 42,
+      "reasoning": "[Analyst] Fails multiple entry criteria: buy ratio 1.4x < required 1.5x threshol"
     }
   ],
   "openList": []
