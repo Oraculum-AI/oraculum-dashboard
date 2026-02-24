@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T23:25:02.369Z",
-  "totalPositions": 105,
-  "openPositions": 3,
+  "updated": "2026-02-24T23:30:02.972Z",
+  "totalPositions": 106,
+  "openPositions": 4,
   "closedPositions": 102,
   "trades": [
-    {
-      "token": "Adam",
-      "pnl": 33,
-      "reason": "profit_tier",
-      "time": "2026-02-24 22:58:43",
-      "exitType": "profit"
-    },
     {
       "token": "SOL",
       "pnl": -3,
@@ -33,18 +26,18 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 4,
-  "winRate": "50",
-  "wins": 2,
+  "tradeCount": 3,
+  "winRate": "33",
+  "wins": 1,
   "losses": 2,
-  "avgWin": "25.4",
+  "avgWin": "17.7",
   "avgLoss": "-11.5",
   "bestTrade": {
-    "token": "Adam",
-    "pnl": 33,
-    "reason": "profit_tier",
-    "time": "2026-02-24 22:58:43",
-    "exitType": "profit"
+    "token": "CPT",
+    "pnl": 17.7,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 23:23:51",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": "PMPR:",
@@ -77,21 +70,13 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "BARBELL",
+      "strategy": "paper_dca_paper_launchpad_pump_fun"
+    },
     {
       "token": "CHUD",
       "strategy": "paper_cluster"
