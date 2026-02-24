@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T14:55:42.452Z",
-  "totalPositions": 34,
+  "updated": "2026-02-24T15:00:02.506Z",
+  "totalPositions": 35,
   "openPositions": 1,
-  "closedPositions": 33,
+  "closedPositions": 34,
   "trades": [
     {
       "token": "triggered",
@@ -31,20 +31,27 @@
       "reason": "stop_loss",
       "time": "2026-02-24 14:51:42",
       "exitType": "stop"
+    },
+    {
+      "token": "KORI",
+      "pnl": -0.2,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 14:57:32",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 4,
+  "tradeCount": 5,
   "winRate": "0",
   "wins": 0,
-  "losses": 4,
+  "losses": 5,
   "avgWin": "0",
-  "avgLoss": "-20.0",
+  "avgLoss": "-16.0",
   "bestTrade": {
-    "token": "triggered",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 14:43:17",
-    "exitType": "stop"
+    "token": "KORI",
+    "pnl": -0.2,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 14:57:32",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": "triggered",
@@ -54,30 +61,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 1h price momentum flat (0.0%) contradicts accelerating "
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails critical 2.0x threshold; flat 1h p"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 5224 minutes (~3.6 days) is too old for a meaningful momentu"
-    },
     {
       "token": "Reduary",
       "approved": false,
@@ -113,12 +96,36 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Volume deadness is a LOSING PATTERN trigger—your rules explicitly stat"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Despite 3.0x buy ratio, critical volume weakness ($225 "
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Momentum is NOT accelerating—5m spike (+2.9%) contradic"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": [
     {
       "token": "",
-      "strategy": "paper_launchpad_raydium_launchlab"
+      "strategy": "paper_launchpad_pump_fun"
     }
   ]
 }
