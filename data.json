@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T14:00:02.696Z",
+  "updated": "2026-02-24T14:05:02.326Z",
   "totalPositions": 29,
-  "openPositions": 1,
-  "closedPositions": 28,
+  "openPositions": 0,
+  "closedPositions": 29,
   "trades": [
     {
       "token": "PETAH",
@@ -78,12 +78,6 @@
     {
       "token": "PETAH",
       "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] REJECT: Volume is DECREASING (5m $422 = 12.7% of 1h rat"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
     },
@@ -134,12 +128,13 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Your self-discovered rules explicitly state: 'Skip entries when buy vo"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] This token violates two hard rules: buy ratio below 1.5x threshold and"
     }
   ],
-  "openList": [
-    {
-      "token": "BLOODNUT",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
