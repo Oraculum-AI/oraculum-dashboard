@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T15:10:02.614Z",
+  "updated": "2026-02-24T15:15:02.840Z",
   "totalPositions": 37,
-  "openPositions": 1,
-  "closedPositions": 36,
+  "openPositions": 0,
+  "closedPositions": 37,
   "trades": [
     {
       "token": "triggered",
@@ -69,18 +69,6 @@
   },
   "decisions": [
     {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Volume deadness is a LOSING PATTERN trigger—your rules explicitly stat"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Despite 3.0x buy ratio, critical volume weakness ($225 "
-    },
-    {
       "token": "Reduary",
       "approved": false,
       "confidence": 35,
@@ -127,12 +115,19 @@
       "approved": false,
       "confidence": 22,
       "reasoning": "[Analyst] Self-discovered rule explicitly states: SKIP entries when buy volume r"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] REJECT: 1h price flatness (+0.0%) indicates momentum is"
     }
   ],
-  "openList": [
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
-    }
-  ]
+  "openList": []
 }
