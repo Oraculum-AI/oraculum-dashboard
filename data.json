@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T08:20:03.666Z",
+  "updated": "2026-02-24T08:25:02.210Z",
   "totalPositions": 29,
-  "openPositions": 0,
-  "closedPositions": 29,
+  "openPositions": 1,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "PETAH",
@@ -40,12 +40,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-rules explicitly state 'Skip entries when buy volume ratio is und"
-    },
     {
       "token": "SOL",
       "approved": false,
@@ -99,7 +93,18 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x falls below your established 2.0x entry "
+    },
+    {
+      "token": "CLAW",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x and 5m momentum (+4.6%) meet entry thres"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "CLAW",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
