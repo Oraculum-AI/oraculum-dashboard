@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T18:40:02.684Z",
+  "updated": "2026-02-24T18:45:02.357Z",
   "totalPositions": 42,
   "openPositions": 0,
   "closedPositions": 42,
@@ -48,42 +48,6 @@
   },
   "decisions": [
     {
-      "token": "HORSE",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "fih",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x and 8.4x volume acceleration qualify for"
-    },
-    {
-      "token": "SOLPUMP",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "Pedocast",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
-    },
-    {
-      "token": "Pedocast",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum despite decent "
-    },
-    {
-      "token": "Pedocast",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
       "token": "Pedocast",
       "approved": false,
       "confidence": 10,
@@ -106,6 +70,42 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "Pedocast",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "Pedocast",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "BBBY",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "Cocaine",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity is below $8K threshold at $6,285, and volume1h is zero indicat"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Fails primary buy signal (buy ratio <1.5x). Flat 1h price + early mome"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Buy ratio of exactly 1.2x is at the threshold minimum with no exceptiona"
     }
   ],
   "openList": []
