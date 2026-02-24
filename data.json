@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T13:20:03.335Z",
+  "updated": "2026-02-24T13:25:02.564Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,12 +76,6 @@
   },
   "decisions": [
     {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.3x violates both entry standards (need >1.5x minimum, pref"
-    },
-    {
       "token": "TRENCH",
       "approved": false,
       "confidence": 62,
@@ -134,6 +128,12 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.3x + declining volume + flat 1h performance violates your "
     }
   ],
   "openList": []
