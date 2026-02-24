@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:20:02.134Z",
+  "updated": "2026-02-24T10:25:02.372Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -57,18 +57,6 @@
     {
       "token": "JAWZ",
       "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] While buy ratio 5.0x is strong, the combination of crit"
     },
@@ -113,6 +101,18 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Volume ratio under 2.0x threshold and flat 1h momentum "
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
