@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T11:50:02.514Z",
+  "updated": "2026-02-24T11:55:02.252Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,18 +76,6 @@
   },
   "decisions": [
     {
-      "token": "PETAH",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.0x exceeds threshold with positive 5m momen"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Your self-rules explicitly state 'Skip entries when buy volume ratio i"
-    },
-    {
       "token": "TRENCH",
       "approved": false,
       "confidence": 15,
@@ -134,6 +122,18 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Buy ratio 1.2x triggers immediate skip rule: 'Skip entries when buy vo"
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.8x conflicts with analyst's self-discovered"
     }
   ],
   "openList": []
