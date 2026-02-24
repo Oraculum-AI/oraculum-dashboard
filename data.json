@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T02:30:02.231Z",
+  "updated": "2026-02-24T02:35:02.588Z",
   "totalPositions": 28,
-  "openPositions": 2,
-  "closedPositions": 26,
+  "openPositions": 1,
+  "closedPositions": 27,
   "trades": [
-    {
-      "token": "LOBCULT:",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-23 22:42:46",
-      "exitType": "stop"
-    },
     {
       "token": "AUTISM:",
       "pnl": -20,
@@ -54,12 +47,12 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 7,
-  "winRate": "57",
+  "tradeCount": 6,
+  "winRate": "67",
   "wins": 4,
-  "losses": 3,
+  "losses": 2,
   "avgWin": "19.9",
-  "avgLoss": "-14.7",
+  "avgLoss": "-12.1",
   "bestTrade": {
     "token": "Xingxing",
     "pnl": 38,
@@ -68,25 +61,13 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "LOBCULT:",
+    "token": "AUTISM:",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-23 22:42:46",
+    "time": "2026-02-24 00:07:19",
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "PETAH",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 4.0x significantly exceeds minimum thresho"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] New pair + weak 1h confirmation + buy ratio below your validated 1.5x "
-    },
     {
       "token": "Xingxing",
       "approved": false,
@@ -134,13 +115,21 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
-    {
-      "token": "house",
-      "strategy": "paper_momentum"
-    },
     {
       "token": "Xingxing",
       "strategy": "paper_momentum"
