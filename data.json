@@ -1,17 +1,44 @@
 {
-  "updated": "2026-02-24T21:40:01.812Z",
-  "totalPositions": 78,
+  "updated": "2026-02-24T21:45:02.241Z",
+  "totalPositions": 79,
   "openPositions": 4,
-  "closedPositions": 74,
-  "trades": [],
-  "tradeCount": 0,
-  "winRate": "0",
-  "wins": 0,
-  "losses": 0,
-  "avgWin": "0",
-  "avgLoss": "0",
-  "bestTrade": null,
-  "worstTrade": null,
+  "closedPositions": 75,
+  "trades": [
+    {
+      "token": "IQUID",
+      "pnl": -3,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:43:09",
+      "exitType": "exit"
+    },
+    {
+      "token": "ZBCN",
+      "pnl": 7492,
+      "reason": "profit_tier",
+      "time": "2026-02-24 21:43:54",
+      "exitType": "profit"
+    }
+  ],
+  "tradeCount": 2,
+  "winRate": "50",
+  "wins": 1,
+  "losses": 1,
+  "avgWin": "7492.0",
+  "avgLoss": "-3.0",
+  "bestTrade": {
+    "token": "ZBCN",
+    "pnl": 7492,
+    "reason": "profit_tier",
+    "time": "2026-02-24 21:43:54",
+    "exitType": "profit"
+  },
+  "worstTrade": {
+    "token": "IQUID",
+    "pnl": -3,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 21:43:09",
+    "exitType": "exit"
+  },
   "decisions": [
     {
       "token": "?",
@@ -24,16 +51,34 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "IQUID",
-      "strategy": "paper_cluster"
-    },
-    {
       "token": "",
       "strategy": "paper_launchpad_pump_fun"
+    },
+    {
+      "token": "IQUID",
+      "strategy": "paper_cluster"
     },
     {
       "token": "COK",
