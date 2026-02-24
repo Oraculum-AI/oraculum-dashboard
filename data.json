@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T05:10:02.990Z",
+  "updated": "2026-02-24T05:15:02.590Z",
   "totalPositions": 28,
-  "openPositions": 1,
-  "closedPositions": 27,
+  "openPositions": 0,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "Xingxing",
@@ -50,24 +50,6 @@
     {
       "token": "fren",
       "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($665 5m, $3909 1h) fails acceleration "
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "fren",
-      "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Momentum is DECELERATING, not accelerating—flat 1h (+0%"
     },
@@ -106,12 +88,25 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Momentum is NOT accelerating—1h flat (0.0%) directly co"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Self-rules explicitly state 'Skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 1h price flat 0.0% violates ACCELERATING momentum requi"
     }
   ],
-  "openList": [
-    {
-      "token": "TRENCH",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
