@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:10:02.745Z",
+  "updated": "2026-02-24T10:15:02.363Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -57,18 +57,6 @@
     {
       "token": "house",
       "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails critical 2.0x threshold and 1h vol"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails your self-discovered 2.0x volume r"
-    },
-    {
-      "token": "house",
-      "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
     },
@@ -113,6 +101,18 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio at 2.0x is exactly at floor with zero margin "
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio of 1.5x violates your core rule requiring >2.0x volume ratio"
     }
   ],
   "openList": []
