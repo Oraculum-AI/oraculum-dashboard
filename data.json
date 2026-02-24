@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T01:40:02.038Z",
+  "updated": "2026-02-24T01:45:02.247Z",
   "totalPositions": 25,
   "openPositions": 0,
   "closedPositions": 25,
@@ -65,12 +65,6 @@
       "token": "NoLimit",
       "approved": false,
       "confidence": 42,
-      "reasoning": "[Analyst] While buy ratio technically clears your 1.5x minimum rule, the combina"
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 42,
       "reasoning": "[Analyst] While buy ratio technically qualifies for entry (2.0x > 1.5x minimum),"
     },
     {
@@ -120,6 +114,12 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Despite passing buy ratio threshold (1.7x), brand-new pair with micros"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] While buy ratio (1.2x) technically clears minimum entry threshold, the"
     }
   ],
   "openList": []
