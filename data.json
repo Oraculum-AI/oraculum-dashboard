@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:00:02.847Z",
+  "updated": "2026-02-24T12:05:02.206Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -78,12 +78,6 @@
     {
       "token": "TRENCH",
       "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your strict 2.0x entry thres"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
       "confidence": 72,
       "reasoning": "[Analyst] Despite positive 5m setup, your self-discovered rule mandates skipping"
     },
@@ -134,6 +128,12 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.8x conflicts with analyst's self-discovered"
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Self-rule explicitly states: 'Skip entries when buy volume ratio is un"
     }
   ],
   "openList": []
