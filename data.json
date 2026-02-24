@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T01:55:02.551Z",
-  "totalPositions": 26,
-  "openPositions": 1,
+  "updated": "2026-02-24T02:00:01.951Z",
+  "totalPositions": 27,
+  "openPositions": 2,
   "closedPositions": 25,
   "trades": [
     {
@@ -62,30 +62,6 @@
   },
   "decisions": [
     {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] While buy ratio (1.2x) technically clears minimum entry threshold, the"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Despite favorable buy/sell ratio meeting entry threshold, the combinat"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] While buy ratio meets entry criteria, the combination of dangerously l"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] While buy ratio of 2.9x meets threshold criteria, the c"
-    },
-    {
       "token": "Reduary",
       "approved": false,
       "confidence": 32,
@@ -120,9 +96,37 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Per self-discovered rules, skip entry when buy/sell ratio below 1.5x m"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Despite 72 score and 2.5x buy ratio, the combination of"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] While buy ratio of 4.0x exceeds threshold, the combinat"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio signals are strong, zero pair age combined with micro-"
+    },
+    {
+      "token": "house",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] 5.0x buy ratio significantly exceeds minimum threshold "
     }
   ],
   "openList": [
+    {
+      "token": "house",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "RIZZTER",
       "strategy": "paper_momentum"
