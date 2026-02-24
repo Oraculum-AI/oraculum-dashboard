@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:00:03.303Z",
+  "updated": "2026-02-24T10:05:02.843Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -55,12 +55,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Your rules explicitly state 'Skip entries when buy volume ratio is und"
-    },
-    {
       "token": "house",
       "approved": false,
       "confidence": 15,
@@ -113,6 +107,12 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] While buy ratio 5.0x is strong, the combination of crit"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio at 2.0x is exactly at floor with zero margin "
     }
   ],
   "openList": []
