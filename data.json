@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T03:15:03.071Z",
+  "updated": "2026-02-24T03:20:02.111Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -72,18 +72,6 @@
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient trad"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no established tr"
     },
     {
@@ -127,6 +115,18 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
     }
   ],
   "openList": []
