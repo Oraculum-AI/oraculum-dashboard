@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T05:55:02.187Z",
+  "updated": "2026-02-24T06:00:02.095Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -41,42 +41,6 @@
   },
   "decisions": [
     {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x violates your established 2.0x volume de"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] REJECT: 1h price flatness (0.0%) directly contradicts 5"
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 40,
@@ -99,6 +63,42 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Entry signals fail critical thresholds: buy ratio 1.4x vs required 1.5"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Buy ratio at bare minimum (1.5x) violates self-discovered rule requiri"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.3x is BELOW your enforced 2.0x minimum entry standard and "
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Your self-discovered rules explicitly state: skip entries when buy vol"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 10.0x is strong, but flat 1h momentum (0.0"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] JAWZ fails primary entry gate: buy/sell ratio 1.3x is below your 1.5x "
     }
   ],
   "openList": []
