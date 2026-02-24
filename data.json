@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T01:45:02.247Z",
-  "totalPositions": 25,
-  "openPositions": 0,
+  "updated": "2026-02-24T01:50:02.752Z",
+  "totalPositions": 26,
+  "openPositions": 1,
   "closedPositions": 25,
   "trades": [
     {
@@ -62,42 +62,6 @@
   },
   "decisions": [
     {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] While buy ratio technically qualifies for entry (2.0x > 1.5x minimum),"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Despite passing buy ratio threshold, pair newness (0 min age) and dete"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio meets entry criteria, brand-new pair status (0 min old"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio and momentum signal are favorable, the combination of "
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio satisfies entry criteria (4.0x >> 1.5x threshold), the"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 95,
-      "reasoning": "[Scout->Analyst->Trader] Liquidity of $21.2K is critically insufficient and crea"
-    },
-    {
       "token": "SOL",
       "approved": false,
       "confidence": 28,
@@ -120,7 +84,48 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] While buy ratio (1.2x) technically clears minimum entry threshold, the"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Despite favorable buy/sell ratio meeting entry threshold, the combinat"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] While buy ratio meets entry criteria, the combination of dangerously l"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] While buy ratio of 2.9x meets threshold criteria, the c"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Despite meeting buy ratio ≥1.0x, the 0-minute pair age combined with c"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio and 5m metrics pass entry criteria, zero pair age comb"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": true,
+      "confidence": 58,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x and +4.5% momentum meet entry thresholds"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "RIZZTER",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
