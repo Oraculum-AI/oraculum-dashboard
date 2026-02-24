@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T05:50:02.753Z",
+  "updated": "2026-02-24T05:55:02.187Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -41,24 +41,6 @@
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) signals non-accelerating momen"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "USD0",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Exceptional 9.3x buy ratio with accelerating 5m momentu"
-    },
-    {
       "token": "RIZZTER",
       "approved": false,
       "confidence": 40,
@@ -96,6 +78,24 @@
     },
     {
       "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio at exact 1.5x minimum threshold with zero 1h confirmation fa"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Momentum lacks acceleration depth—1h price flatness at "
+    },
+    {
+      "token": "RIZZTER",
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
