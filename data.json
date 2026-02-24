@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:25:02.518Z",
+  "updated": "2026-02-24T04:30:02.535Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -62,30 +62,6 @@
   },
   "decisions": [
     {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Buy ratio of 1.2x meets minimum threshold but lacks conviction; 25.4% pr"
-    },
-    {
-      "token": "BLOB",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x and positive 5m momentum (+3.2%) meet en"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] 1h flatness despite 5m spike signals momentum trap—sell pressure alrea"
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 35,
@@ -120,6 +96,30 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Buy ratio of 1.4x violates your core entry threshold of >1.5x, and you"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.3x is strong, but flat 1h price action indi"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of only 15 minutes with extreme 63.9% price swing and high buy "
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of only 16 minutes combined with extreme 52% price movement in "
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Price action completely flat (0.0% over 5m+1h) violates"
     }
   ],
   "openList": []
