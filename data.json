@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:30:02.535Z",
+  "updated": "2026-02-24T04:35:02.639Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -62,12 +62,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] While buy ratio 3.6x is strong, the 0% 1h price action "
-    },
-    {
       "token": "Reduary",
       "approved": false,
       "confidence": 42,
@@ -120,6 +114,12 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Price action completely flat (0.0% over 5m+1h) violates"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Your rule explicitly states 'Skip entries when buy volume ratio is und"
     }
   ],
   "openList": []
