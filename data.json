@@ -1,30 +1,9 @@
 {
-  "updated": "2026-02-24T23:00:02.792Z",
+  "updated": "2026-02-24T23:05:02.178Z",
   "totalPositions": 98,
   "openPositions": 4,
   "closedPositions": 94,
   "trades": [
-    {
-      "token": "$WAR",
-      "pnl": -2.9,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 22:20:26",
-      "exitType": "exit"
-    },
-    {
-      "token": "ELONGATE:",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 22:20:31",
-      "exitType": "stop"
-    },
-    {
-      "token": "SPINE",
-      "pnl": -2.9,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 22:22:11",
-      "exitType": "exit"
-    },
     {
       "token": ":",
       "pnl": -20,
@@ -47,12 +26,12 @@
       "exitType": "profit"
     }
   ],
-  "tradeCount": 6,
-  "winRate": "17",
+  "tradeCount": 3,
+  "winRate": "33",
   "wins": 1,
-  "losses": 5,
+  "losses": 2,
   "avgWin": "33.0",
-  "avgLoss": "-9.8",
+  "avgLoss": "-11.5",
   "bestTrade": {
     "token": "Adam",
     "pnl": 33,
@@ -61,25 +40,13 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "ELONGATE:",
+    "token": ":",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-24 22:20:31",
+    "time": "2026-02-24 22:24:36",
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "PETAH",
       "approved": false,
@@ -88,6 +55,18 @@
     },
     {
       "token": "Orangutan",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
