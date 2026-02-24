@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T16:30:03.636Z",
+  "updated": "2026-02-24T16:35:03.179Z",
   "totalPositions": 41,
-  "openPositions": 0,
-  "closedPositions": 41,
+  "openPositions": 1,
+  "closedPositions": 40,
   "trades": [
     {
       "token": "Limited",
@@ -33,12 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "Reduary",
       "approved": false,
@@ -92,7 +86,18 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] 1h price change of 0.0% directly contradicts 5m momentu"
+    },
+    {
+      "token": "PETAH",
+      "approved": true,
+      "confidence": 82,
+      "reasoning": "[Scout->Analyst->Trader] Exceptional 17.0x buy ratio with positive 5m momentum a"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "PETAH",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
