@@ -1,30 +1,9 @@
 {
-  "updated": "2026-02-24T00:25:02.297Z",
+  "updated": "2026-02-24T00:30:01.994Z",
   "totalPositions": 25,
-  "openPositions": 4,
-  "closedPositions": 21,
+  "openPositions": 5,
+  "closedPositions": 20,
   "trades": [
-    {
-      "token": "BLOODNUT",
-      "pnl": 2.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:39:26",
-      "exitType": "exit"
-    },
-    {
-      "token": "CTO",
-      "pnl": 0,
-      "reason": "trailing_sell",
-      "time": "2026-02-23 19:40:35",
-      "exitType": "trail"
-    },
-    {
-      "token": "Donke",
-      "pnl": 31,
-      "reason": "profit_tier",
-      "time": "2026-02-23 19:43:05",
-      "exitType": "profit"
-    },
     {
       "token": "CTO",
       "pnl": 0,
@@ -61,18 +40,18 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 8,
-  "winRate": "38",
-  "wins": 3,
+  "tradeCount": 5,
+  "winRate": "20",
+  "wins": 1,
   "losses": 2,
-  "avgWin": "11.4",
+  "avgWin": "0.4",
   "avgLoss": "-20.0",
   "bestTrade": {
-    "token": "Donke",
-    "pnl": 31,
-    "reason": "profit_tier",
-    "time": "2026-02-23 19:43:05",
-    "exitType": "profit"
+    "token": "SOL",
+    "pnl": 0.4,
+    "reason": "Volume dried up",
+    "time": "2026-02-23 20:38:41",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": "LOBCULT:",
@@ -82,18 +61,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite pos"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 5,
-      "reasoning": "REJECT: Zero volume in both 5m and 1h windows is a critical red flag despite the"
-    },
     {
       "token": "PETAH",
       "approved": false,
@@ -141,9 +108,29 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "BLOODNUT",
+      "strategy": "paper_momentum"
+    },
+    {
+      "token": "JAWZ",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "Xingxing",
       "strategy": "paper_momentum"
@@ -154,10 +141,6 @@
     },
     {
       "token": "Orangutan",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "BLOB",
       "strategy": "paper_momentum"
     }
   ]
