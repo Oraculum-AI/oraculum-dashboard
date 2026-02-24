@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T15:50:02.733Z",
+  "updated": "2026-02-24T15:55:02.452Z",
   "totalPositions": 40,
   "openPositions": 2,
   "closedPositions": 38,
@@ -69,36 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Aliens",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Exceptional 5.8x buy ratio with clean tokenomics and st"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Buy ratio of exactly 2.0x is a boundary case that violates your self-d"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails core 2.0x threshold; 1h price flat"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x is below your 2.0x threshold—a documente"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] CRITICAL VIOLATION: Buy ratio 1.5x fails the non-negotiable 2.0x entry"
-    },
-    {
       "token": "Limited",
       "approved": false,
       "confidence": 42,
@@ -127,6 +97,36 @@
       "approved": false,
       "confidence": 52,
       "reasoning": "[Analyst] CLAW is a borderline entry at the 2.0x buy ratio minimum—your rule exp"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Self-discovered rule explicitly flags buy ratios <2.0x as volume deadn"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 52,
+      "reasoning": "[Analyst] Entry signal barely qualifies (2.0x = threshold, not >2.0x margin), bu"
+    },
+    {
+      "token": "AgenC",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] FLAT 1h price momentum violates core ACCELERATING momen"
     }
   ],
   "openList": [
