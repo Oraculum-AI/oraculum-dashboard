@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T14:05:02.326Z",
+  "updated": "2026-02-24T14:10:02.982Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,12 +76,6 @@
   },
   "decisions": [
     {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "JAWZ",
       "approved": false,
       "confidence": 35,
@@ -134,6 +128,12 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] This token violates two hard rules: buy ratio below 1.5x threshold and"
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Token fails critical volume rule: buy volume ratio 1.5x is below your "
     }
   ],
   "openList": []
