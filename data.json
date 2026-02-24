@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T03:00:02.923Z",
+  "updated": "2026-02-24T03:05:03.491Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -69,42 +69,6 @@
   },
   "decisions": [
     {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with extreme volatilit"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates brand new token with no historical data,"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with potential"
-    },
-    {
-      "token": "NoLimit",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Pair age disqualifies entry per self-discovered rules (>3min required)"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
       "token": "SOL",
       "approved": false,
       "confidence": 10,
@@ -127,6 +91,42 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no track "
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no established tr"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient trad"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
     }
   ],
   "openList": []
