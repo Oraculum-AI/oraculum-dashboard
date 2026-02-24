@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T18:55:02.118Z",
+  "updated": "2026-02-24T19:00:03.014Z",
   "totalPositions": 42,
   "openPositions": 0,
   "closedPositions": 42,
@@ -48,48 +48,6 @@
   },
   "decisions": [
     {
-      "token": "Cocaine",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity is below $8K threshold at $6,285, and volume1h is zero indicat"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Fails primary buy signal (buy ratio <1.5x). Flat 1h price + early mome"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Buy ratio of exactly 1.2x is at the threshold minimum with no exceptiona"
-    },
-    {
-      "token": "CludeCrabs",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "tappy",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "AGENC",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity at $5239 is below the $8K minimum threshold, and 1h volume is "
-    },
-    {
-      "token": "PINION",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
       "token": "RETURN",
       "approved": false,
       "confidence": 42,
@@ -106,6 +64,48 @@
       "approved": false,
       "confidence": 52,
       "reasoning": "[Analyst] Fails your PRIMARY entry rule: buy ratio 1.4x < required 1.5x minimum."
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 52,
+      "reasoning": "[Analyst] Does not meet hard requirement: buy ratio 1.4x < 1.5x threshold. Flat "
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] 1h price change at 0.0% directly contradicts momentum a"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] 1h price stagnation (0.0%) directly contradicts 5m mome"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] This token fails your core entry filter (buy ratio must exceed 1.5x). "
     }
   ],
   "openList": []
