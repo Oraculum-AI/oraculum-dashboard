@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T18:10:02.501Z",
+  "updated": "2026-02-24T18:15:02.418Z",
   "totalPositions": 42,
-  "openPositions": 3,
-  "closedPositions": 39,
+  "openPositions": 2,
+  "closedPositions": 40,
   "trades": [
     {
       "token": "Reduary",
@@ -34,73 +34,69 @@
   },
   "decisions": [
     {
-      "token": "DOWN",
+      "token": "USEDCAR",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
-    },
-    {
-      "token": "STIM",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 min, indicating a brand new token with"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry signal fails core requirement: buy/sell ratio must exceed 1.5x f"
-    },
-    {
-      "token": "STIM",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "Jido",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] The 14.1% 5m spike with 0.0% 1h return is a RED FLAG—momentum already "
-    },
-    {
-      "token": "Rolo",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 min, indicating brand new token with n"
     },
     {
       "token": "USEDCAR",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 min, indicating brand new token with n"
+      "reasoning": "[Scout] Volume 1h is $0 (no sustained trading momentum) and pair age of 0 min in"
+    },
+    {
+      "token": "USEDCAR",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume1h is $0 indicating no sustained trading activity, and pair age of"
+    },
+    {
+      "token": "DILWORTH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "USEDCAR",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
+    },
+    {
+      "token": "USEDCAR",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+    },
+    {
+      "token": "USEDCAR",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
+    },
+    {
+      "token": "USEDCAR",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "DILWORTH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no establ"
+    },
+    {
+      "token": "USEDCAR",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 (no trading activity in past hour) and pair age is 0 min"
     }
   ],
   "openList": [
     {
       "token": "PETAH",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "fih",
       "strategy": "paper_momentum"
     },
     {
