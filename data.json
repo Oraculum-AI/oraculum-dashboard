@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T01:50:02.752Z",
+  "updated": "2026-02-24T01:55:02.551Z",
   "totalPositions": 26,
   "openPositions": 1,
   "closedPositions": 25,
@@ -62,24 +62,6 @@
   },
   "decisions": [
     {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy/sell ratio passes entry criteria (3.0x > 1.5x threshold), th"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Your self-discovered rules explicitly demand buy/sell ratio >1.5x mini"
-    },
-    {
-      "token": "BLOB",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Despite passing buy ratio threshold (1.7x), brand-new pair with micros"
-    },
-    {
       "token": "BLOB",
       "approved": false,
       "confidence": 32,
@@ -120,6 +102,24 @@
       "approved": true,
       "confidence": 58,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x and +4.5% momentum meet entry thresholds"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio (1.4x) barely clears your 1.5x minimum threshold and t"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.3x is below your self-discovered 1.5x minimum rule, and th"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Per self-discovered rules, skip entry when buy/sell ratio below 1.5x m"
     }
   ],
   "openList": [
