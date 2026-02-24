@@ -1,118 +1,18 @@
 {
-  "updated": "2026-02-24T21:10:02.826Z",
-  "totalPositions": 66,
-  "openPositions": 2,
+  "updated": "2026-02-24T21:15:02.034Z",
+  "totalPositions": 68,
+  "openPositions": 4,
   "closedPositions": 64,
-  "trades": [
-    {
-      "token": "RIZZTER",
-      "pnl": -0.3,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 20:19:33",
-      "exitType": "exit"
-    },
-    {
-      "token": "REVAunits:",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 20:20:27",
-      "exitType": "stop"
-    },
-    {
-      "token": "SHDW",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 20:34:00",
-      "exitType": "exit"
-    },
-    {
-      "token": "MOLTIC",
-      "pnl": -5.1,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 20:50:45",
-      "exitType": "exit"
-    },
-    {
-      "token": "SIGMA",
-      "pnl": -1.8,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 20:52:00",
-      "exitType": "exit"
-    },
-    {
-      "token": "CUM",
-      "pnl": -0.1,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 20:54:46",
-      "exitType": "exit"
-    },
-    {
-      "token": "Moutai",
-      "pnl": 0.3,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 20:54:46",
-      "exitType": "exit"
-    },
-    {
-      "token": "Sahur",
-      "pnl": 0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 21:03:46",
-      "exitType": "exit"
-    },
-    {
-      "token": "COK",
-      "pnl": 32,
-      "reason": "profit_tier",
-      "time": "2026-02-24 21:05:15",
-      "exitType": "profit"
-    }
-  ],
-  "tradeCount": 9,
-  "winRate": "33",
-  "wins": 3,
-  "losses": 5,
-  "avgWin": "11.0",
-  "avgLoss": "-5.5",
-  "bestTrade": {
-    "token": "COK",
-    "pnl": 32,
-    "reason": "profit_tier",
-    "time": "2026-02-24 21:05:15",
-    "exitType": "profit"
-  },
-  "worstTrade": {
-    "token": "REVAunits:",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 20:20:27",
-    "exitType": "stop"
-  },
+  "trades": [],
+  "tradeCount": 0,
+  "winRate": "0",
+  "wins": 0,
+  "losses": 0,
+  "avgWin": "0",
+  "avgLoss": "0",
+  "bestTrade": null,
+  "worstTrade": null,
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "?",
       "approved": false,
@@ -128,7 +28,15 @@
   ],
   "openList": [
     {
-      "token": "TripleT",
+      "token": "USOR",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Pippkin",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "ELGATO",
       "strategy": "paper_cluster"
     },
     {
