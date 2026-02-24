@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T08:30:01.973Z",
+  "updated": "2026-02-24T08:35:02.607Z",
   "totalPositions": 29,
-  "openPositions": 1,
-  "closedPositions": 28,
+  "openPositions": 0,
+  "closedPositions": 29,
   "trades": [
     {
       "token": "PETAH",
@@ -17,14 +17,21 @@
       "reason": "trailing_sell",
       "time": "2026-02-24 08:07:07",
       "exitType": "trail"
+    },
+    {
+      "token": "CLAW",
+      "pnl": -10.4,
+      "reason": "Timeout: 45min, only +-10.4%",
+      "time": "2026-02-24 08:32:31",
+      "exitType": "timeout"
     }
   ],
-  "tradeCount": 2,
+  "tradeCount": 3,
   "winRate": "0",
   "wins": 0,
-  "losses": 0,
+  "losses": 1,
   "avgWin": "0",
-  "avgLoss": "0",
+  "avgLoss": "-10.4",
   "bestTrade": {
     "token": "PETAH",
     "pnl": 0,
@@ -33,19 +40,13 @@
     "exitType": "timeout"
   },
   "worstTrade": {
-    "token": "PETAH",
-    "pnl": 0,
-    "reason": "Timeout: 116min, only +0.0%",
-    "time": "2026-02-24 07:14:31",
+    "token": "CLAW",
+    "pnl": -10.4,
+    "reason": "Timeout: 45min, only +-10.4%",
+    "time": "2026-02-24 08:32:31",
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 38,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
     {
       "token": "Gaper",
       "approved": false,
@@ -99,12 +100,13 @@
       "approved": true,
       "confidence": 62,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x and 5m momentum (+4.6%) meet entry thres"
+    },
+    {
+      "token": "Pigeon",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
-  "openList": [
-    {
-      "token": "CLAW",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
