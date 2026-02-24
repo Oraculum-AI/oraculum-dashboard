@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T15:25:02.583Z",
+  "updated": "2026-02-24T15:30:04.290Z",
   "totalPositions": 39,
-  "openPositions": 1,
-  "closedPositions": 38,
+  "openPositions": 0,
+  "closedPositions": 39,
   "trades": [
     {
       "token": "triggered",
@@ -69,36 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the 5m volume of $381 is e"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-rule violation: buy ratio under 2.0x triggers automatic skip rega"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 441 minutes (7.35 hours) is too new and suggests potential r"
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 40,
@@ -127,12 +97,37 @@
       "approved": false,
       "confidence": 28,
       "reasoning": "[Analyst] Buy ratio 1.3x violates your core self-discovered rule requiring minim"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your core rule states: skip entries when buy volume ratio is under 2.0"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Self-rule is explicit: skip entries when buy ratio < 2.0x regardless o"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 447 minutes (7.5 hours) is too new with insufficient histori"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": [
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
-    }
-  ]
+  "openList": []
 }
