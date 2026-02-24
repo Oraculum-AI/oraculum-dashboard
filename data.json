@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T11:25:02.857Z",
+  "updated": "2026-02-24T11:30:02.528Z",
   "totalPositions": 29,
-  "openPositions": 0,
-  "closedPositions": 29,
+  "openPositions": 1,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "PETAH",
@@ -69,24 +69,6 @@
   },
   "decisions": [
     {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails the self-discovered 2.0x minimum r"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x fails internal 2.0x strict threshold; cr"
-    },
-    {
       "token": "Reduary",
       "approved": false,
       "confidence": 40,
@@ -127,7 +109,30 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.3x and +12.7% 5m momentum satisfy entry cri"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] While buy ratio 2.2x technically passes entry gate, the flat 1h perfor"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Despite strong buy ratio of 10.0x and decent liquidity, the 5m volume of"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "JAWZ",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
