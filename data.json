@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T03:30:03.118Z",
+  "updated": "2026-02-24T03:35:02.696Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -69,34 +69,16 @@
   },
   "decisions": [
     {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a fresh launch with unreliable metrics a"
-    },
-    {
-      "token": "RIZZTER",
+      "token": "TRENCH",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
     },
     {
-      "token": "house",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
       "token": "RIZZTER",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient hist"
+      "reasoning": "[Scout] Pair age of 0 minutes indicates brand new token with insufficient tradin"
     },
     {
       "token": "house",
@@ -108,25 +90,43 @@
       "token": "USD0",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with likely manipulati"
-    },
-    {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with potential rug ris"
     },
     {
       "token": "RIZZTER",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates brand new token with insufficient tradin"
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with extreme volatilit"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with extreme v"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no historical dat"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
     }
   ],
   "openList": []
