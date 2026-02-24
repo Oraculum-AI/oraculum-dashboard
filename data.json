@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T15:05:03.391Z",
-  "totalPositions": 36,
-  "openPositions": 2,
-  "closedPositions": 34,
+  "updated": "2026-02-24T15:10:02.614Z",
+  "totalPositions": 37,
+  "openPositions": 1,
+  "closedPositions": 36,
   "trades": [
     {
       "token": "triggered",
@@ -38,14 +38,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 14:57:32",
       "exitType": "exit"
+    },
+    {
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 15:06:43",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 5,
+  "tradeCount": 6,
   "winRate": "0",
   "wins": 0,
-  "losses": 5,
+  "losses": 6,
   "avgWin": "0",
-  "avgLoss": "-16.0",
+  "avgLoss": "-16.7",
   "bestTrade": {
     "token": "KORI",
     "pnl": -0.2,
@@ -123,10 +130,6 @@
     }
   ],
   "openList": [
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
-    },
     {
       "token": "",
       "strategy": "paper_launchpad_pump_fun"
