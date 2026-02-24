@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T23:30:02.972Z",
-  "totalPositions": 106,
+  "updated": "2026-02-24T23:35:02.417Z",
+  "totalPositions": 107,
   "openPositions": 4,
-  "closedPositions": 102,
+  "closedPositions": 103,
   "trades": [
     {
       "token": "SOL",
@@ -24,14 +24,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 23:23:51",
       "exitType": "exit"
+    },
+    {
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 23:30:25",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "33",
+  "tradeCount": 4,
+  "winRate": "25",
   "wins": 1,
-  "losses": 2,
+  "losses": 3,
   "avgWin": "17.7",
-  "avgLoss": "-11.5",
+  "avgLoss": "-14.3",
   "bestTrade": {
     "token": "CPT",
     "pnl": 17.7,
@@ -58,24 +65,12 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "BARBELL",
-      "strategy": "paper_dca_paper_launchpad_pump_fun"
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
     },
     {
       "token": "CHUD",
