@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T21:05:02.620Z",
-  "totalPositions": 65,
-  "openPositions": 3,
-  "closedPositions": 62,
+  "updated": "2026-02-24T21:10:02.826Z",
+  "totalPositions": 66,
+  "openPositions": 2,
+  "closedPositions": 64,
   "trades": [
     {
       "token": "RIZZTER",
@@ -59,20 +59,27 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 21:03:46",
       "exitType": "exit"
+    },
+    {
+      "token": "COK",
+      "pnl": 32,
+      "reason": "profit_tier",
+      "time": "2026-02-24 21:05:15",
+      "exitType": "profit"
     }
   ],
-  "tradeCount": 8,
-  "winRate": "25",
-  "wins": 2,
+  "tradeCount": 9,
+  "winRate": "33",
+  "wins": 3,
   "losses": 5,
-  "avgWin": "0.5",
+  "avgWin": "11.0",
   "avgLoss": "-5.5",
   "bestTrade": {
-    "token": "Sahur",
-    "pnl": 0.7,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 21:03:46",
-    "exitType": "exit"
+    "token": "COK",
+    "pnl": 32,
+    "reason": "profit_tier",
+    "time": "2026-02-24 21:05:15",
+    "exitType": "profit"
   },
   "worstTrade": {
     "token": "REVAunits:",
@@ -82,18 +89,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy/sell ra"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Buy ratio below 2.0x triggers automatic skip per self-discovered rules"
-    },
     {
       "token": "?",
       "approved": false,
@@ -133,15 +128,11 @@
   ],
   "openList": [
     {
+      "token": "TripleT",
+      "strategy": "paper_cluster"
+    },
+    {
       "token": "USELESS",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "testicle",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "COK",
       "strategy": "paper_cluster"
     }
   ]
