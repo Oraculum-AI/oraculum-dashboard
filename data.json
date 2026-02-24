@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:35:03.723Z",
+  "updated": "2026-02-24T10:40:02.702Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -31,9 +31,16 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 09:42:31",
       "exitType": "exit"
+    },
+    {
+      "token": "TRENCH",
+      "pnl": 0,
+      "reason": "Timeout: 344min, only +0.0%",
+      "time": "2026-02-24 10:35:31",
+      "exitType": "timeout"
     }
   ],
-  "tradeCount": 4,
+  "tradeCount": 5,
   "winRate": "0",
   "wins": 0,
   "losses": 1,
@@ -54,18 +61,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio of 1.5x violates your core rule requiring >2.0x volume ratio"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.0x is strong, but 1h price flatness (0.0%) "
-    },
     {
       "token": "TRENCH",
       "approved": false,
@@ -113,6 +108,18 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails the self-discovered 2.0x volume re"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
+    },
+    {
+      "token": "TRENCH",
+      "approved": true,
+      "confidence": 72,
+      "reasoning": "[Scout->Analyst->Trader] TRENCH exhibits exceptional buy ratio (7.3x) with posit"
     }
   ],
   "openList": []
