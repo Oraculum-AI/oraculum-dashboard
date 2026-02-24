@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:40:02.472Z",
+  "updated": "2026-02-24T04:45:02.531Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -62,30 +62,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Flat 1h price action contradicts 5m spike—momentum is N"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio of 1.4x violates your core entry threshold of >1.5x, and you"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.3x is strong, but flat 1h price action indi"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of only 15 minutes with extreme 63.9% price swing and high buy "
-    },
-    {
       "token": "OLLAMA",
       "approved": false,
       "confidence": 10,
@@ -120,6 +96,30 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Buy ratio 1.3x < 2.0x minimum triggers skip rule ('volume deadness pre"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and volume metrics are adequate, the 28.9% price jump in"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.3x violates core entry rule (need >1.5x minimum, preferabl"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
