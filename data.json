@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T19:15:02.544Z",
+  "updated": "2026-02-24T19:20:03.514Z",
   "totalPositions": 42,
   "openPositions": 0,
   "closedPositions": 42,
@@ -41,64 +41,64 @@
   },
   "decisions": [
     {
-      "token": "RETURN",
+      "token": "Reddit",
       "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Fails primary buy signal—buy ratio 1.4x < 1.5x requirement AND price f"
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity is below $8K threshold at $7357"
     },
     {
-      "token": "RIZZTER",
+      "token": "Reddit",
       "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity is below $8K threshold at $6273, and 1h volume is $0 indicatin"
     },
     {
-      "token": "RIZZTER",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x and +5.2% 5m momentum meet ACCELERATING "
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity is $6273, below the $8K minimum threshold."
     },
     {
-      "token": "SHRIMP",
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity at $6355 is below the $8K minimum threshold."
+    },
+    {
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and liquidity is below $8K threshold at $6355."
+    },
+    {
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity of $6355 is below the $8K minimum threshold."
+    },
+    {
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and liquidity is below $8K threshold at $6355."
+    },
+    {
+      "token": "Reddit",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and liquidity of $6355 is below the $8K minimum threshol"
+    },
+    {
+      "token": "AGENC",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
     },
     {
-      "token": "SHRIMP",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "SHRIMP",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is zero indicating no sustained trading activity, and pair age"
-    },
-    {
-      "token": "Zerepooch",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume1h is $0 indicating no sustained momentum, and pair age of 0 minut"
-    },
-    {
-      "token": "Zerepooch",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating no established tra"
-    },
-    {
       "token": "Reddit",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no trading momentum, and pair age of 0 minute"
+      "reasoning": "[Scout] Liquidity is below $8K threshold at $6405, and volume 1h is zero indicat"
     }
   ],
   "openList": []
