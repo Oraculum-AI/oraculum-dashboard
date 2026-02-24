@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:55:03.087Z",
-  "totalPositions": 61,
-  "openPositions": 4,
-  "closedPositions": 57,
+  "updated": "2026-02-24T21:00:02.807Z",
+  "totalPositions": 64,
+  "openPositions": 5,
+  "closedPositions": 59,
   "trades": [
     {
       "token": "RIZZTER",
@@ -138,11 +138,15 @@
   ],
   "openList": [
     {
-      "token": "neet",
+      "token": "$WIF",
       "strategy": "paper_cluster"
     },
     {
-      "token": "PIGEON ",
+      "token": "Sahur",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "SERIOUS",
       "strategy": "paper_cluster"
     },
     {
