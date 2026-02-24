@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T05:15:02.590Z",
+  "updated": "2026-02-24T05:20:02.427Z",
   "totalPositions": 28,
-  "openPositions": 0,
-  "closedPositions": 28,
+  "openPositions": 1,
+  "closedPositions": 27,
   "trades": [
     {
       "token": "Xingxing",
@@ -48,42 +48,6 @@
   },
   "decisions": [
     {
-      "token": "fren",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Momentum is DECELERATING, not accelerating—flat 1h (+0%"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio meet thresholds, the 58% 5m price jump wit"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio pass thresholds, the extremely low 5m volu"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($382 5m, 0.0% 1h) fails acceleration r"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "JAWZ",
       "approved": false,
       "confidence": 40,
@@ -106,7 +70,48 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] 1h price flat 0.0% violates ACCELERATING momentum requi"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Buy ratio disconnect from price action is a red flag - high ratio with"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your rules explicitly state: 'Skip entries when buy volume ratio is un"
+    },
+    {
+      "token": "PETAH",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] 10.0x buy ratio with +3.1% 5m momentum meets entry thre"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "PETAH",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
