@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T01:10:02.682Z",
+  "updated": "2026-02-24T01:15:03.754Z",
   "totalPositions": 25,
   "openPositions": 0,
   "closedPositions": 25,
@@ -76,30 +76,6 @@
   },
   "decisions": [
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 28,
@@ -134,6 +110,30 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Despite favorable 3.0x buy ratio, the combination of ze"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] While buy ratio technically exceeds your 1.5x entry threshold, the zer"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Brand new pair with micro-liquidity and insufficient buy-side dominanc"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 38,
+      "reasoning": "[Analyst] While buy ratio technically qualifies at 1.4x, the combination of near"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] While buy/sell ratio meets entry threshold, brand tokens with zero pai"
     }
   ],
   "openList": []
