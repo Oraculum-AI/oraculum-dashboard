@@ -1,75 +1,18 @@
 {
-  "updated": "2026-02-24T06:45:03.053Z",
-  "totalPositions": 28,
+  "updated": "2026-02-24T06:50:02.451Z",
+  "totalPositions": 29,
   "openPositions": 0,
-  "closedPositions": 28,
-  "trades": [
-    {
-      "token": "RIZZTER",
-      "pnl": -4.2,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 02:03:03",
-      "exitType": "exit"
-    },
-    {
-      "token": "house",
-      "pnl": 0.5,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 02:04:48",
-      "exitType": "exit"
-    }
-  ],
-  "tradeCount": 2,
-  "winRate": "50",
-  "wins": 1,
-  "losses": 1,
-  "avgWin": "0.5",
-  "avgLoss": "-4.2",
-  "bestTrade": {
-    "token": "house",
-    "pnl": 0.5,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 02:04:48",
-    "exitType": "exit"
-  },
-  "worstTrade": {
-    "token": "RIZZTER",
-    "pnl": -4.2,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 02:03:03",
-    "exitType": "exit"
-  },
+  "closedPositions": 29,
+  "trades": [],
+  "tradeCount": 0,
+  "winRate": "0",
+  "wins": 0,
+  "losses": 0,
+  "avgWin": "0",
+  "avgLoss": "0",
+  "bestTrade": null,
+  "worstTrade": null,
   "decisions": [
-    {
-      "token": "Pippkin",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x fails the 2.0x threshold for acceleratin"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.2x violates hard entry rule (need >1.5x); volume deadness "
-    },
-    {
-      "token": "Pippkin",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Volume ratio 1.8x falls below your 2.0x minimum thresho"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Your rules explicitly state 'skip entries when buy volume ratio is und"
-    },
     {
       "token": "TRENCH",
       "approved": false,
@@ -99,6 +42,36 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Entry fails two hard rules: buy ratio 1.4x < 1.5x minimum AND volume r"
+    },
+    {
+      "token": "fren",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.4x and +6.9% 5m price action meet entry cri"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Token fails multiple entry gates: buy ratio 1.2x < required 1.5x AND <"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Entry signals fail critical thresholds: buy ratio 1.4x < required 1.5x"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.4x < 2.0x threshold violates your self-discovered rule: 'S"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Self-rule explicitly states: 'Skip entries when buy volume ratio is un"
     }
   ],
   "openList": []
