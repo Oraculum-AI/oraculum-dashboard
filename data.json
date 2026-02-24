@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T23:10:02.659Z",
-  "totalPositions": 99,
-  "openPositions": 5,
-  "closedPositions": 94,
+  "updated": "2026-02-24T23:15:02.351Z",
+  "totalPositions": 101,
+  "openPositions": 4,
+  "closedPositions": 97,
   "trades": [
     {
       "token": "Adam",
@@ -10,14 +10,28 @@
       "reason": "profit_tier",
       "time": "2026-02-24 22:58:43",
       "exitType": "profit"
+    },
+    {
+      "token": "SOL",
+      "pnl": -3,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 23:13:51",
+      "exitType": "exit"
+    },
+    {
+      "token": "PMPR:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 23:14:15",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 1,
-  "winRate": "100",
+  "tradeCount": 3,
+  "winRate": "33",
   "wins": 1,
-  "losses": 0,
+  "losses": 2,
   "avgWin": "33.0",
-  "avgLoss": "0",
+  "avgLoss": "-11.5",
   "bestTrade": {
     "token": "Adam",
     "pnl": 33,
@@ -26,15 +40,21 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "Adam",
-    "pnl": 33,
-    "reason": "profit_tier",
-    "time": "2026-02-24 22:58:43",
-    "exitType": "profit"
+    "token": "PMPR:",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-24 23:14:15",
+    "exitType": "stop"
   },
   "decisions": [
     {
-      "token": "Orangutan",
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
@@ -78,15 +98,11 @@
   ],
   "openList": [
     {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
+      "token": "X1XHLOL",
+      "strategy": "paper_cluster"
     },
     {
-      "token": "PMPR",
-      "strategy": "paper_dca_paper_dca_paper_launchpad_pump_fun"
-    },
-    {
-      "token": "WAR",
+      "token": "GSD",
       "strategy": "paper_cluster"
     },
     {
