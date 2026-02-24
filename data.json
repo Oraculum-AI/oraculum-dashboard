@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:30:02.856Z",
+  "updated": "2026-02-24T20:35:02.695Z",
   "totalPositions": 51,
-  "openPositions": 10,
-  "closedPositions": 41,
+  "openPositions": 5,
+  "closedPositions": 46,
   "trades": [
     {
       "token": "RIZZTER",
@@ -17,19 +17,26 @@
       "reason": "stop_loss",
       "time": "2026-02-24 20:20:27",
       "exitType": "stop"
+    },
+    {
+      "token": "SHDW",
+      "pnl": 0,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 20:34:00",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 2,
+  "tradeCount": 3,
   "winRate": "0",
   "wins": 0,
   "losses": 2,
   "avgWin": "0",
   "avgLoss": "-10.2",
   "bestTrade": {
-    "token": "RIZZTER",
-    "pnl": -0.3,
+    "token": "SHDW",
+    "pnl": 0,
     "reason": "Volume dried up",
-    "time": "2026-02-24 20:19:33",
+    "time": "2026-02-24 20:34:00",
     "exitType": "exit"
   },
   "worstTrade": {
@@ -107,23 +114,7 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "Fartcoin ",
-      "strategy": "paper_cluster"
-    },
-    {
       "token": "pippin",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "SHDW",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "pwease",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "ONE",
       "strategy": "paper_cluster"
     },
     {
@@ -136,10 +127,6 @@
     },
     {
       "token": "BLOODNUT",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "DARWIN",
       "strategy": "paper_momentum"
     }
   ]
