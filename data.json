@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T22:55:02.331Z",
-  "totalPositions": 96,
-  "openPositions": 3,
-  "closedPositions": 93,
+  "updated": "2026-02-24T23:00:02.792Z",
+  "totalPositions": 98,
+  "openPositions": 4,
+  "closedPositions": 94,
   "trades": [
     {
       "token": "$WAR",
@@ -38,20 +38,27 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 22:37:12",
       "exitType": "exit"
+    },
+    {
+      "token": "Adam",
+      "pnl": 33,
+      "reason": "profit_tier",
+      "time": "2026-02-24 22:58:43",
+      "exitType": "profit"
     }
   ],
-  "tradeCount": 5,
-  "winRate": "0",
-  "wins": 0,
+  "tradeCount": 6,
+  "winRate": "17",
+  "wins": 1,
   "losses": 5,
-  "avgWin": "0",
+  "avgWin": "33.0",
   "avgLoss": "-9.8",
   "bestTrade": {
-    "token": "$WAR",
-    "pnl": -2.9,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 22:20:26",
-    "exitType": "exit"
+    "token": "Adam",
+    "pnl": 33,
+    "reason": "profit_tier",
+    "time": "2026-02-24 22:58:43",
+    "exitType": "profit"
   },
   "worstTrade": {
     "token": "ELONGATE:",
@@ -100,7 +107,11 @@
   ],
   "openList": [
     {
-      "token": "Adam",
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
+    },
+    {
+      "token": "Capybara",
       "strategy": "paper_cluster"
     },
     {
