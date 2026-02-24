@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:45:02.531Z",
+  "updated": "2026-02-24T04:50:02.102Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -65,48 +65,6 @@
       "token": "OLLAMA",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of only 16 minutes combined with extreme 52% price movement in "
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Price action completely flat (0.0% over 5m+1h) violates"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Your rule explicitly states 'Skip entries when buy volume ratio is und"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Self-rules explicitly reject entries below 2.0x buy volume ratio — 'vo"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of only 26 minutes is too new and high risk for a potential pum"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy volume r"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Buy ratio 1.3x < 2.0x minimum triggers skip rule ('volume deadness pre"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 10,
       "reasoning": "[Scout] While liquidity and volume metrics are adequate, the 28.9% price jump in"
     },
     {
@@ -120,6 +78,48 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x fails the self-discovered 2.0x strict th"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rules explicitly reject entries below 2.0x buy volume "
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 10.0x is strong, but 1h price change of 0."
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x fails to meet the self-discovered 2.0x v"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails your self-discovered 2.0x threshol"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails self-discovered 2.0x threshold; pr"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your learned rules explicitly skip entries under 2.0x buy ratio regard"
     }
   ],
   "openList": []
