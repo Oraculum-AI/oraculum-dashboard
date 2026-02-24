@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T04:15:02.890Z",
+  "updated": "2026-02-24T04:20:02.730Z",
   "totalPositions": 28,
-  "openPositions": 0,
-  "closedPositions": 28,
+  "openPositions": 1,
+  "closedPositions": 27,
   "trades": [
-    {
-      "token": "AUTISM:",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 00:07:19",
-      "exitType": "stop"
-    },
     {
       "token": "JAWZ",
       "pnl": 3.9,
@@ -47,12 +40,12 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 6,
-  "winRate": "67",
+  "tradeCount": 5,
+  "winRate": "80",
   "wins": 4,
-  "losses": 2,
+  "losses": 1,
   "avgWin": "19.9",
-  "avgLoss": "-12.1",
+  "avgLoss": "-4.2",
   "bestTrade": {
     "token": "Xingxing",
     "pnl": 38,
@@ -61,63 +54,27 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "AUTISM:",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 00:07:19",
-    "exitType": "stop"
+    "token": "RIZZTER",
+    "pnl": -4.2,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 02:03:03",
+    "exitType": "exit"
   },
   "decisions": [
     {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient hist"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with insuffici"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient trad"
-    },
-    {
-      "token": "Orangutan",
+      "token": "BLOB",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
     },
     {
-      "token": "PETAH",
+      "token": "Xingxing",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with insuffici"
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
     },
     {
-      "token": "PETAH",
+      "token": "BLOB",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
@@ -126,8 +83,49 @@
       "token": "Xingxing",
       "approved": false,
       "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no track record, "
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Buy ratio of 1.2x meets minimum threshold but lacks conviction; 25.4% pr"
+    },
+    {
+      "token": "BLOB",
+      "approved": true,
+      "confidence": 62,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x and positive 5m momentum (+3.2%) meet en"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "BLOB",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
