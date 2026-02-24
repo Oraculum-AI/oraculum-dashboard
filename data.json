@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:20:03.130Z",
+  "updated": "2026-02-24T20:25:02.038Z",
   "totalPositions": 44,
-  "openPositions": 4,
-  "closedPositions": 40,
+  "openPositions": 3,
+  "closedPositions": 41,
   "trades": [],
   "tradeCount": 0,
   "winRate": "0",
@@ -15,7 +15,7 @@
   "decisions": [],
   "openList": [
     {
-      "token": "REVAunits",
+      "token": "house",
       "strategy": "paper_momentum"
     },
     {
@@ -24,10 +24,6 @@
     },
     {
       "token": "DARWIN",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "CLAW",
       "strategy": "paper_momentum"
     }
   ]
