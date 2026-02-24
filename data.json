@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T16:35:03.179Z",
+  "updated": "2026-02-24T16:40:03.965Z",
   "totalPositions": 41,
   "openPositions": 1,
   "closedPositions": 40,
@@ -33,12 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Flat 1h price action contradicts 5m spike—momentum is N"
-    },
     {
       "token": "Reduary",
       "approved": false,
@@ -92,6 +86,12 @@
       "approved": true,
       "confidence": 82,
       "reasoning": "[Scout->Analyst->Trader] Exceptional 17.0x buy ratio with positive 5m momentum a"
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
     }
   ],
   "openList": [
