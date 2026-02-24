@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-24T14:25:03.402Z",
+  "updated": "2026-02-24T14:30:02.506Z",
   "totalPositions": 29,
   "openPositions": 1,
   "closedPositions": 28,
   "trades": [
-    {
-      "token": "CLAW",
-      "pnl": 0,
-      "reason": "trailing_sell",
-      "time": "2026-02-24 08:07:07",
-      "exitType": "trail"
-    },
-    {
-      "token": "CLAW",
-      "pnl": -10.4,
-      "reason": "Timeout: 45min, only +-10.4%",
-      "time": "2026-02-24 08:32:31",
-      "exitType": "timeout"
-    },
     {
       "token": "SOL",
       "pnl": 0,
@@ -47,63 +33,27 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 6,
+  "tradeCount": 4,
   "winRate": "0",
   "wins": 0,
-  "losses": 3,
+  "losses": 2,
   "avgWin": "0",
-  "avgLoss": "-3.9",
+  "avgLoss": "-0.7",
   "bestTrade": {
-    "token": "CLAW",
+    "token": "SOL",
     "pnl": 0,
-    "reason": "trailing_sell",
-    "time": "2026-02-24 08:07:07",
-    "exitType": "trail"
+    "reason": "Volume dried up",
+    "time": "2026-02-24 09:42:31",
+    "exitType": "exit"
   },
   "worstTrade": {
-    "token": "CLAW",
-    "pnl": -10.4,
-    "reason": "Timeout: 45min, only +-10.4%",
-    "time": "2026-02-24 08:32:31",
-    "exitType": "timeout"
+    "token": "JAWZ",
+    "pnl": -1,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 11:31:31",
+    "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio meet thresholds, both 5m and 1h volumes ar"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio at 1.5x meets minimum but lacks conviction, and historical d"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio of 1.5x falls below your self-discovered 2.0x threshold and "
-    },
     {
       "token": "CLAW",
       "approved": false,
@@ -127,6 +77,42 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Buy ratio 1.4x and volume ratio 1.4x both trigger your self-discovered"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Token fails two core entry filters: buy ratio <1.5x and buy volume <2."
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Buy ratio barely meets minimum (1.5x vs preferred 2.0x+) and zero hold"
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
     }
   ],
   "openList": [
