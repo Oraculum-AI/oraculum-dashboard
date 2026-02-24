@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T06:40:01.734Z",
+  "updated": "2026-02-24T06:45:03.053Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -41,42 +41,6 @@
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 85,
-      "reasoning": "[Scout->Analyst->Trader] 1h price change of 0.0% signals no sustained momentum—t"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Token fails your core rule: buy volume ratio under 2.0x means volume d"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.2x is strong, but 5m price spike (+6.3%) co"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 2.0x is at the borderline 'skip' rule threshold you discover"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails core 2.0x minimum threshold; 1h pr"
-    },
-    {
-      "token": "Pippkin",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x is below your self-discovered 2.0x rule "
-    },
-    {
       "token": "Pippkin",
       "approved": false,
       "confidence": 25,
@@ -99,6 +63,42 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Your rules explicitly state 'skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Critical momentum divergence (1h flat vs 5m spike) indi"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.4x fails core entry criterion (>1.5x required) AND falls s"
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Entry fails two hard rules: buy ratio 1.4x < 1.5x minimum AND volume r"
     }
   ],
   "openList": []
