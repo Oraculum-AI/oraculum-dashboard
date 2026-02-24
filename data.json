@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T04:00:47.352Z",
+  "updated": "2026-02-24T04:05:02.483Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -69,12 +69,6 @@
   },
   "decisions": [
     {
-      "token": "USD0",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
       "token": "SOL",
       "approved": false,
       "confidence": 10,
@@ -127,6 +121,12 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient trad"
     }
   ],
   "openList": []
