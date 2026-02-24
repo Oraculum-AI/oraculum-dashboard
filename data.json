@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:20:02.317Z",
+  "updated": "2026-02-24T09:25:02.354Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -47,12 +47,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
-    },
     {
       "token": "Xingxing",
       "approved": false,
@@ -106,6 +100,12 @@
       "approved": false,
       "confidence": 62,
       "reasoning": "[Analyst] Your self-discovered rules explicitly require buy ratio >2.0x for entr"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails your explicit 2.0x minimum thresho"
     }
   ],
   "openList": []
