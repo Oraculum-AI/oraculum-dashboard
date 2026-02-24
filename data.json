@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T16:05:02.699Z",
-  "totalPositions": 40,
-  "openPositions": 0,
+  "updated": "2026-02-24T16:10:02.264Z",
+  "totalPositions": 41,
+  "openPositions": 1,
   "closedPositions": 40,
   "trades": [
-    {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 14:51:07",
-      "exitType": "stop"
-    },
     {
       "token": ":",
       "pnl": -20,
@@ -33,12 +26,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 4,
+  "tradeCount": 3,
   "winRate": "0",
   "wins": 0,
-  "losses": 4,
+  "losses": 3,
   "avgWin": "0",
-  "avgLoss": "-15.1",
+  "avgLoss": "-13.4",
   "bestTrade": {
     "token": "KORI",
     "pnl": -0.2,
@@ -50,70 +43,75 @@
     "token": ":",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-24 14:51:07",
+    "time": "2026-02-24 14:51:42",
     "exitType": "stop"
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Your rule explicitly states: 'Skip entries when buy volume ratio is un"
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Core rule violation: buy ratio 1.5x < 2.0x minimum triggers automatic "
-    },
-    {
-      "token": "TRENCH",
+      "token": "AGI",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 15,442 minutes (~10.7 days) combined with modest 5m volume ("
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] CRITICAL RULE VIOLATION: Buy ratio 1.5x fails your 2.0x minimum entry "
+      "reasoning": "[Scout] Liquidity is below $8K threshold at $7150, and 1h volume is zero indicat"
     },
     {
       "token": "Limited",
       "approved": false,
       "confidence": 42,
-      "reasoning": "[Analyst] Self-rule violation: buy ratio 1.6x < 2.0x threshold—historical data s"
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
     },
     {
-      "token": "SOL",
+      "token": "Fergani",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Buy ratio of exactly 1.2x is at the threshold but combined with modest 5"
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
     },
     {
-      "token": "TRENCH",
+      "token": "Limited",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.1x and positive 5m momentum (+2.5%) meet ac"
+    },
+    {
+      "token": "Fergani",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 15443 minutes (~10.7 days) combined with modest volumes ($10"
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
     },
     {
-      "token": "CLAW",
+      "token": "Fergani",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
+    },
+    {
+      "token": "Fergani",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+    },
+    {
+      "token": "Fergani",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "Fergani",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
+    },
+    {
+      "token": "fih",
       "approved": false,
       "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy ratio un"
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+      "reasoning": "[Analyst] Buy ratio 1.3x is below the mandatory 2.0x entry floor—your rules expl"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "Limited",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
