@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T06:00:02.095Z",
+  "updated": "2026-02-24T06:05:02.428Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -41,36 +41,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio at exact 1.5x minimum threshold with zero 1h confirmation fa"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Momentum lacks acceleration depth—1h price flatness at "
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Entry signals fail critical thresholds: buy ratio 1.4x vs required 1.5"
-    },
-    {
       "token": "JAWZ",
       "approved": false,
       "confidence": 35,
@@ -99,6 +69,36 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] JAWZ fails primary entry gate: buy/sell ratio 1.3x is below your 1.5x "
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] While buy ratio (6.0x) is exceptional, liquidity at $34"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "NoLimit",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.3x fails both entry criteria (need >1.5x AND volume increa"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 85,
+      "reasoning": "[Scout->Analyst->Trader] 1h price change of 0.0% signals no sustained momentum—t"
     }
   ],
   "openList": []
