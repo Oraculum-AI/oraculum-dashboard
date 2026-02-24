@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:50:02.791Z",
+  "updated": "2026-02-24T09:55:02.313Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -57,24 +57,6 @@
     {
       "token": "SOL",
       "approved": false,
-      "confidence": 8,
-      "reasoning": "[Analyst] Despite the attractive 10.0x buy ratio, the combination of illiquid co"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio at 1.5x minimum with deteriorating volume profile violates s"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
-    },
-    {
-      "token": "SOL",
-      "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Volume is critically insufficient ($301 5m) to support "
     },
@@ -113,6 +95,24 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails critical 2.0x threshold and 1h vol"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails your self-discovered 2.0x volume r"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails your self-discovered 2.0x threshol"
     }
   ],
   "openList": []
