@@ -1,65 +1,17 @@
 {
-  "updated": "2026-02-24T21:35:01.734Z",
-  "totalPositions": 76,
-  "openPositions": 3,
-  "closedPositions": 73,
-  "trades": [
-    {
-      "token": "HorseMeat",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 21:20:56",
-      "exitType": "exit"
-    },
-    {
-      "token": "ELGATO",
-      "pnl": 0.1,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 21:20:56",
-      "exitType": "exit"
-    },
-    {
-      "token": "PYTH",
-      "pnl": 0,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 21:20:57",
-      "exitType": "exit"
-    },
-    {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 21:23:15",
-      "exitType": "stop"
-    },
-    {
-      "token": "ROVR",
-      "pnl": -2.8,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 21:29:56",
-      "exitType": "exit"
-    }
-  ],
-  "tradeCount": 5,
-  "winRate": "20",
-  "wins": 1,
-  "losses": 2,
-  "avgWin": "0.1",
-  "avgLoss": "-11.4",
-  "bestTrade": {
-    "token": "ELGATO",
-    "pnl": 0.1,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 21:20:56",
-    "exitType": "exit"
-  },
-  "worstTrade": {
-    "token": ":",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 21:23:15",
-    "exitType": "stop"
-  },
+  "updated": "2026-02-24T21:40:01.812Z",
+  "totalPositions": 78,
+  "openPositions": 4,
+  "closedPositions": 74,
+  "trades": [],
+  "tradeCount": 0,
+  "winRate": "0",
+  "wins": 0,
+  "losses": 0,
+  "avgWin": "0",
+  "avgLoss": "0",
+  "bestTrade": null,
+  "worstTrade": null,
   "decisions": [
     {
       "token": "?",
@@ -72,42 +24,16 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "KOL",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "KOL",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "KOL",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "neet",
+      "token": "IQUID",
       "strategy": "paper_cluster"
+    },
+    {
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
     },
     {
       "token": "COK",
