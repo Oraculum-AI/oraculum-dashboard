@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T23:35:02.417Z",
+  "updated": "2026-02-24T23:40:02.727Z",
   "totalPositions": 107,
-  "openPositions": 4,
-  "closedPositions": 103,
+  "openPositions": 3,
+  "closedPositions": 104,
   "trades": [
     {
       "token": "SOL",
@@ -68,10 +68,6 @@
     }
   ],
   "openList": [
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
-    },
     {
       "token": "CHUD",
       "strategy": "paper_cluster"
