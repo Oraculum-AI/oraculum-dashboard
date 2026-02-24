@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T15:45:02.787Z",
+  "updated": "2026-02-24T15:50:02.733Z",
   "totalPositions": 40,
   "openPositions": 2,
   "closedPositions": 38,
@@ -69,42 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-discovered rule: SKIP entries when buy ratio <2.0x regardless of "
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Your core rule flags this: 'Skip entries when buy volume ratio is unde"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.7x and 5.3% 5m momentum pass entry threshol"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Self-rule violation: buy ratio <2.0x triggers skip condition regardles"
-    },
-    {
-      "token": "goldify",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume1h is $0 indicating no sustained momentum, and pair age of 0 minut"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "Aliens",
       "approved": true,
       "confidence": 62,
@@ -127,6 +91,42 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x is below your 2.0x threshold—a documente"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] CRITICAL VIOLATION: Buy ratio 1.5x fails the non-negotiable 2.0x entry"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.5x violates hard rule: skip entries under 2.0x regardless "
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your 2.0x threshold—volume d"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-rule violation: buy ratio <2.0x triggers automatic skip. 5m spike"
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your critical 2.0x self-disc"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 52,
+      "reasoning": "[Analyst] CLAW is a borderline entry at the 2.0x buy ratio minimum—your rule exp"
     }
   ],
   "openList": [
