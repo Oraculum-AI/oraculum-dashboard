@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T04:50:02.102Z",
+  "updated": "2026-02-24T04:55:02.736Z",
   "totalPositions": 28,
-  "openPositions": 0,
-  "closedPositions": 28,
+  "openPositions": 1,
+  "closedPositions": 27,
   "trades": [
     {
       "token": "JAWZ",
@@ -64,30 +64,6 @@
     {
       "token": "OLLAMA",
       "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and volume metrics are adequate, the 28.9% price jump in"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.3x violates core entry rule (need >1.5x minimum, preferabl"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x fails the self-discovered 2.0x strict th"
-    },
-    {
-      "token": "OLLAMA",
-      "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Self-discovered rules explicitly reject entries below 2.0x buy volume "
     },
@@ -120,7 +96,36 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Your learned rules explicitly skip entries under 2.0x buy ratio regard"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Volume signal fails critical threshold: $687 5m volume "
+    },
+    {
+      "token": "TRENCH",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x with positive 5m momentum (+1.3%) meets "
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "TRENCH",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
