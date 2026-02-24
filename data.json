@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T14:20:02.838Z",
+  "updated": "2026-02-24T14:25:03.402Z",
   "totalPositions": 29,
-  "openPositions": 0,
-  "closedPositions": 29,
+  "openPositions": 1,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "CLAW",
@@ -69,42 +69,6 @@
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 1h momentum flatness (0.0%) contradicts 5m spike—classi"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Token is SOL (established coin), not a screened altcoin candidate; this "
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Fails multiple core entry criteria: buy ratio 1.4x < 1.5x required thr"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Buy ratio of exactly 1.2x is at the threshold and paired with modest 5m "
-    },
-    {
       "token": "?",
       "approved": false,
       "confidence": 0,
@@ -127,7 +91,48 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Buy ratio at 1.5x meets minimum but lacks conviction, and historical d"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio of 1.5x falls below your self-discovered 2.0x threshold and "
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 1h price momentum is FLAT (0.0%) despite positive 5m—th"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 1h price change 0.0% indicates momentum is NOT accelera"
+    },
+    {
+      "token": "CLAW",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x exceeds threshold with accelerating 5m m"
+    },
+    {
+      "token": "Pigeon",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.4x and volume ratio 1.4x both trigger your self-discovered"
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "CLAW",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
