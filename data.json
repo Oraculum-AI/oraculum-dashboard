@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T18:50:02.556Z",
+  "updated": "2026-02-24T18:55:02.118Z",
   "totalPositions": 42,
   "openPositions": 0,
   "closedPositions": 42,
@@ -48,36 +48,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.0x is acceptable, but 1h momentum at 0.0% v"
-    },
-    {
-      "token": "Pedocast",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "Pedocast",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "Pedocast",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "BBBY",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
       "token": "Cocaine",
       "approved": false,
       "confidence": 10,
@@ -106,6 +76,36 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "AGENC",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity at $5239 is below the $8K minimum threshold, and 1h volume is "
+    },
+    {
+      "token": "PINION",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Fails primary entry criteria: buy/sell ratio 1.2x < required 1.5x thre"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 52,
+      "reasoning": "[Analyst] Entry criteria partially met but critical failure: 1h price flat despi"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 52,
+      "reasoning": "[Analyst] Fails your PRIMARY entry rule: buy ratio 1.4x < required 1.5x minimum."
     }
   ],
   "openList": []
