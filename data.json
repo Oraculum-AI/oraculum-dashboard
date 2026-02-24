@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:10:03.162Z",
-  "totalPositions": 42,
-  "openPositions": 1,
-  "closedPositions": 41,
+  "updated": "2026-02-24T20:15:02.055Z",
+  "totalPositions": 43,
+  "openPositions": 3,
+  "closedPositions": 40,
   "trades": [],
   "tradeCount": 0,
   "winRate": "0",
@@ -14,6 +14,14 @@
   "worstTrade": null,
   "decisions": [],
   "openList": [
+    {
+      "token": "RIZZTER",
+      "strategy": "paper_momentum"
+    },
+    {
+      "token": "DARWIN",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "CLAW",
       "strategy": "paper_momentum"
