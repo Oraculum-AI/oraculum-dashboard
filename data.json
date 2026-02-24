@@ -1,74 +1,38 @@
 {
-  "updated": "2026-02-24T16:20:03.044Z",
+  "updated": "2026-02-24T16:25:02.908Z",
   "totalPositions": 41,
-  "openPositions": 1,
-  "closedPositions": 40,
+  "openPositions": 0,
+  "closedPositions": 41,
   "trades": [
     {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 15:06:43",
-      "exitType": "stop"
+      "token": "Limited",
+      "pnl": 0,
+      "reason": "trailing_sell",
+      "time": "2026-02-24 16:23:41",
+      "exitType": "trail"
     }
   ],
   "tradeCount": 1,
   "winRate": "0",
   "wins": 0,
-  "losses": 1,
+  "losses": 0,
   "avgWin": "0",
-  "avgLoss": "-20.0",
+  "avgLoss": "0",
   "bestTrade": {
-    "token": ":",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 15:06:43",
-    "exitType": "stop"
+    "token": "Limited",
+    "pnl": 0,
+    "reason": "trailing_sell",
+    "time": "2026-02-24 16:23:41",
+    "exitType": "trail"
   },
   "worstTrade": {
-    "token": ":",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 15:06:43",
-    "exitType": "stop"
+    "token": "Limited",
+    "pnl": 0,
+    "reason": "trailing_sell",
+    "time": "2026-02-24 16:23:41",
+    "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "Fergani",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.3x is below the mandatory 2.0x entry floor—your rules expl"
-    },
-    {
-      "token": "fih",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Self-rules explicitly reject buy ratio below 2.0x regardless of chart "
-    },
-    {
-      "token": "Pigeon",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-discovered rule is explicit: 'Skip entries when buy volume ratio "
-    },
-    {
-      "token": "Pigeon",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Your core rule explicitly states: skip entries when buy ratio < 2.0x r"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
     {
       "token": "Pigeon",
       "approved": false,
@@ -92,12 +56,43 @@
       "approved": false,
       "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Flat 1h price action contradicts 5m spike—momentum is N"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume metrics are extremely low ($301 in 5m, $2345 in 1h) suggesting il"
+    },
+    {
+      "token": "FNDRY",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no trading momentum, and pair age of 0 minute"
+    },
+    {
+      "token": "FF",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "#Japan",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no recent trading momentum, and pair age of 0"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
     }
   ],
-  "openList": [
-    {
-      "token": "Limited",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
