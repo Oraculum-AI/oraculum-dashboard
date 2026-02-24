@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T05:00:02.522Z",
+  "updated": "2026-02-24T05:05:02.322Z",
   "totalPositions": 28,
   "openPositions": 1,
   "closedPositions": 27,
@@ -48,24 +48,6 @@
   },
   "decisions": [
     {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails your self-discovered 2.0x threshol"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails self-discovered 2.0x threshold; pr"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Your learned rules explicitly skip entries under 2.0x buy ratio regard"
-    },
-    {
       "token": "PETAH",
       "approved": false,
       "confidence": 25,
@@ -106,6 +88,24 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Momentum is DECELERATING, not accelerating—flat 1h (+0%"
+    },
+    {
+      "token": "OLLAMA",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio meet thresholds, the 58% 5m price jump wit"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio pass thresholds, the extremely low 5m volu"
     }
   ],
   "openList": [
