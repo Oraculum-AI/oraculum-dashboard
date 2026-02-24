@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T20:15:02.055Z",
-  "totalPositions": 43,
-  "openPositions": 3,
+  "updated": "2026-02-24T20:20:03.130Z",
+  "totalPositions": 44,
+  "openPositions": 4,
   "closedPositions": 40,
   "trades": [],
   "tradeCount": 0,
@@ -15,7 +15,11 @@
   "decisions": [],
   "openList": [
     {
-      "token": "RIZZTER",
+      "token": "REVAunits",
+      "strategy": "paper_momentum"
+    },
+    {
+      "token": "BLOODNUT",
       "strategy": "paper_momentum"
     },
     {
