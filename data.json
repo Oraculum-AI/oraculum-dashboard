@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T23:15:02.351Z",
-  "totalPositions": 101,
-  "openPositions": 4,
-  "closedPositions": 97,
+  "updated": "2026-02-24T23:20:02.760Z",
+  "totalPositions": 105,
+  "openPositions": 5,
+  "closedPositions": 100,
   "trades": [
     {
       "token": "Adam",
@@ -82,35 +82,27 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "X1XHLOL",
+      "token": "CHUD",
       "strategy": "paper_cluster"
     },
     {
-      "token": "GSD",
+      "token": "CPT",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "KIMCHI",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Clude",
       "strategy": "paper_cluster"
     },
     {
       "token": "Capybara",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "BIRB",
       "strategy": "paper_cluster"
     }
   ]
