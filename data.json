@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T16:45:02.844Z",
+  "updated": "2026-02-24T16:50:02.948Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -33,12 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 1h price change of 0.0% directly contradicts 5m momentu"
-    },
     {
       "token": "PETAH",
       "approved": true,
@@ -92,6 +86,12 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Entry conditions NOT met: buy/sell ratio 1.2x is below required 1.5x m"
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Entry conditions BARELY met (1.3x vs 1.5x required), but 1h price flat"
     }
   ],
   "openList": []
