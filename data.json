@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T17:00:02.503Z",
+  "updated": "2026-02-24T17:05:03.351Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -36,44 +36,32 @@
     {
       "token": "RETURN",
       "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] 1h momentum flatline (0.0%) contradicts requirement for"
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     },
     {
       "token": "Shire",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no established tr"
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
     },
     {
-      "token": "Reduary",
+      "token": "RETURN",
       "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Flat 1h price action + micro-cap ($79K) with thin liqui"
+      "confidence": 62,
+      "reasoning": "[Analyst] While buy ratio and 5m price meet entry thresholds, the 1h stagnation "
     },
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.0x is strong, but flat 1h price action + mi"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "RIZZTER",
+      "token": "Shire",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the 5m volume of $237 is e"
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
     },
     {
-      "token": "RIZZTER",
+      "token": "RETURN",
       "approved": false,
       "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio exceeds 1.5x threshold, the combination of micro liqui"
+      "reasoning": "[Analyst] Zero holder count is a disqualifying red flag indicating either a fres"
     },
     {
       "token": "RETURN",
@@ -82,10 +70,22 @@
       "reasoning": "[Analyst] Analyst parse failed"
     },
     {
-      "token": "RIZZTER",
+      "token": "BLOODNUT",
       "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Despite attractive buy ratio, this token fails core criteria: no susta"
+      "confidence": 52,
+      "reasoning": "[Analyst] Entry conditions marginally met but lack conviction—buy ratio at 1.5x "
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "DOWN",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained momentum, and pair age of 0 minu"
     },
     {
       "token": "RETURN",
