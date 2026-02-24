@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T06:05:02.428Z",
+  "updated": "2026-02-24T06:10:02.667Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -41,24 +41,6 @@
   },
   "decisions": [
     {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Buy ratio at bare minimum (1.5x) violates self-discovered rule requiri"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.3x is BELOW your enforced 2.0x minimum entry standard and "
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Your self-discovered rules explicitly state: skip entries when buy vol"
-    },
-    {
       "token": "SOL",
       "approved": false,
       "confidence": 35,
@@ -99,6 +81,24 @@
       "approved": false,
       "confidence": 85,
       "reasoning": "[Scout->Analyst->Trader] 1h price change of 0.0% signals no sustained momentum—t"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Token fails your core rule: buy volume ratio under 2.0x means volume d"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.2x is strong, but 5m price spike (+6.3%) co"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 2.0x is at the borderline 'skip' rule threshold you discover"
     }
   ],
   "openList": []
