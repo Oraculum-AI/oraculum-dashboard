@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T22:45:02.141Z",
-  "totalPositions": 95,
-  "openPositions": 3,
+  "updated": "2026-02-24T22:50:03.494Z",
+  "totalPositions": 96,
+  "openPositions": 4,
   "closedPositions": 92,
   "trades": [
     {
@@ -78,15 +78,25 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "BIRB",
+      "token": "Adam",
       "strategy": "paper_cluster"
     },
     {
-      "token": "pippin",
+      "token": "21",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "BIRB",
       "strategy": "paper_cluster"
     },
     {
