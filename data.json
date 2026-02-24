@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T13:15:02.790Z",
+  "updated": "2026-02-24T13:20:03.335Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,18 +76,6 @@
   },
   "decisions": [
     {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio of 1.5x fails your discovered rule requiring >2.0x volume ra"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "AUTISM",
       "approved": false,
       "confidence": 32,
@@ -134,6 +122,18 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] While liquidity and buy ratio are adequate, the 5m volume of $224 and 1h"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
