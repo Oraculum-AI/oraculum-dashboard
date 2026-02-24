@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T06:15:02.207Z",
+  "updated": "2026-02-24T06:20:02.813Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -41,36 +41,6 @@
   },
   "decisions": [
     {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 10.0x is strong, but flat 1h momentum (0.0"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] JAWZ fails primary entry gate: buy/sell ratio 1.3x is below your 1.5x "
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] While buy ratio (6.0x) is exceptional, liquidity at $34"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "NoLimit",
       "approved": false,
       "confidence": 42,
@@ -99,6 +69,36 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Buy ratio 2.0x is at the borderline 'skip' rule threshold you discover"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails core 2.0x minimum threshold; 1h pr"
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x is below your self-discovered 2.0x rule "
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x fails the 2.0x threshold for acceleratin"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.2x violates hard entry rule (need >1.5x); volume deadness "
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Volume ratio 1.8x falls below your 2.0x minimum thresho"
     }
   ],
   "openList": []
