@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T03:20:02.111Z",
+  "updated": "2026-02-24T03:25:02.230Z",
   "totalPositions": 28,
   "openPositions": 0,
   "closedPositions": 28,
@@ -72,24 +72,6 @@
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no established tr"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
     },
     {
@@ -127,6 +109,24 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a fresh launch with unreliable metrics a"
     }
   ],
   "openList": []
