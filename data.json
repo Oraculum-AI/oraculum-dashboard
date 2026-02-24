@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T18:25:02.876Z",
+  "updated": "2026-02-24T18:30:03.023Z",
   "totalPositions": 42,
   "openPositions": 1,
   "closedPositions": 41,
@@ -34,22 +34,40 @@
   },
   "decisions": [
     {
-      "token": "tappy",
+      "token": "MAXI",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "MAXI",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
     },
     {
-      "token": "ATELIER",
+      "token": "MAXI",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating no real trading hi"
     },
     {
-      "token": "tappy",
+      "token": "MAXI",
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "MAXI",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Liquidity of $5382 is below the $8K minimum threshold, and pair age of 0"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     },
     {
       "token": "AUTISM",
@@ -58,40 +76,22 @@
       "reasoning": "[Analyst] Analyst parse failed"
     },
     {
-      "token": "ATELIER",
+      "token": "BLOODNUT",
       "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] 1h price stalled at 0.0% despite 5m pump signals moment"
     },
     {
-      "token": "ATELIER",
+      "token": "tappy",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no real momentum, and pair age of 0 minutes s"
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained momentum, and pair age of 0 minu"
     },
     {
-      "token": "ATELIER",
+      "token": "AUTISM",
       "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "MAXI",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 min, indicating an extremely new token"
-    },
-    {
-      "token": "MAXI",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
-    },
-    {
-      "token": "MAXI",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
+      "confidence": 42,
+      "reasoning": "[Analyst] Token shows early 5m spike (+3.7%) but 1h flatness (0.0%) indicates se"
     }
   ],
   "openList": [
