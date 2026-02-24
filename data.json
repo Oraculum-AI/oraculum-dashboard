@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T15:20:02.970Z",
-  "totalPositions": 38,
+  "updated": "2026-02-24T15:25:02.583Z",
+  "totalPositions": 39,
   "openPositions": 1,
-  "closedPositions": 37,
+  "closedPositions": 38,
   "trades": [
     {
       "token": "triggered",
@@ -69,42 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 22,
-      "reasoning": "[Analyst] Self-discovered rule explicitly states: SKIP entries when buy volume r"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] REJECT: 1h price flatness (+0.0%) indicates momentum is"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Buy ratio of exactly 1.2x is at the threshold minimum and lacks the clea"
-    },
-    {
       "token": "Reduary",
       "approved": false,
       "confidence": 10,
@@ -127,6 +91,42 @@
       "approved": false,
       "confidence": 28,
       "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 441 minutes (7.35 hours) is too new and suggests potential r"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 22,
+      "reasoning": "[Analyst] Self-discovered rule is explicit: skip entries when buy ratio < 2.0x r"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 5m momentum spike (+2.9%) lacks confirmation across 1h "
+    },
+    {
+      "token": "Limited",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Buy ratio 1.3x violates your core self-discovered rule requiring minim"
     }
   ],
   "openList": [
