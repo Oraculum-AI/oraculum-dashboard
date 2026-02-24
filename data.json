@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T16:25:02.908Z",
+  "updated": "2026-02-24T16:30:03.636Z",
   "totalPositions": 41,
   "openPositions": 0,
   "closedPositions": 41,
@@ -33,18 +33,6 @@
     "exitType": "trail"
   },
   "decisions": [
-    {
-      "token": "Pigeon",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Self-rule violation: 'Skip entries when buy volume ratio is under 2.0x"
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "?",
       "approved": false,
@@ -92,6 +80,18 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] 1h price change of 0.0% directly contradicts 5m momentu"
     }
   ],
   "openList": []
