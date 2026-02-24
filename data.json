@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:50:02.774Z",
+  "updated": "2026-02-24T12:55:02.769Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,24 +76,6 @@
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 1h momentum is completely flat (0.0%) indicating NO acc"
-    },
-    {
-      "token": "CLAW",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x and +7.3% 5m momentum meet entry criteri"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Analyst] Entry conditions fail multiple core gates: buy ratio 1.3x < required 2"
-    },
-    {
       "token": "Limited",
       "approved": false,
       "confidence": 42,
@@ -134,6 +116,24 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails to meet self-discovered 2.0x thres"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states 'Skip entries when buy volume r"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio of 1.5x fails your discovered rule requiring >2.0x volume ra"
     }
   ],
   "openList": []
