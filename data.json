@@ -1,37 +1,9 @@
 {
-  "updated": "2026-02-24T00:00:03.441Z",
+  "updated": "2026-02-24T00:05:02.441Z",
   "totalPositions": 24,
   "openPositions": 1,
   "closedPositions": 23,
   "trades": [
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:10:38",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:10:53",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:11:08",
-      "exitType": "exit"
-    },
-    {
-      "token": "BLOODNUT",
-      "pnl": -0.7,
-      "reason": "Volume dried up",
-      "time": "2026-02-23 19:11:23",
-      "exitType": "exit"
-    },
     {
       "token": "SOL",
       "pnl": 0,
@@ -145,12 +117,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 20,
-  "winRate": "15",
+  "tradeCount": 16,
+  "winRate": "19",
   "wins": 3,
-  "losses": 5,
+  "losses": 1,
   "avgWin": "11.4",
-  "avgLoss": "-4.6",
+  "avgLoss": "-20.0",
   "bestTrade": {
     "token": "Donke",
     "pnl": 31,
@@ -229,7 +201,7 @@
   ],
   "openList": [
     {
-      "token": "Reduary",
+      "token": "SOL",
       "strategy": "paper_momentum"
     }
   ]
