@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T05:25:01.860Z",
+  "updated": "2026-02-24T05:30:02.603Z",
   "totalPositions": 28,
   "openPositions": 1,
   "closedPositions": 27,
   "trades": [
-    {
-      "token": "Xingxing",
-      "pnl": 37,
-      "reason": "profit_tier",
-      "time": "2026-02-24 01:04:22",
-      "exitType": "profit"
-    },
     {
       "token": "RIZZTER",
       "pnl": -4.2,
@@ -26,18 +19,18 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "67",
-  "wins": 2,
+  "tradeCount": 2,
+  "winRate": "50",
+  "wins": 1,
   "losses": 1,
-  "avgWin": "18.8",
+  "avgWin": "0.5",
   "avgLoss": "-4.2",
   "bestTrade": {
-    "token": "Xingxing",
-    "pnl": 37,
-    "reason": "profit_tier",
-    "time": "2026-02-24 01:04:22",
-    "exitType": "profit"
+    "token": "house",
+    "pnl": 0.5,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 02:04:48",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": "RIZZTER",
@@ -47,36 +40,6 @@
     "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls short of your 2.0x self-discovered"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Entry criteria partially met but volume deadness (1.8x vs required 2.0"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($561 in 5m, $4944 in 1h) combined with"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
     {
       "token": "SOL",
       "approved": false,
@@ -106,6 +69,36 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] While liquidity and buy ratio are strong, the 5m volume of $515 is extre"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Momentum is DECELERATING not accelerating—flat 1h price"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 947 minutes (~16 hours) with low absolute volumes ($1,641 in"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio meet thresholds, the 26.6% 5m price spike "
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Volume ratio 2.2x fails your 2.0x skip rule threshold, "
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.9x falls short of your 2.0x rule; flat 1h p"
     }
   ],
   "openList": [
