@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T21:00:02.807Z",
-  "totalPositions": 64,
-  "openPositions": 5,
-  "closedPositions": 59,
+  "updated": "2026-02-24T21:05:02.620Z",
+  "totalPositions": 65,
+  "openPositions": 3,
+  "closedPositions": 62,
   "trades": [
     {
       "token": "RIZZTER",
@@ -52,19 +52,26 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 20:54:46",
       "exitType": "exit"
+    },
+    {
+      "token": "Sahur",
+      "pnl": 0.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:03:46",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 7,
-  "winRate": "14",
-  "wins": 1,
+  "tradeCount": 8,
+  "winRate": "25",
+  "wins": 2,
   "losses": 5,
-  "avgWin": "0.3",
+  "avgWin": "0.5",
   "avgLoss": "-5.5",
   "bestTrade": {
-    "token": "Moutai",
-    "pnl": 0.3,
+    "token": "Sahur",
+    "pnl": 0.7,
     "reason": "Volume dried up",
-    "time": "2026-02-24 20:54:46",
+    "time": "2026-02-24 21:03:46",
     "exitType": "exit"
   },
   "worstTrade": {
@@ -75,18 +82,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Buy ratio 1.9x is below self-discovered 2.0x minimum rule—skip entry r"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Flat 1h momentum (0.0%) violates ACCELERATING momentum "
-    },
     {
       "token": "CLAW",
       "approved": false,
@@ -138,15 +133,7 @@
   ],
   "openList": [
     {
-      "token": "$WIF",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Sahur",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "SERIOUS",
+      "token": "USELESS",
       "strategy": "paper_cluster"
     },
     {
