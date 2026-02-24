@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:00:02.950Z",
+  "updated": "2026-02-24T20:05:02.302Z",
   "totalPositions": 42,
-  "openPositions": 0,
-  "closedPositions": 42,
+  "openPositions": 1,
+  "closedPositions": 41,
   "trades": [],
   "tradeCount": 0,
   "winRate": "0",
@@ -13,5 +13,10 @@
   "bestTrade": null,
   "worstTrade": null,
   "decisions": [],
-  "openList": []
+  "openList": [
+    {
+      "token": "CLAW",
+      "strategy": "paper_momentum"
+    }
+  ]
 }
