@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:25:02.354Z",
+  "updated": "2026-02-24T09:30:02.004Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -50,24 +50,6 @@
     {
       "token": "Xingxing",
       "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-rules explicitly state 'Skip entries when buy volume ratio is und"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 62,
-      "reasoning": "[Analyst] Your rules explicitly state: 'Skip entries when buy volume ratio is un"
-    },
-    {
-      "token": "Xingxing",
-      "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Your rule explicitly states: 'Skip entries when buy volume ratio is un"
     },
@@ -106,6 +88,24 @@
       "approved": false,
       "confidence": 15,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x fails your explicit 2.0x minimum thresho"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio at 1.3x violates your self-discovered 2.0x minimum threshold"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 2.0x is at threshold but volume is dangerously low—your rule"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
