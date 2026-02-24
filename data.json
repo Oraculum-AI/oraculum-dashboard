@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T02:35:02.588Z",
+  "updated": "2026-02-24T02:40:02.200Z",
   "totalPositions": 28,
-  "openPositions": 1,
-  "closedPositions": 27,
+  "openPositions": 0,
+  "closedPositions": 28,
   "trades": [
     {
       "token": "AUTISM:",
@@ -69,70 +69,65 @@
   },
   "decisions": [
     {
-      "token": "Xingxing",
+      "token": "PETAH",
       "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] While buy ratio meets entry threshold (1.3x), the zero-minute pair age"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] While buy ratio meets entry threshold, the combination of zero pair hi"
-    },
-    {
-      "token": "Xingxing",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 1.5x meets minimum threshold with fresh 6."
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] While buy ratio and initial momentum appear favorable, the critical we"
-    },
-    {
-      "token": "house",
-      "approved": true,
-      "confidence": 58,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 2.0x meets threshold with positive momentu"
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
     },
     {
       "token": "USD0",
       "approved": false,
-      "confidence": 38,
-      "reasoning": "[Analyst] New pairs with minimal liquidity are prone to rug pulls and volatility"
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
     },
     {
-      "token": "?",
+      "token": "JAWZ",
       "approved": false,
-      "confidence": 0,
-      "reasoning": ""
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
     },
     {
-      "token": "?",
+      "token": "PETAH",
       "approved": false,
-      "confidence": 0,
-      "reasoning": ""
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient trad"
     },
     {
-      "token": "?",
+      "token": "JAWZ",
       "approved": false,
-      "confidence": 0,
-      "reasoning": ""
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with zero trad"
     },
     {
-      "token": "?",
+      "token": "PETAH",
       "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    }
-  ],
-  "openList": [
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient trad"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with insufficient hist"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates this is a brand new token with no tradin"
+    },
     {
       "token": "Xingxing",
-      "strategy": "paper_momentum"
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 0 minutes indicates a brand new token with no trading histor"
     }
-  ]
+  ],
+  "openList": []
 }
