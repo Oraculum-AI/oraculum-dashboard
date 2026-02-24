@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T07:05:01.939Z",
+  "updated": "2026-02-24T07:10:02.644Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -13,12 +13,6 @@
   "bestTrade": null,
   "worstTrade": null,
   "decisions": [
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the extremely low 5m volum"
-    },
     {
       "token": "AUTISM",
       "approved": false,
@@ -72,6 +66,12 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Your self-discovered rule explicitly states 'Skip entries when buy vol"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 9657 minutes (~6.7 days) is extremely old for a token screen"
     }
   ],
   "openList": []
