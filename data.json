@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T11:40:03.314Z",
+  "updated": "2026-02-24T11:45:01.825Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -76,30 +76,6 @@
   },
   "decisions": [
     {
-      "token": "Gaper",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.4x fails minimum entry criteria (need >1.5x, ideally 2.0x)"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are healthy, the 5m volume of $358 is extr"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails your 2.0x minimum rule; flat 1h mo"
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 81,480 minutes (~56 days) combined with suspiciously high bu"
-    },
-    {
       "token": "PETAH",
       "approved": true,
       "confidence": 68,
@@ -134,6 +110,30 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] REJECT: Volume ratio <2.0x violates core rules despite "
+    },
+    {
+      "token": "Pippkin",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Multiple rule violations: buy ratio 1.2x < required 1.5x, volume ratio"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.1x and 5m momentum (+1.9%) are positive, bu"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Buy ratio 1.2x triggers immediate skip rule: 'Skip entries when buy vo"
     }
   ],
   "openList": []
