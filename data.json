@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-24T04:55:02.736Z",
+  "updated": "2026-02-24T05:00:02.522Z",
   "totalPositions": 28,
   "openPositions": 1,
   "closedPositions": 27,
   "trades": [
-    {
-      "token": "JAWZ",
-      "pnl": 3.9,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 00:35:02",
-      "exitType": "exit"
-    },
-    {
-      "token": "Xingxing",
-      "pnl": 38,
-      "reason": "profit_tier",
-      "time": "2026-02-24 00:37:31",
-      "exitType": "profit"
-    },
     {
       "token": "Xingxing",
       "pnl": 37,
@@ -40,17 +26,17 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 5,
-  "winRate": "80",
-  "wins": 4,
+  "tradeCount": 3,
+  "winRate": "67",
+  "wins": 2,
   "losses": 1,
-  "avgWin": "19.9",
+  "avgWin": "18.8",
   "avgLoss": "-4.2",
   "bestTrade": {
     "token": "Xingxing",
-    "pnl": 38,
+    "pnl": 37,
     "reason": "profit_tier",
-    "time": "2026-02-24 00:37:31",
+    "time": "2026-02-24 01:04:22",
     "exitType": "profit"
   },
   "worstTrade": {
@@ -61,24 +47,6 @@
     "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "OLLAMA",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Self-discovered rules explicitly reject entries below 2.0x buy volume "
-    },
-    {
-      "token": "SOL",
-      "approved": false,
-      "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 10.0x is strong, but 1h price change of 0."
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.3x fails to meet the self-discovered 2.0x v"
-    },
     {
       "token": "OLLAMA",
       "approved": false,
@@ -120,6 +88,24 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($665 5m, $3909 1h) fails acceleration "
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "fren",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Momentum is DECELERATING, not accelerating—flat 1h (+0%"
     }
   ],
   "openList": [
