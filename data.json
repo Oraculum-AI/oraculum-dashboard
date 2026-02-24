@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-24T16:00:02.287Z",
+  "updated": "2026-02-24T16:05:02.699Z",
   "totalPositions": 40,
-  "openPositions": 2,
-  "closedPositions": 38,
+  "openPositions": 0,
+  "closedPositions": 40,
   "trades": [
-    {
-      "token": "triggered",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 14:43:17",
-      "exitType": "stop"
-    },
-    {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 14:43:52",
-      "exitType": "stop"
-    },
     {
       "token": ":",
       "pnl": -20,
@@ -47,12 +33,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 6,
+  "tradeCount": 4,
   "winRate": "0",
   "wins": 0,
-  "losses": 6,
+  "losses": 4,
   "avgWin": "0",
-  "avgLoss": "-16.7",
+  "avgLoss": "-15.1",
   "bestTrade": {
     "token": "KORI",
     "pnl": -0.2,
@@ -61,82 +47,73 @@
     "exitType": "exit"
   },
   "worstTrade": {
-    "token": "triggered",
+    "token": ":",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-24 14:43:17",
+    "time": "2026-02-24 14:51:07",
     "exitType": "stop"
   },
   "decisions": [
     {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.5x violates hard rule: skip entries under 2.0x regardless "
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your 2.0x threshold—volume d"
-    },
-    {
       "token": "CLAW",
       "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Self-rule violation: buy ratio <2.0x triggers automatic skip. 5m spike"
+      "confidence": 62,
+      "reasoning": "[Analyst] Your rule explicitly states: 'Skip entries when buy volume ratio is un"
     },
     {
-      "token": "Limited",
+      "token": "fih",
       "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below your critical 2.0x self-disc"
+      "confidence": 35,
+      "reasoning": "[Analyst] Core rule violation: buy ratio 1.5x < 2.0x minimum triggers automatic "
     },
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] CLAW is a borderline entry at the 2.0x buy ratio minimum—your rule exp"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 28,
-      "reasoning": "[Analyst] Self-discovered rule explicitly flags buy ratios <2.0x as volume deadn"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 52,
-      "reasoning": "[Analyst] Entry signal barely qualifies (2.0x = threshold, not >2.0x margin), bu"
-    },
-    {
-      "token": "AgenC",
+      "token": "TRENCH",
       "approved": false,
       "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+      "reasoning": "[Scout] Pair age of 15,442 minutes (~10.7 days) combined with modest 5m volume ("
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] CRITICAL RULE VIOLATION: Buy ratio 1.5x fails your 2.0x minimum entry "
     },
     {
       "token": "Limited",
       "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] FLAT 1h price momentum violates core ACCELERATING momen"
-    }
-  ],
-  "openList": [
-    {
-      "token": "Aliens",
-      "strategy": "paper_momentum"
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-rule violation: buy ratio 1.6x < 2.0x threshold—historical data s"
     },
     {
-      "token": "BLOODNUT",
-      "strategy": "paper_momentum"
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Buy ratio of exactly 1.2x is at the threshold but combined with modest 5"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 15443 minutes (~10.7 days) combined with modest volumes ($10"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: skip entries when buy ratio un"
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
     }
-  ]
+  ],
+  "openList": []
 }
