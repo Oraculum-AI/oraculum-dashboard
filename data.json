@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T02:15:02.682Z",
+  "updated": "2026-02-24T02:20:03.105Z",
   "totalPositions": 28,
   "openPositions": 2,
   "closedPositions": 26,
@@ -79,12 +79,6 @@
       "token": "PETAH",
       "approved": false,
       "confidence": 25,
-      "reasoning": "[Scout->Analyst->Trader] Despite favorable 3.5x buy ratio, pair age of 0 minutes"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 25,
       "reasoning": "[Scout->Analyst->Trader] Pair age of 0 minutes with $69.8K liquidity presents ex"
     },
     {
@@ -134,6 +128,12 @@
       "approved": true,
       "confidence": 58,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio of 2.0x meets threshold with positive momentu"
+    },
+    {
+      "token": "USD0",
+      "approved": false,
+      "confidence": 38,
+      "reasoning": "[Analyst] New pairs with minimal liquidity are prone to rug pulls and volatility"
     }
   ],
   "openList": [
