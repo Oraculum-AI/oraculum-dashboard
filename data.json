@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:45:02.229Z",
+  "updated": "2026-02-24T10:50:02.957Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -62,18 +62,6 @@
   },
   "decisions": [
     {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
       "token": "PETAH",
       "approved": false,
       "confidence": 42,
@@ -120,6 +108,18 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Analyst] This token fails your core rule: 'Skip entries when buy volume ratio i"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 15,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x falls below your self-discovered 2.0x th"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 52,
+      "reasoning": "[Analyst] Buy ratio is at the 2.0x threshold but price action lacks conviction—1"
     }
   ],
   "openList": []
