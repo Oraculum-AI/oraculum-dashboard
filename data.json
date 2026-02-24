@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T10:15:02.363Z",
+  "updated": "2026-02-24T10:20:02.134Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -55,30 +55,6 @@
   },
   "decisions": [
     {
-      "token": "house",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails your self-discovered 2.0x threshol"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Pair age of 15076 minutes (~10.5 days) is too old for a rapid screening "
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x fails self-rule threshold of 2.0x for en"
-    },
-    {
       "token": "JAWZ",
       "approved": false,
       "confidence": 40,
@@ -113,6 +89,30 @@
       "approved": false,
       "confidence": 42,
       "reasoning": "[Analyst] Buy ratio of 1.5x violates your core rule requiring >2.0x volume ratio"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.0x is strong, but 1h price flatness (0.0%) "
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 28,
+      "reasoning": "[Analyst] Token fails multiple entry gates: buy ratio 1.3x << 1.5x minimum, volu"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] TRENCH fails critical entry filters: buy ratio 1.5x is below your self"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Volume ratio under 2.0x threshold and flat 1h momentum "
     }
   ],
   "openList": []
