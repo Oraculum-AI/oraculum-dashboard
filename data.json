@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T21:25:02.341Z",
-  "totalPositions": 75,
-  "openPositions": 7,
-  "closedPositions": 68,
+  "updated": "2026-02-24T21:30:01.901Z",
+  "totalPositions": 76,
+  "openPositions": 5,
+  "closedPositions": 71,
   "trades": [
     {
       "token": "HorseMeat",
@@ -31,14 +31,21 @@
       "reason": "stop_loss",
       "time": "2026-02-24 21:23:15",
       "exitType": "stop"
+    },
+    {
+      "token": "ROVR",
+      "pnl": -2.8,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 21:29:56",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 4,
-  "winRate": "25",
+  "tradeCount": 5,
+  "winRate": "20",
   "wins": 1,
-  "losses": 1,
+  "losses": 2,
   "avgWin": "0.1",
-  "avgLoss": "-20.0",
+  "avgLoss": "-11.4",
   "bestTrade": {
     "token": "ELGATO",
     "pnl": 0.1,
@@ -81,12 +88,8 @@
   ],
   "openList": [
     {
-      "token": "KDOT",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "JMoney",
-      "strategy": "paper_cluster"
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
     },
     {
       "token": "CUM",
@@ -94,10 +97,6 @@
     },
     {
       "token": "neet",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "ROVR",
       "strategy": "paper_cluster"
     },
     {
