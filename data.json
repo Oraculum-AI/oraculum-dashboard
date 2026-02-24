@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-24T21:15:02.034Z",
-  "totalPositions": 68,
-  "openPositions": 4,
+  "updated": "2026-02-24T21:20:02.770Z",
+  "totalPositions": 71,
+  "openPositions": 7,
   "closedPositions": 64,
   "trades": [],
   "tradeCount": 0,
@@ -28,11 +28,11 @@
   ],
   "openList": [
     {
-      "token": "USOR",
+      "token": "pippin",
       "strategy": "paper_cluster"
     },
     {
-      "token": "Pippkin",
+      "token": "PYTH",
       "strategy": "paper_cluster"
     },
     {
@@ -40,7 +40,19 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "USELESS",
+      "token": "COK",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "DOBBY",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "HorseMeat",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Pippkin",
       "strategy": "paper_cluster"
     }
   ]
