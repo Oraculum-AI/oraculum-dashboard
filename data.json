@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T20:35:02.695Z",
+  "updated": "2026-02-24T20:40:02.279Z",
   "totalPositions": 51,
-  "openPositions": 5,
-  "closedPositions": 46,
+  "openPositions": 4,
+  "closedPositions": 47,
   "trades": [
     {
       "token": "RIZZTER",
@@ -123,10 +123,6 @@
     },
     {
       "token": "house",
-      "strategy": "paper_momentum"
-    },
-    {
-      "token": "BLOODNUT",
       "strategy": "paper_momentum"
     }
   ]
