@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T12:40:02.801Z",
+  "updated": "2026-02-24T12:45:02.399Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -78,18 +78,6 @@
     {
       "token": "CLAW",
       "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Limited",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio below 1.5x + buy volume under 2.0x triggers skip rule regard"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] 1h momentum is completely flat (0.0%) indicating NO acc"
     },
@@ -134,6 +122,18 @@
       "approved": false,
       "confidence": 85,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.8x falls below agent's self-discovered 2.0x"
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Token fails critical self-discovered rule: 'Skip entries when buy volu"
+    },
+    {
+      "token": "PETAH",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
     }
   ],
   "openList": []
