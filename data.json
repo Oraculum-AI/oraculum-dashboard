@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T08:00:02.349Z",
+  "updated": "2026-02-24T08:05:02.123Z",
   "totalPositions": 29,
   "openPositions": 1,
   "closedPositions": 28,
@@ -34,48 +34,6 @@
   },
   "decisions": [
     {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio at 2.0x is your MINIMUM threshold, not a buy signal—self-rul"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 15,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.2x fails accelerating momentum threshold—5m"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x is positive but 1h momentum at 0.0% show"
-    },
-    {
-      "token": "PETAH",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Buy ratio is exactly 1.2x (not exceeding threshold) and pair age of 29,1"
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x fails to meet the self-discovered 2.0x+ "
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "CLAW",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.5x with accelerating 5m momentum (+3.5%) me"
-    },
-    {
       "token": "house",
       "approved": false,
       "confidence": 35,
@@ -92,6 +50,48 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 40,
+      "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "JAWZ",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-rules explicitly state 'Skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 38,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Analyst] Your rules explicitly state: 'Skip entries when buy volume ratio is un"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Self-discovered rule explicitly states: 'Skip entries when buy volume "
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Entry violates self-discovered rule requiring buy volume ratio >2.0x; "
     }
   ],
   "openList": [
