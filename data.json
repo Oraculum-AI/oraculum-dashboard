@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T01:05:03.265Z",
+  "updated": "2026-02-24T01:10:02.682Z",
   "totalPositions": 25,
-  "openPositions": 1,
-  "closedPositions": 24,
+  "openPositions": 0,
+  "closedPositions": 25,
   "trades": [
     {
       "token": "Orangutan",
@@ -100,18 +100,6 @@
       "reasoning": ""
     },
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "BLOODNUT",
       "approved": false,
       "confidence": 28,
@@ -134,12 +122,19 @@
       "approved": true,
       "confidence": 58,
       "reasoning": "[Scout->Analyst->Trader] 3.0x buy ratio and 10.3% momentum meet entry criteria, "
+    },
+    {
+      "token": "RIZZTER",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] While buy ratio of 3.2x and momentum align with winning"
+    },
+    {
+      "token": "BLOB",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Despite favorable 3.0x buy ratio, the combination of ze"
     }
   ],
-  "openList": [
-    {
-      "token": "BLOODNUT",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
