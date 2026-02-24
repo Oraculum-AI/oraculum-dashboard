@@ -1,17 +1,58 @@
 {
-  "updated": "2026-02-24T22:20:02.138Z",
-  "totalPositions": 90,
-  "openPositions": 5,
-  "closedPositions": 85,
-  "trades": [],
-  "tradeCount": 0,
+  "updated": "2026-02-24T22:25:02.572Z",
+  "totalPositions": 93,
+  "openPositions": 4,
+  "closedPositions": 89,
+  "trades": [
+    {
+      "token": "$WAR",
+      "pnl": -2.9,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 22:20:26",
+      "exitType": "exit"
+    },
+    {
+      "token": "ELONGATE:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 22:20:31",
+      "exitType": "stop"
+    },
+    {
+      "token": "SPINE",
+      "pnl": -2.9,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 22:22:11",
+      "exitType": "exit"
+    },
+    {
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 22:24:36",
+      "exitType": "stop"
+    }
+  ],
+  "tradeCount": 4,
   "winRate": "0",
   "wins": 0,
-  "losses": 0,
+  "losses": 4,
   "avgWin": "0",
-  "avgLoss": "0",
-  "bestTrade": null,
-  "worstTrade": null,
+  "avgLoss": "-11.4",
+  "bestTrade": {
+    "token": "$WAR",
+    "pnl": -2.9,
+    "reason": "Volume dried up",
+    "time": "2026-02-24 22:20:26",
+    "exitType": "exit"
+  },
+  "worstTrade": {
+    "token": "ELONGATE:",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-24 22:20:31",
+    "exitType": "stop"
+  },
   "decisions": [
     {
       "token": "?",
@@ -28,19 +69,15 @@
   ],
   "openList": [
     {
-      "token": "ELONGATE",
-      "strategy": "paper_dca_paper_launchpad_pump_fun"
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
     },
     {
-      "token": "SPINE",
+      "token": "pippin",
       "strategy": "paper_cluster"
     },
     {
-      "token": "SHY",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "$WAR",
+      "token": "GROKIUS",
       "strategy": "paper_cluster"
     },
     {
