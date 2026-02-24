@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:10:02.045Z",
+  "updated": "2026-02-24T09:15:02.758Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -47,12 +47,6 @@
     "exitType": "timeout"
   },
   "decisions": [
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the 5m volume of $974 is s"
-    },
     {
       "token": "RIZZTER",
       "approved": false,
@@ -106,6 +100,12 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Your rule explicitly states: 'Skip entries when buy volume ratio is un"
+    },
+    {
+      "token": "BLOODNUT",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio of 11.0x is strong, but flat 1h price action "
     }
   ],
   "openList": []
