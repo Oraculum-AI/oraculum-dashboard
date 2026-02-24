@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:15:02.758Z",
+  "updated": "2026-02-24T09:20:02.317Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -48,30 +48,6 @@
   },
   "decisions": [
     {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While liquidity and buy ratio are adequate, the 5m volume of $974 is ext"
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Critical momentum contradiction: 1h price 0.0% vs 5m +1"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Volume stalling (1h $5592 vs 5m $4185) signals momentum"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Buy ratio 1.3x is below your 1.5x mandate and fails the 2.0x volume ru"
-    },
-    {
       "token": "PETAH",
       "approved": false,
       "confidence": 35,
@@ -106,6 +82,30 @@
       "approved": false,
       "confidence": 35,
       "reasoning": "[Scout->Analyst->Trader] Buy ratio of 11.0x is strong, but flat 1h price action "
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.1x and 5m momentum (+7.5%) meet entry crite"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] The 5m spike lacks 1h confirmation (0.0% = price rejection), signaling"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.6x fails to meet accelerating momentum thre"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Your self-discovered rules explicitly require buy ratio >2.0x for entr"
     }
   ],
   "openList": []
