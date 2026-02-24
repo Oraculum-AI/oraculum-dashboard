@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T06:50:02.451Z",
+  "updated": "2026-02-24T06:55:01.879Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -13,48 +13,6 @@
   "bestTrade": null,
   "worstTrade": null,
   "decisions": [
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Pippkin",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "fren",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Critical momentum divergence (1h flat vs 5m spike) indi"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 42,
-      "reasoning": "[Analyst] Buy ratio 1.4x fails core entry criterion (>1.5x required) AND falls s"
-    },
-    {
-      "token": "Pippkin",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Entry fails two hard rules: buy ratio 1.4x < 1.5x minimum AND volume r"
-    },
-    {
-      "token": "fren",
-      "approved": true,
-      "confidence": 68,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.4x and +6.9% 5m price action meet entry cri"
-    },
-    {
-      "token": "AUTISM",
-      "approved": false,
-      "confidence": 32,
-      "reasoning": "[Analyst] Token fails multiple entry gates: buy ratio 1.2x < required 1.5x AND <"
-    },
     {
       "token": "TRENCH",
       "approved": false,
@@ -72,6 +30,48 @@
       "approved": false,
       "confidence": 28,
       "reasoning": "[Analyst] Self-rule explicitly states: 'Skip entries when buy volume ratio is un"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the extremely low 5m volum"
+    },
+    {
+      "token": "AUTISM",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your self-discovered rules explicitly state: 'Skip entries when buy vo"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are acceptable, the extremely low 5m volum"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Fails core momentum requirement: flat 1h price + dead volume despite 2"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($1774 5m) with 1h price flat contradic"
+    },
+    {
+      "token": "Reduary",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio of 2.0x meets minimum criteria but volume is insufficient an"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails to meet self-discovered 2.0x minim"
     }
   ],
   "openList": []
