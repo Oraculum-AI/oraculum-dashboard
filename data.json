@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T16:10:02.264Z",
+  "updated": "2026-02-24T16:15:01.891Z",
   "totalPositions": 41,
   "openPositions": 1,
   "closedPositions": 40,
   "trades": [
-    {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 14:51:42",
-      "exitType": "stop"
-    },
     {
       "token": "KORI",
       "pnl": -0.2,
@@ -26,12 +19,12 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 3,
+  "tradeCount": 2,
   "winRate": "0",
   "wins": 0,
-  "losses": 3,
+  "losses": 2,
   "avgWin": "0",
-  "avgLoss": "-13.4",
+  "avgLoss": "-10.1",
   "bestTrade": {
     "token": "KORI",
     "pnl": -0.2,
@@ -43,16 +36,10 @@
     "token": ":",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-24 14:51:42",
+    "time": "2026-02-24 15:06:43",
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "AGI",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity is below $8K threshold at $7150, and 1h volume is zero indicat"
-    },
     {
       "token": "Limited",
       "approved": false,
@@ -106,6 +93,12 @@
       "approved": false,
       "confidence": 32,
       "reasoning": "[Analyst] Buy ratio 1.3x is below the mandatory 2.0x entry floor—your rules expl"
+    },
+    {
+      "token": "fih",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Self-rules explicitly reject buy ratio below 2.0x regardless of chart "
     }
   ],
   "openList": [
