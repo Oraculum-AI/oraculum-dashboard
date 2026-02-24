@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T09:05:02.329Z",
+  "updated": "2026-02-24T09:10:02.045Z",
   "totalPositions": 29,
   "openPositions": 0,
   "closedPositions": 29,
@@ -48,24 +48,6 @@
   },
   "decisions": [
     {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] 1h price flatness (0.0%) contradicts 5m spike—momentum "
-    },
-    {
-      "token": "RIZZTER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] While metrics like 10.0x buy ratio and 17.3% 5m price change appear stro"
-    },
-    {
-      "token": "JAWZ",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.4x is strong, but 1h momentum flat (0.0%) v"
-    },
-    {
       "token": "RIZZTER",
       "approved": false,
       "confidence": 10,
@@ -106,6 +88,24 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Self-rules explicitly state 'Skip entries when buy volume ratio is und"
+    },
+    {
+      "token": "house",
+      "approved": false,
+      "confidence": 62,
+      "reasoning": "[Analyst] Your rules explicitly state: 'Skip entries when buy volume ratio is un"
+    },
+    {
+      "token": "Xingxing",
+      "approved": false,
+      "confidence": 32,
+      "reasoning": "[Analyst] Your rule explicitly states: 'Skip entries when buy volume ratio is un"
     }
   ],
   "openList": []
