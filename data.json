@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T23:40:02.727Z",
-  "totalPositions": 107,
-  "openPositions": 3,
-  "closedPositions": 104,
+  "updated": "2026-02-24T23:45:02.105Z",
+  "totalPositions": 108,
+  "openPositions": 2,
+  "closedPositions": 106,
   "trades": [
-    {
-      "token": "SOL",
-      "pnl": -3,
-      "reason": "Volume dried up",
-      "time": "2026-02-24 23:13:51",
-      "exitType": "exit"
-    },
     {
       "token": "PMPR:",
       "pnl": -20,
@@ -31,20 +24,34 @@
       "reason": "stop_loss",
       "time": "2026-02-24 23:30:25",
       "exitType": "stop"
+    },
+    {
+      "token": "Clude",
+      "pnl": 32,
+      "reason": "profit_tier",
+      "time": "2026-02-24 23:40:10",
+      "exitType": "profit"
+    },
+    {
+      "token": "Capybara",
+      "pnl": 18.4,
+      "reason": "Timeout: 46min, only +18.4%",
+      "time": "2026-02-24 23:44:40",
+      "exitType": "timeout"
     }
   ],
-  "tradeCount": 4,
-  "winRate": "25",
-  "wins": 1,
-  "losses": 3,
-  "avgWin": "17.7",
-  "avgLoss": "-14.3",
+  "tradeCount": 5,
+  "winRate": "60",
+  "wins": 3,
+  "losses": 2,
+  "avgWin": "22.7",
+  "avgLoss": "-20.0",
   "bestTrade": {
-    "token": "CPT",
-    "pnl": 17.7,
-    "reason": "Volume dried up",
-    "time": "2026-02-24 23:23:51",
-    "exitType": "exit"
+    "token": "Clude",
+    "pnl": 32,
+    "reason": "profit_tier",
+    "time": "2026-02-24 23:40:10",
+    "exitType": "profit"
   },
   "worstTrade": {
     "token": "PMPR:",
@@ -69,15 +76,11 @@
   ],
   "openList": [
     {
+      "token": "WAR",
+      "strategy": "paper_cluster"
+    },
+    {
       "token": "CHUD",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Clude",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Capybara",
       "strategy": "paper_cluster"
     }
   ]
