@@ -1,105 +1,17 @@
 {
-  "updated": "2026-02-24T19:20:03.514Z",
+  "updated": "2026-02-24T19:25:02.530Z",
   "totalPositions": 42,
   "openPositions": 0,
   "closedPositions": 42,
-  "trades": [
-    {
-      "token": "CLAW",
-      "pnl": 12.5,
-      "reason": "Timeout: 45min, only +12.5%",
-      "time": "2026-02-24 18:34:51",
-      "exitType": "timeout"
-    },
-    {
-      "token": "fih",
-      "pnl": -0.9,
-      "reason": "Timeout: 45min, only +-0.9%",
-      "time": "2026-02-24 18:38:51",
-      "exitType": "timeout"
-    }
-  ],
-  "tradeCount": 2,
-  "winRate": "50",
-  "wins": 1,
-  "losses": 1,
-  "avgWin": "12.5",
-  "avgLoss": "-0.9",
-  "bestTrade": {
-    "token": "CLAW",
-    "pnl": 12.5,
-    "reason": "Timeout: 45min, only +12.5%",
-    "time": "2026-02-24 18:34:51",
-    "exitType": "timeout"
-  },
-  "worstTrade": {
-    "token": "fih",
-    "pnl": -0.9,
-    "reason": "Timeout: 45min, only +-0.9%",
-    "time": "2026-02-24 18:38:51",
-    "exitType": "timeout"
-  },
-  "decisions": [
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity is below $8K threshold at $7357"
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity is below $8K threshold at $6273, and 1h volume is $0 indicatin"
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity is $6273, below the $8K minimum threshold."
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity at $6355 is below the $8K minimum threshold."
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and liquidity is below $8K threshold at $6355."
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity of $6355 is below the $8K minimum threshold."
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and liquidity is below $8K threshold at $6355."
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and liquidity of $6355 is below the $8K minimum threshol"
-    },
-    {
-      "token": "AGENC",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "Reddit",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Liquidity is below $8K threshold at $6405, and volume 1h is zero indicat"
-    }
-  ],
+  "trades": [],
+  "tradeCount": 0,
+  "winRate": "0",
+  "wins": 0,
+  "losses": 0,
+  "avgWin": "0",
+  "avgLoss": "0",
+  "bestTrade": null,
+  "worstTrade": null,
+  "decisions": [],
   "openList": []
 }
