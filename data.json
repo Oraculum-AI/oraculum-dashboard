@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T11:30:02.528Z",
+  "updated": "2026-02-24T11:35:02.523Z",
   "totalPositions": 29,
-  "openPositions": 1,
-  "closedPositions": 28,
+  "openPositions": 0,
+  "closedPositions": 29,
   "trades": [
     {
       "token": "PETAH",
@@ -45,14 +45,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-24 11:23:31",
       "exitType": "exit"
+    },
+    {
+      "token": "JAWZ",
+      "pnl": -1,
+      "reason": "Volume dried up",
+      "time": "2026-02-24 11:31:31",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 6,
+  "tradeCount": 7,
   "winRate": "0",
   "wins": 0,
-  "losses": 2,
+  "losses": 3,
   "avgWin": "0",
-  "avgLoss": "-5.4",
+  "avgLoss": "-3.9",
   "bestTrade": {
     "token": "PETAH",
     "pnl": 0,
@@ -69,54 +76,6 @@
   },
   "decisions": [
     {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 2.7x is strong, but 1h price momentum is flat"
-    },
-    {
-      "token": "Reduary",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "Xingxing",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 5.7x with accelerating 5m momentum (+1.3%) me"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 35,
-      "reasoning": "[Scout->Analyst->Trader] Volume deadness ($997 5m) violates minimum liquidity th"
-    },
-    {
-      "token": "BLOODNUT",
-      "approved": false,
-      "confidence": 40,
-      "reasoning": "[Analyst] Analyst parse failed"
-    },
-    {
-      "token": "JAWZ",
-      "approved": true,
-      "confidence": 62,
-      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.3x and +12.7% 5m momentum satisfy entry cri"
-    },
-    {
       "token": "CLAW",
       "approved": false,
       "confidence": 62,
@@ -127,12 +86,55 @@
       "approved": false,
       "confidence": 10,
       "reasoning": "[Scout] Despite strong buy ratio of 10.0x and decent liquidity, the 5m volume of"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 35,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio at exactly 2.0x lacks acceleration cushion an"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 81,478 minutes (~56 days) combined with suspiciously high bu"
+    },
+    {
+      "token": "Gaper",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Buy ratio 1.4x fails minimum entry criteria (need >1.5x, ideally 2.0x)"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] While liquidity and buy ratio are healthy, the 5m volume of $358 is extr"
+    },
+    {
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 25,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 1.7x fails your 2.0x minimum rule; flat 1h mo"
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Pair age of 81,480 minutes (~56 days) combined with suspiciously high bu"
+    },
+    {
+      "token": "PETAH",
+      "approved": true,
+      "confidence": 68,
+      "reasoning": "[Scout->Analyst->Trader] Buy ratio 3.0x exceeds threshold with positive 5m momen"
+    },
+    {
+      "token": "TRENCH",
+      "approved": false,
+      "confidence": 42,
+      "reasoning": "[Analyst] Your self-rules explicitly state 'Skip entries when buy volume ratio i"
     }
   ],
-  "openList": [
-    {
-      "token": "JAWZ",
-      "strategy": "paper_momentum"
-    }
-  ]
+  "openList": []
 }
