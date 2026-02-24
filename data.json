@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T17:50:01.919Z",
-  "totalPositions": 41,
-  "openPositions": 2,
-  "closedPositions": 39,
+  "updated": "2026-02-24T17:55:02.536Z",
+  "totalPositions": 42,
+  "openPositions": 4,
+  "closedPositions": 38,
   "trades": [
     {
       "token": "Limited",
@@ -102,6 +102,14 @@
     }
   ],
   "openList": [
+    {
+      "token": "TRENCH",
+      "strategy": "paper_momentum"
+    },
+    {
+      "token": "fih",
+      "strategy": "paper_momentum"
+    },
     {
       "token": "CLAW",
       "strategy": "paper_momentum"
