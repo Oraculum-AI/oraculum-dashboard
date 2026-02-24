@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-24T18:20:02.954Z",
+  "updated": "2026-02-24T18:25:02.876Z",
   "totalPositions": 42,
   "openPositions": 1,
   "closedPositions": 41,
@@ -34,42 +34,6 @@
   },
   "decisions": [
     {
-      "token": "ATELIER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating no established tra"
-    },
-    {
-      "token": "ATELIER",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
-    },
-    {
-      "token": "tappy",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
-    },
-    {
-      "token": "tappy",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
-    },
-    {
-      "token": "tappy",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating a brand new token "
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 10,
-      "reasoning": "[Scout] Buy ratio of 1.2x meets minimum threshold but lacks compelling momentum—"
-    },
-    {
       "token": "tappy",
       "approved": false,
       "confidence": 10,
@@ -92,6 +56,42 @@
       "approved": false,
       "confidence": 40,
       "reasoning": "[Analyst] Analyst parse failed"
+    },
+    {
+      "token": "ATELIER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "ATELIER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no real momentum, and pair age of 0 minutes s"
+    },
+    {
+      "token": "ATELIER",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading momentum, and pair age o"
+    },
+    {
+      "token": "MAXI",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 min, indicating an extremely new token"
+    },
+    {
+      "token": "MAXI",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 indicating no sustained trading activity, and pair age o"
+    },
+    {
+      "token": "MAXI",
+      "approved": false,
+      "confidence": 10,
+      "reasoning": "[Scout] Volume 1h is $0 and pair age is 0 minutes, indicating this is a brand ne"
     }
   ],
   "openList": [
