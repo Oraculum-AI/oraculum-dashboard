@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-24T23:45:02.105Z",
-  "totalPositions": 108,
-  "openPositions": 2,
-  "closedPositions": 106,
+  "updated": "2026-02-24T23:50:02.412Z",
+  "totalPositions": 110,
+  "openPositions": 3,
+  "closedPositions": 107,
   "trades": [
-    {
-      "token": "PMPR:",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 23:14:15",
-      "exitType": "stop"
-    },
     {
       "token": "CPT",
       "pnl": 17.7,
@@ -40,10 +33,10 @@
       "exitType": "timeout"
     }
   ],
-  "tradeCount": 5,
-  "winRate": "60",
+  "tradeCount": 4,
+  "winRate": "75",
   "wins": 3,
-  "losses": 2,
+  "losses": 1,
   "avgWin": "22.7",
   "avgLoss": "-20.0",
   "bestTrade": {
@@ -54,10 +47,10 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "PMPR:",
+    "token": ":",
     "pnl": -20,
     "reason": "stop_loss",
-    "time": "2026-02-24 23:14:15",
+    "time": "2026-02-24 23:30:25",
     "exitType": "stop"
   },
   "decisions": [
@@ -75,6 +68,10 @@
     }
   ],
   "openList": [
+    {
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
+    },
     {
       "token": "WAR",
       "strategy": "paper_cluster"
