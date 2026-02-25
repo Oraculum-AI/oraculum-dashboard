@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-25T07:05:01.878Z",
-  "totalPositions": 148,
-  "openPositions": 1,
+  "updated": "2026-02-25T07:10:02.212Z",
+  "totalPositions": 149,
+  "openPositions": 2,
   "closedPositions": 147,
   "trades": [
     {
@@ -83,12 +83,6 @@
   },
   "decisions": [
     {
-      "token": "SAVE",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "Capybara",
       "approved": true,
       "confidence": 0,
@@ -141,9 +135,19 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "DJI6930",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "DJI6930",
+      "strategy": "paper_cluster"
+    },
     {
       "token": "KIMCHI",
       "strategy": "paper_dca_paper_cluster"
