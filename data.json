@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T03:55:02.393Z",
+  "updated": "2026-02-25T04:00:02.465Z",
   "totalPositions": 141,
   "openPositions": 0,
   "closedPositions": 141,
@@ -90,12 +90,6 @@
   },
   "decisions": [
     {
-      "token": "APES",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "LFGO",
       "approved": true,
       "confidence": 0,
@@ -146,6 +140,12 @@
     {
       "token": "MLG",
       "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "GROKCLI",
+      "approved": false,
       "confidence": 0,
       "reasoning": ""
     }
