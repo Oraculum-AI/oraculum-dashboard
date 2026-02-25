@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-24T23:55:01.899Z",
-  "totalPositions": 114,
-  "openPositions": 8,
-  "closedPositions": 106,
+  "updated": "2026-02-25T00:00:03.631Z",
+  "totalPositions": 118,
+  "openPositions": 10,
+  "closedPositions": 108,
   "trades": [
     {
       "token": "Clude",
@@ -17,14 +17,21 @@
       "reason": "Timeout: 46min, only +18.4%",
       "time": "2026-02-24 23:44:40",
       "exitType": "timeout"
+    },
+    {
+      "token": ":",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-24 23:55:57",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 2,
-  "winRate": "100",
+  "tradeCount": 3,
+  "winRate": "67",
   "wins": 2,
-  "losses": 0,
+  "losses": 1,
   "avgWin": "25.2",
-  "avgLoss": "0",
+  "avgLoss": "-20.0",
   "bestTrade": {
     "token": "Clude",
     "pnl": 32,
@@ -33,11 +40,11 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "Capybara",
-    "pnl": 18.4,
-    "reason": "Timeout: 46min, only +18.4%",
-    "time": "2026-02-24 23:44:40",
-    "exitType": "timeout"
+    "token": ":",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-24 23:55:57",
+    "exitType": "stop"
   },
   "decisions": [
     {
@@ -67,11 +74,27 @@
   ],
   "openList": [
     {
-      "token": "PYTH",
+      "token": "RAY",
       "strategy": "paper_cluster"
     },
     {
-      "token": "KMNO",
+      "token": "HODL",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "GROKIUS",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "PENGU",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "BP",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "PYTH",
       "strategy": "paper_cluster"
     },
     {
@@ -83,16 +106,8 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "Percolator",
-      "strategy": "paper_cluster"
-    },
-    {
       "token": "ORANMAMA",
       "strategy": "paper_cluster"
-    },
-    {
-      "token": "",
-      "strategy": "paper_launchpad_pump_fun"
     },
     {
       "token": "WAR",
