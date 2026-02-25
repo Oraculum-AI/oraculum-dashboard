@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T09:05:02.941Z",
+  "updated": "2026-02-25T09:10:02.887Z",
   "totalPositions": 156,
   "openPositions": 1,
   "closedPositions": 155,
@@ -40,12 +40,6 @@
     "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "VAULT",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "$HACHI",
       "approved": false,
@@ -96,6 +90,12 @@
     },
     {
       "token": "PLAY",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "LLM",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
