@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T01:10:02.576Z",
+  "updated": "2026-02-25T01:15:02.141Z",
   "totalPositions": 127,
-  "openPositions": 7,
-  "closedPositions": 120,
+  "openPositions": 6,
+  "closedPositions": 121,
   "trades": [
     {
       "token": ":",
@@ -76,18 +76,6 @@
   },
   "decisions": [
     {
-      "token": "maxxing",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "?",
       "approved": false,
       "confidence": 0,
@@ -134,12 +122,24 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "PIGEON",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "testicle",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "CLANKER",
-      "strategy": "paper_dca_paper_cluster"
+      "token": "PIGEON ",
+      "strategy": "paper_cluster"
     },
     {
       "token": "maxxing",
@@ -147,10 +147,6 @@
     },
     {
       "token": "Clippy",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Buttcoin",
       "strategy": "paper_cluster"
     },
     {
