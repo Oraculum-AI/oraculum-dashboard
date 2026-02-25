@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T07:20:01.984Z",
-  "totalPositions": 150,
+  "updated": "2026-02-25T07:25:02.571Z",
+  "totalPositions": 151,
   "openPositions": 1,
-  "closedPositions": 149,
+  "closedPositions": 150,
   "trades": [
     {
       "token": "gork",
@@ -69,12 +69,6 @@
   },
   "decisions": [
     {
-      "token": "KIMCHI",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "LUCE",
       "approved": false,
       "confidence": 0,
@@ -127,11 +121,17 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Rizzmas",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "Choctopus",
+      "token": "Rizzmas",
       "strategy": "paper_cluster"
     }
   ]
