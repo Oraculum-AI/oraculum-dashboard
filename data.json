@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-25T01:25:02.381Z",
-  "totalPositions": 129,
-  "openPositions": 7,
-  "closedPositions": 122,
+  "updated": "2026-02-25T01:30:02.894Z",
+  "totalPositions": 133,
+  "openPositions": 8,
+  "closedPositions": 125,
   "trades": [
-    {
-      "token": "TETSUO",
-      "pnl": -3.5,
-      "reason": "Volume dried up",
-      "time": "2026-02-25 00:15:48",
-      "exitType": "exit"
-    },
     {
       "token": "COPPERINU",
       "pnl": -3.6,
@@ -24,20 +17,34 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 00:40:13",
       "exitType": "exit"
+    },
+    {
+      "token": "Djungelskog",
+      "pnl": 32,
+      "reason": "profit_tier",
+      "time": "2026-02-25 01:25:03",
+      "exitType": "profit"
+    },
+    {
+      "token": "USEFUL",
+      "pnl": -3.1,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 01:25:34",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "0",
-  "wins": 0,
+  "tradeCount": 4,
+  "winRate": "25",
+  "wins": 1,
   "losses": 3,
-  "avgWin": "0",
-  "avgLoss": "-3.3",
+  "avgWin": "32.0",
+  "avgLoss": "-3.2",
   "bestTrade": {
-    "token": "WOJAK",
-    "pnl": -2.9,
-    "reason": "Volume dried up",
-    "time": "2026-02-25 00:40:13",
-    "exitType": "exit"
+    "token": "Djungelskog",
+    "pnl": 32,
+    "reason": "profit_tier",
+    "time": "2026-02-25 01:25:03",
+    "exitType": "profit"
   },
   "worstTrade": {
     "token": "COPPERINU",
@@ -48,38 +55,14 @@
   },
   "decisions": [
     {
-      "token": "GIGA",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Pippkin",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "VIBECOIN",
+      "token": "?",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
     },
     {
-      "token": "GOOD",
+      "token": "?",
       "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "CUM",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "USEFUL",
-      "approved": true,
       "confidence": 0,
       "reasoning": ""
     },
@@ -92,6 +75,30 @@
     {
       "token": "?",
       "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "USDUC",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "GHOST",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Lobstar",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "LOOK",
+      "approved": true,
       "confidence": 0,
       "reasoning": ""
     },
@@ -110,15 +117,23 @@
   ],
   "openList": [
     {
-      "token": "USEFUL",
+      "token": "LOOK",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Lobstar",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "GHOST",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "USDUC",
       "strategy": "paper_cluster"
     },
     {
       "token": "Pippkin",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "GIGA",
       "strategy": "paper_cluster"
     },
     {
@@ -131,10 +146,6 @@
     },
     {
       "token": "Clippy",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Djungelskog",
       "strategy": "paper_cluster"
     }
   ]
