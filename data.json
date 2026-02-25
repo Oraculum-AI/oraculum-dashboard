@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-25T00:15:02.093Z",
+  "updated": "2026-02-25T00:20:02.339Z",
   "totalPositions": 118,
-  "openPositions": 7,
-  "closedPositions": 111,
+  "openPositions": 5,
+  "closedPositions": 113,
   "trades": [
-    {
-      "token": "Clude",
-      "pnl": 32,
-      "reason": "profit_tier",
-      "time": "2026-02-24 23:40:10",
-      "exitType": "profit"
-    },
     {
       "token": "Capybara",
       "pnl": 18.4,
@@ -45,20 +38,27 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 00:07:49",
       "exitType": "exit"
+    },
+    {
+      "token": "TETSUO",
+      "pnl": -3.5,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 00:15:48",
+      "exitType": "exit"
     }
   ],
   "tradeCount": 6,
-  "winRate": "33",
-  "wins": 2,
-  "losses": 4,
-  "avgWin": "25.2",
-  "avgLoss": "-8.1",
+  "winRate": "17",
+  "wins": 1,
+  "losses": 5,
+  "avgWin": "18.4",
+  "avgLoss": "-7.2",
   "bestTrade": {
-    "token": "Clude",
-    "pnl": 32,
-    "reason": "profit_tier",
-    "time": "2026-02-24 23:40:10",
-    "exitType": "profit"
+    "token": "Capybara",
+    "pnl": 18.4,
+    "reason": "Timeout: 46min, only +18.4%",
+    "time": "2026-02-24 23:44:40",
+    "exitType": "timeout"
   },
   "worstTrade": {
     "token": ":",
@@ -69,48 +69,6 @@
   },
   "decisions": [
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "KMNO",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "MM",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "$HACHI",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "Capybara",
       "approved": false,
       "confidence": 0,
@@ -119,6 +77,54 @@
     {
       "token": "TROLL",
       "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "CLANKER",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "TripleT",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "pwease",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RI",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Pigeon",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "USDUC",
+      "approved": true,
       "confidence": 0,
       "reasoning": ""
     }
@@ -141,15 +147,7 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "TETSUO",
-      "strategy": "paper_cluster"
-    },
-    {
       "token": "ORANMAMA",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "WAR",
       "strategy": "paper_cluster"
     }
   ]
