@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T05:45:02.543Z",
+  "updated": "2026-02-25T05:50:01.951Z",
   "totalPositions": 148,
-  "openPositions": 1,
-  "closedPositions": 147,
+  "openPositions": 0,
+  "closedPositions": 148,
   "trades": [
     {
       "token": "X1XHLOL",
@@ -66,12 +66,19 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 05:39:04",
       "exitType": "exit"
+    },
+    {
+      "token": "XBT",
+      "pnl": -5.4,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 05:49:34",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 9,
+  "tradeCount": 10,
   "winRate": "0",
   "wins": 0,
-  "losses": 9,
+  "losses": 10,
   "avgWin": "0",
   "avgLoss": "-4.9",
   "bestTrade": {
@@ -150,10 +157,5 @@
       "reasoning": ""
     }
   ],
-  "openList": [
-    {
-      "token": "XBT",
-      "strategy": "paper_cluster"
-    }
-  ]
+  "openList": []
 }
