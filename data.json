@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T01:30:02.894Z",
+  "updated": "2026-02-25T01:35:02.466Z",
   "totalPositions": 133,
-  "openPositions": 8,
-  "closedPositions": 125,
+  "openPositions": 9,
+  "closedPositions": 124,
   "trades": [
     {
       "token": "COPPERINU",
@@ -31,12 +31,19 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 01:25:34",
       "exitType": "exit"
+    },
+    {
+      "token": "USDUC",
+      "pnl": -3.1,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 01:30:41",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 4,
-  "winRate": "25",
+  "tradeCount": 5,
+  "winRate": "20",
   "wins": 1,
-  "losses": 3,
+  "losses": 4,
   "avgWin": "32.0",
   "avgLoss": "-3.2",
   "bestTrade": {
@@ -55,48 +62,6 @@
   },
   "decisions": [
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "USDUC",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "GHOST",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Lobstar",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "LOOK",
       "approved": true,
       "confidence": 0,
@@ -111,29 +76,63 @@
     {
       "token": "?",
       "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "PYTH",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "PIGEON",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "COPPERINU",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "pwease",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "testicle",
+      "approved": true,
       "confidence": 0,
       "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "LOOK",
+      "token": "testicle",
       "strategy": "paper_cluster"
     },
     {
-      "token": "Lobstar",
+      "token": "pwease",
       "strategy": "paper_cluster"
     },
     {
-      "token": "GHOST",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "USDUC",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Pippkin",
+      "token": "COPPERINU",
       "strategy": "paper_cluster"
     },
     {
@@ -141,7 +140,19 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "maxxing",
+      "token": "LOOK",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Lobstar",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "GHOST",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Pippkin",
       "strategy": "paper_cluster"
     },
     {
