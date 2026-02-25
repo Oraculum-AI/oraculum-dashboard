@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T08:00:02.065Z",
+  "updated": "2026-02-25T08:05:02.058Z",
   "totalPositions": 154,
-  "openPositions": 1,
-  "closedPositions": 153,
+  "openPositions": 0,
+  "closedPositions": 154,
   "trades": [
     {
       "token": "NATIX",
@@ -129,10 +129,5 @@
       "reasoning": ""
     }
   ],
-  "openList": [
-    {
-      "token": "VAULT",
-      "strategy": "paper_dca_paper_cluster"
-    }
-  ]
+  "openList": []
 }
