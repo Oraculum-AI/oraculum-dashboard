@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T00:35:03.068Z",
-  "totalPositions": 119,
-  "openPositions": 6,
-  "closedPositions": 113,
+  "updated": "2026-02-25T00:40:03.281Z",
+  "totalPositions": 120,
+  "openPositions": 5,
+  "closedPositions": 115,
   "trades": [
     {
       "token": ":",
@@ -69,18 +69,6 @@
   },
   "decisions": [
     {
-      "token": "USDUC",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "COPPERINU",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "Orangutan",
       "approved": false,
       "confidence": 0,
@@ -127,15 +115,23 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "PsyopAnime",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "PENGU",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
       "token": "WOJAK",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "aura",
       "strategy": "paper_cluster"
     },
     {
