@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T01:45:02.877Z",
+  "updated": "2026-02-25T01:50:02.509Z",
   "totalPositions": 134,
-  "openPositions": 8,
-  "closedPositions": 126,
+  "openPositions": 6,
+  "closedPositions": 128,
   "trades": [
     {
       "token": "WOJAK",
@@ -62,12 +62,6 @@
   },
   "decisions": [
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "PIGEON",
       "approved": true,
       "confidence": 0,
@@ -120,15 +114,17 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "PYTH",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
       "token": "Djungelskog",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "ZAUTH",
       "strategy": "paper_cluster"
     },
     {
@@ -141,10 +137,6 @@
     },
     {
       "token": "LOOK",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Lobstar",
       "strategy": "paper_cluster"
     },
     {
