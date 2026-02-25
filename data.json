@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T06:05:02.849Z",
+  "updated": "2026-02-25T06:10:02.982Z",
   "totalPositions": 148,
   "openPositions": 0,
   "closedPositions": 148,
@@ -97,12 +97,6 @@
   },
   "decisions": [
     {
-      "token": "TRENCH",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "RETARDS",
       "approved": false,
       "confidence": 0,
@@ -153,6 +147,12 @@
     {
       "token": "XBT",
       "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Moltlets",
+      "approved": false,
       "confidence": 0,
       "reasoning": ""
     }
