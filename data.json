@@ -1,23 +1,9 @@
 {
-  "updated": "2026-02-25T03:05:01.972Z",
+  "updated": "2026-02-25T03:10:02.785Z",
   "totalPositions": 138,
   "openPositions": 1,
   "closedPositions": 137,
   "trades": [
-    {
-      "token": "Djungelskog",
-      "pnl": 32,
-      "reason": "profit_tier",
-      "time": "2026-02-25 01:25:03",
-      "exitType": "profit"
-    },
-    {
-      "token": "USEFUL",
-      "pnl": -3.1,
-      "reason": "Volume dried up",
-      "time": "2026-02-25 01:25:34",
-      "exitType": "exit"
-    },
     {
       "token": "USDUC",
       "pnl": -3.1,
@@ -80,20 +66,27 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 02:47:03",
       "exitType": "exit"
+    },
+    {
+      "token": "KIMCHI",
+      "pnl": -3.3,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 03:05:18",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 11,
-  "winRate": "18",
-  "wins": 2,
+  "tradeCount": 10,
+  "winRate": "10",
+  "wins": 1,
   "losses": 9,
-  "avgWin": "20.8",
+  "avgWin": "9.5",
   "avgLoss": "-7.2",
   "bestTrade": {
-    "token": "Djungelskog",
-    "pnl": 32,
-    "reason": "profit_tier",
-    "time": "2026-02-25 01:25:03",
-    "exitType": "profit"
+    "token": "Pippkin",
+    "pnl": 9.5,
+    "reason": "Timeout: 46min, only +9.5%",
+    "time": "2026-02-25 02:03:33",
+    "exitType": "timeout"
   },
   "worstTrade": {
     "token": "Djungelskog:",
@@ -103,30 +96,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "丙午",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Kurumi",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "ALFRED",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "DRIFT",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "TRENCH",
       "approved": true,
@@ -162,12 +131,36 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "ORANMAMA",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "APES",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "GameStop",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "GoldPippin",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "KIMCHI",
-      "strategy": "paper_dca_paper_cluster"
+      "token": "ORANMAMA",
+      "strategy": "paper_cluster"
     }
   ]
 }
