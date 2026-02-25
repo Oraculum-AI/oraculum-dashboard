@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-25T08:35:03.091Z",
-  "totalPositions": 155,
-  "openPositions": 0,
+  "updated": "2026-02-25T08:40:02.892Z",
+  "totalPositions": 156,
+  "openPositions": 1,
   "closedPositions": 155,
   "trades": [
     {
@@ -55,12 +55,6 @@
   },
   "decisions": [
     {
-      "token": "AWR",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "SNP500",
       "approved": true,
       "confidence": 0,
@@ -113,7 +107,18 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "GIRAFFES",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "GIRAFFES",
+      "strategy": "paper_cluster"
+    }
+  ]
 }
