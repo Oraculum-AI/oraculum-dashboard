@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T01:05:03.622Z",
-  "totalPositions": 125,
-  "openPositions": 8,
-  "closedPositions": 117,
+  "updated": "2026-02-25T01:10:02.576Z",
+  "totalPositions": 127,
+  "openPositions": 7,
+  "closedPositions": 120,
   "trades": [
     {
       "token": ":",
@@ -76,25 +76,7 @@
   },
   "decisions": [
     {
-      "token": "Djungelskog",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "PENGUIN",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "NICE",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "CLANKER",
+      "token": "maxxing",
       "approved": true,
       "confidence": 0,
       "reasoning": ""
@@ -112,25 +94,43 @@
       "reasoning": ""
     },
     {
-      "token": "COK",
+      "token": "CLAW",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "?",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "nub",
       "approved": true,
       "confidence": 0,
       "reasoning": ""
     },
     {
-      "token": "Buttcoin",
+      "token": "USOR",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Lobstar",
       "approved": true,
       "confidence": 0,
       "reasoning": ""
     },
     {
-      "token": "Clippy",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Aliens",
+      "token": "Punch",
       "approved": true,
       "confidence": 0,
       "reasoning": ""
@@ -138,7 +138,11 @@
   ],
   "openList": [
     {
-      "token": "Aliens",
+      "token": "CLANKER",
+      "strategy": "paper_dca_paper_cluster"
+    },
+    {
+      "token": "maxxing",
       "strategy": "paper_cluster"
     },
     {
@@ -154,19 +158,11 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "CLANKER",
-      "strategy": "paper_cluster"
-    },
-    {
       "token": "PENGUIN",
       "strategy": "paper_cluster"
     },
     {
       "token": "Djungelskog",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "67",
       "strategy": "paper_cluster"
     }
   ]
