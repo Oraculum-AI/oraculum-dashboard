@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T04:35:02.644Z",
+  "updated": "2026-02-25T04:40:01.864Z",
   "totalPositions": 145,
-  "openPositions": 2,
-  "closedPositions": 143,
+  "openPositions": 1,
+  "closedPositions": 144,
   "trades": [
     {
       "token": "Kurumi",
@@ -45,14 +45,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 04:29:04",
       "exitType": "exit"
+    },
+    {
+      "token": "gork",
+      "pnl": -2.9,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 04:37:34",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 6,
+  "tradeCount": 7,
   "winRate": "0",
   "wins": 0,
-  "losses": 6,
+  "losses": 7,
   "avgWin": "0",
-  "avgLoss": "-5.7",
+  "avgLoss": "-5.3",
   "bestTrade": {
     "token": "Papua",
     "pnl": -1.9,
@@ -68,18 +75,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "ELDRIC",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Mixi",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "Papua",
       "approved": true,
@@ -127,13 +122,21 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "LOOK",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
-    {
-      "token": "gork",
-      "strategy": "paper_cluster"
-    },
     {
       "token": "PURCH",
       "strategy": "paper_cluster"
