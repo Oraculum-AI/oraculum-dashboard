@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-25T02:35:02.742Z",
-  "totalPositions": 136,
-  "openPositions": 2,
+  "updated": "2026-02-25T02:40:02.340Z",
+  "totalPositions": 137,
+  "openPositions": 3,
   "closedPositions": 134,
   "trades": [
     {
@@ -97,12 +97,6 @@
   },
   "decisions": [
     {
-      "token": "SERIOUS",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "TETSUO",
       "approved": true,
       "confidence": 0,
@@ -155,9 +149,19 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "丙午",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "丙午",
+      "strategy": "paper_cluster"
+    },
     {
       "token": "USDUC",
       "strategy": "paper_cluster"
