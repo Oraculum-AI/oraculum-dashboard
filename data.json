@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T05:40:02.038Z",
+  "updated": "2026-02-25T05:45:02.543Z",
   "totalPositions": 148,
-  "openPositions": 0,
-  "closedPositions": 148,
+  "openPositions": 1,
+  "closedPositions": 147,
   "trades": [
     {
       "token": "X1XHLOL",
@@ -90,12 +90,6 @@
   },
   "decisions": [
     {
-      "token": "NATIX",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "TRENCH",
       "approved": false,
       "confidence": 0,
@@ -148,7 +142,18 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "XBT",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "XBT",
+      "strategy": "paper_cluster"
+    }
+  ]
 }
