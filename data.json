@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-25T03:40:02.342Z",
-  "totalPositions": 140,
-  "openPositions": 2,
+  "updated": "2026-02-25T03:45:02.752Z",
+  "totalPositions": 141,
+  "openPositions": 3,
   "closedPositions": 138,
   "trades": [
     {
@@ -83,30 +83,6 @@
   },
   "decisions": [
     {
-      "token": "DATBOI",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "KLED",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Minna",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "UFO",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "GME",
       "approved": false,
       "confidence": 0,
@@ -141,16 +117,44 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "X1XHLOL",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "VINE",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Minna",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "JESTER",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "UFO",
-      "strategy": "paper_dca_paper_cluster"
+      "token": "JESTER",
+      "strategy": "paper_cluster"
     },
     {
-      "token": "LFGO",
+      "token": "X1XHLOL",
       "strategy": "paper_cluster"
+    },
+    {
+      "token": "UFO",
+      "strategy": "paper_dca_paper_cluster"
     }
   ]
 }
