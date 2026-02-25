@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-25T00:45:02.689Z",
-  "totalPositions": 121,
-  "openPositions": 2,
+  "updated": "2026-02-25T00:50:03.089Z",
+  "totalPositions": 122,
+  "openPositions": 3,
   "closedPositions": 119,
   "trades": [
     {
@@ -76,12 +76,6 @@
   },
   "decisions": [
     {
-      "token": "COK",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "GOLDENERA",
       "approved": false,
       "confidence": 0,
@@ -134,9 +128,19 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "PENGUIN",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "PENGUIN",
+      "strategy": "paper_cluster"
+    },
     {
       "token": "Djungelskog",
       "strategy": "paper_cluster"
