@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T00:00:03.631Z",
+  "updated": "2026-02-25T00:05:01.907Z",
   "totalPositions": 118,
-  "openPositions": 10,
-  "closedPositions": 108,
+  "openPositions": 9,
+  "closedPositions": 109,
   "trades": [
     {
       "token": "Clude",
@@ -24,14 +24,21 @@
       "reason": "stop_loss",
       "time": "2026-02-24 23:55:57",
       "exitType": "stop"
+    },
+    {
+      "token": "PENGU",
+      "pnl": -3,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 00:01:53",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 3,
-  "winRate": "67",
+  "tradeCount": 4,
+  "winRate": "50",
   "wins": 2,
-  "losses": 1,
+  "losses": 2,
   "avgWin": "25.2",
-  "avgLoss": "-20.0",
+  "avgLoss": "-11.5",
   "bestTrade": {
     "token": "Clude",
     "pnl": 32,
@@ -83,10 +90,6 @@
     },
     {
       "token": "GROKIUS",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "PENGU",
       "strategy": "paper_cluster"
     },
     {
