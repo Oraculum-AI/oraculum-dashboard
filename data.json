@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T00:40:03.281Z",
-  "totalPositions": 120,
-  "openPositions": 5,
-  "closedPositions": 115,
+  "updated": "2026-02-25T00:45:02.689Z",
+  "totalPositions": 121,
+  "openPositions": 2,
+  "closedPositions": 119,
   "trades": [
     {
       "token": ":",
@@ -45,14 +45,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 00:28:43",
       "exitType": "exit"
+    },
+    {
+      "token": "WOJAK",
+      "pnl": -2.9,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 00:40:13",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 6,
+  "tradeCount": 7,
   "winRate": "0",
   "wins": 0,
-  "losses": 6,
+  "losses": 7,
   "avgWin": "0",
-  "avgLoss": "-6.6",
+  "avgLoss": "-6.0",
   "bestTrade": {
     "token": "PYTH",
     "pnl": -2.6,
@@ -68,24 +75,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "Orangutan",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "PIGEON",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "WEN",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "COK",
       "approved": true,
@@ -127,27 +116,33 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "ZEUS",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "67",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Djungelskog",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "WOJAK",
+      "token": "Djungelskog",
       "strategy": "paper_cluster"
     },
     {
-      "token": "RAY",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "HODL",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "GROKIUS",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Punch",
+      "token": "67",
       "strategy": "paper_cluster"
     }
   ]
