@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T03:35:02.631Z",
+  "updated": "2026-02-25T03:40:02.342Z",
   "totalPositions": 140,
   "openPositions": 2,
   "closedPositions": 138,
@@ -83,18 +83,6 @@
   },
   "decisions": [
     {
-      "token": "WANKEY",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "$WIF",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "DATBOI",
       "approved": true,
       "confidence": 0,
@@ -139,6 +127,18 @@
     {
       "token": "LFGO",
       "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "GOON",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Pippfin",
+      "approved": false,
       "confidence": 0,
       "reasoning": ""
     }
