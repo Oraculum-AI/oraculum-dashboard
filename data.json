@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T02:45:02.685Z",
+  "updated": "2026-02-25T02:50:02.555Z",
   "totalPositions": 138,
-  "openPositions": 3,
-  "closedPositions": 135,
+  "openPositions": 1,
+  "closedPositions": 137,
   "trades": [
     {
       "token": "Djungelskog",
@@ -73,14 +73,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 02:25:03",
       "exitType": "exit"
+    },
+    {
+      "token": "Kurumi",
+      "pnl": -3,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 02:47:03",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 10,
-  "winRate": "20",
+  "tradeCount": 11,
+  "winRate": "18",
   "wins": 2,
-  "losses": 8,
+  "losses": 9,
   "avgWin": "20.8",
-  "avgLoss": "-7.8",
+  "avgLoss": "-7.2",
   "bestTrade": {
     "token": "Djungelskog",
     "pnl": 32,
@@ -96,24 +103,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "SOD",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "PANDU",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "SAVE",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "SOL",
       "approved": false,
@@ -155,20 +144,30 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "DRIFT",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "TRENCH",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "SOBAT",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
       "token": "KIMCHI",
       "strategy": "paper_dca_paper_cluster"
-    },
-    {
-      "token": "Kurumi",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "USDUC",
-      "strategy": "paper_cluster"
     }
   ]
 }
