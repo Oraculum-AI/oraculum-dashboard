@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T04:40:01.864Z",
+  "updated": "2026-02-25T04:45:02.652Z",
   "totalPositions": 145,
   "openPositions": 1,
   "closedPositions": 144,
@@ -76,12 +76,6 @@
   },
   "decisions": [
     {
-      "token": "Papua",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "Plex",
       "approved": false,
       "confidence": 0,
@@ -132,6 +126,12 @@
     {
       "token": "LOOK",
       "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RETARDIO",
+      "approved": false,
       "confidence": 0,
       "reasoning": ""
     }
