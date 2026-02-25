@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T06:40:01.869Z",
+  "updated": "2026-02-25T06:45:02.132Z",
   "totalPositions": 148,
   "openPositions": 1,
   "closedPositions": 147,
@@ -83,12 +83,6 @@
   },
   "decisions": [
     {
-      "token": "Moltlets",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "RETARDS",
       "approved": false,
       "confidence": 0,
@@ -139,6 +133,12 @@
     {
       "token": "USA",
       "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
       "confidence": 0,
       "reasoning": ""
     }
