@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T04:25:02.628Z",
-  "totalPositions": 143,
+  "updated": "2026-02-25T04:30:02.135Z",
+  "totalPositions": 144,
   "openPositions": 1,
-  "closedPositions": 142,
+  "closedPositions": 143,
   "trades": [
     {
       "token": "TETSUO",
@@ -45,14 +45,21 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 04:23:04",
       "exitType": "exit"
+    },
+    {
+      "token": "Papua",
+      "pnl": -1.9,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 04:29:04",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 6,
+  "tradeCount": 7,
   "winRate": "0",
   "wins": 0,
-  "losses": 6,
+  "losses": 7,
   "avgWin": "0",
-  "avgLoss": "-5.6",
+  "avgLoss": "-5.1",
   "bestTrade": {
     "token": "TETSUO",
     "pnl": -1.8,
@@ -68,42 +75,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "OPUS",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Grandma",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "ELDRIC",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Mixi",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "DOME",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "STABLE",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "CHILLGUY",
       "approved": true,
@@ -127,11 +98,47 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Plex",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "renta",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "DUPE",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "PURCH",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "ONE",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "Papua",
+      "token": "PURCH",
       "strategy": "paper_cluster"
     }
   ]
