@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T02:30:02.434Z",
+  "updated": "2026-02-25T02:35:02.742Z",
   "totalPositions": 136,
-  "openPositions": 0,
-  "closedPositions": 136,
+  "openPositions": 2,
+  "closedPositions": 134,
   "trades": [
     {
       "token": "Djungelskog",
@@ -97,24 +97,6 @@
   },
   "decisions": [
     {
-      "token": "MARTY",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "aura",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "BigTrout",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "SERIOUS",
       "approved": true,
       "confidence": 0,
@@ -155,7 +137,34 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "KIMCHI",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "USDUC",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "MARTY",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "USDUC",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "KIMCHI",
+      "strategy": "paper_cluster"
+    }
+  ]
 }
