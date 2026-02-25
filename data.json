@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-25T04:00:02.465Z",
+  "updated": "2026-02-25T04:05:02.253Z",
   "totalPositions": 141,
   "openPositions": 0,
   "closedPositions": 141,
   "trades": [
-    {
-      "token": "Pippkin",
-      "pnl": 9.5,
-      "reason": "Timeout: 46min, only +9.5%",
-      "time": "2026-02-25 02:03:33",
-      "exitType": "timeout"
-    },
     {
       "token": "Buttcoin",
       "pnl": -6.2,
@@ -68,18 +61,18 @@
       "exitType": "stop"
     }
   ],
-  "tradeCount": 9,
-  "winRate": "11",
-  "wins": 1,
+  "tradeCount": 8,
+  "winRate": "0",
+  "wins": 0,
   "losses": 8,
-  "avgWin": "9.5",
+  "avgWin": "0",
   "avgLoss": "-9.7",
   "bestTrade": {
-    "token": "Pippkin",
-    "pnl": 9.5,
-    "reason": "Timeout: 46min, only +9.5%",
-    "time": "2026-02-25 02:03:33",
-    "exitType": "timeout"
+    "token": "TETSUO",
+    "pnl": -1.8,
+    "reason": "Volume dried up",
+    "time": "2026-02-25 02:25:03",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": "Djungelskog:",
