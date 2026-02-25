@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T02:20:02.727Z",
+  "updated": "2026-02-25T02:25:01.791Z",
   "totalPositions": 135,
-  "openPositions": 3,
-  "closedPositions": 132,
+  "openPositions": 1,
+  "closedPositions": 134,
   "trades": [
     {
       "token": "Djungelskog",
@@ -90,18 +90,6 @@
   },
   "decisions": [
     {
-      "token": "Pipplin",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "ALFRED",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "swarms",
       "approved": true,
       "confidence": 0,
@@ -148,19 +136,23 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "SOD",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
       "token": "TETSUO",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "SERIOUS",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "BigTrout",
       "strategy": "paper_cluster"
     }
   ]
