@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T02:40:02.340Z",
-  "totalPositions": 137,
+  "updated": "2026-02-25T02:45:02.685Z",
+  "totalPositions": 138,
   "openPositions": 3,
-  "closedPositions": 134,
+  "closedPositions": 135,
   "trades": [
     {
       "token": "Djungelskog",
@@ -97,18 +97,6 @@
   },
   "decisions": [
     {
-      "token": "TETSUO",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "SOD",
       "approved": false,
       "confidence": 0,
@@ -155,19 +143,31 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Kurumi",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "ALFRED",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "丙午",
+      "token": "KIMCHI",
+      "strategy": "paper_dca_paper_cluster"
+    },
+    {
+      "token": "Kurumi",
       "strategy": "paper_cluster"
     },
     {
       "token": "USDUC",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "KIMCHI",
       "strategy": "paper_cluster"
     }
   ]
