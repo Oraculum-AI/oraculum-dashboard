@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T07:50:01.873Z",
+  "updated": "2026-02-25T07:55:02.271Z",
   "totalPositions": 154,
   "openPositions": 1,
   "closedPositions": 153,
@@ -76,12 +76,6 @@
   },
   "decisions": [
     {
-      "token": "Xingxing",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "Choctopus",
       "approved": true,
       "confidence": 0,
@@ -132,6 +126,12 @@
     {
       "token": "VAULT",
       "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "$HACHI",
+      "approved": false,
       "confidence": 0,
       "reasoning": ""
     }
