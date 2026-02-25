@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T01:00:02.215Z",
-  "totalPositions": 123,
-  "openPositions": 5,
-  "closedPositions": 118,
+  "updated": "2026-02-25T01:05:03.622Z",
+  "totalPositions": 125,
+  "openPositions": 8,
+  "closedPositions": 117,
   "trades": [
     {
       "token": ":",
@@ -76,24 +76,6 @@
   },
   "decisions": [
     {
-      "token": "PENGU",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "ZEUS",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "67",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "Djungelskog",
       "approved": true,
       "confidence": 0,
@@ -134,9 +116,39 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "Buttcoin",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Clippy",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Aliens",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "Aliens",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Clippy",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "Buttcoin",
+      "strategy": "paper_cluster"
+    },
     {
       "token": "COK",
       "strategy": "paper_cluster"
