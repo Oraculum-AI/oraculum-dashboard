@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-25T00:30:02.209Z",
-  "totalPositions": 118,
-  "openPositions": 5,
+  "updated": "2026-02-25T00:35:03.068Z",
+  "totalPositions": 119,
+  "openPositions": 6,
   "closedPositions": 113,
   "trades": [
     {
@@ -69,24 +69,6 @@
   },
   "decisions": [
     {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "Pigeon",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "USDUC",
       "approved": true,
       "confidence": 0,
@@ -127,11 +109,33 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "aura",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "SERIOUS",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "WOJAK",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "PIGEON ",
+      "token": "WOJAK",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "aura",
       "strategy": "paper_cluster"
     },
     {
