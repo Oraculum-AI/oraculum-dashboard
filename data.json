@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T09:15:02.345Z",
+  "updated": "2026-02-25T09:20:02.094Z",
   "totalPositions": 156,
   "openPositions": 1,
   "closedPositions": 155,
@@ -40,18 +40,6 @@
     "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "Commit",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "PunchPol",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "dreams",
       "approved": true,
@@ -96,6 +84,18 @@
     },
     {
       "token": "DARWIN",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "LOCKIN",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "SHARK",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
