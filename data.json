@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T05:30:02.391Z",
+  "updated": "2026-02-25T05:35:02.694Z",
   "totalPositions": 148,
-  "openPositions": 0,
-  "closedPositions": 148,
+  "openPositions": 1,
+  "closedPositions": 147,
   "trades": [
     {
       "token": "X1XHLOL",
@@ -83,12 +83,6 @@
   },
   "decisions": [
     {
-      "token": "RETARDIO",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "NATIX",
       "approved": true,
       "confidence": 0,
@@ -141,7 +135,18 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "BabyPippin",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "BabyPippin",
+      "strategy": "paper_cluster"
+    }
+  ]
 }
