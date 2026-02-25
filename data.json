@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T02:10:01.791Z",
+  "updated": "2026-02-25T02:15:02.227Z",
   "totalPositions": 135,
-  "openPositions": 4,
-  "closedPositions": 131,
+  "openPositions": 2,
+  "closedPositions": 133,
   "trades": [
     {
       "token": "Djungelskog",
@@ -52,14 +52,28 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 02:07:19",
       "exitType": "exit"
+    },
+    {
+      "token": "Djungelskog:",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-25 02:12:58",
+      "exitType": "stop"
+    },
+    {
+      "token": "triggered",
+      "pnl": -20,
+      "reason": "stop_loss",
+      "time": "2026-02-25 02:13:03",
+      "exitType": "stop"
     }
   ],
-  "tradeCount": 7,
-  "winRate": "29",
+  "tradeCount": 9,
+  "winRate": "22",
   "wins": 2,
-  "losses": 5,
+  "losses": 7,
   "avgWin": "20.8",
-  "avgLoss": "-4.0",
+  "avgLoss": "-8.6",
   "bestTrade": {
     "token": "Djungelskog",
     "pnl": 32,
@@ -68,19 +82,13 @@
     "exitType": "profit"
   },
   "worstTrade": {
-    "token": "Buttcoin",
-    "pnl": -6.2,
-    "reason": "Volume dried up",
-    "time": "2026-02-25 02:07:19",
-    "exitType": "exit"
+    "token": "Djungelskog:",
+    "pnl": -20,
+    "reason": "stop_loss",
+    "time": "2026-02-25 02:12:58",
+    "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "Pipplin",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "PYTH",
       "approved": false,
@@ -134,6 +142,12 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "MARTY",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
@@ -142,15 +156,7 @@
       "strategy": "paper_cluster"
     },
     {
-      "token": "Djungelskog",
-      "strategy": "paper_cluster"
-    },
-    {
       "token": "testicle",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "GHOST",
       "strategy": "paper_cluster"
     }
   ]
