@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-25T07:55:02.271Z",
+  "updated": "2026-02-25T08:00:02.065Z",
   "totalPositions": 154,
   "openPositions": 1,
   "closedPositions": 153,
   "trades": [
-    {
-      "token": "PURCH",
-      "pnl": -1.3,
-      "reason": "Volume dried up",
-      "time": "2026-02-25 05:01:34",
-      "exitType": "exit"
-    },
     {
       "token": "NATIX",
       "pnl": -6.2,
@@ -54,17 +47,17 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 7,
+  "tradeCount": 6,
   "winRate": "0",
   "wins": 0,
-  "losses": 7,
+  "losses": 6,
   "avgWin": "0",
-  "avgLoss": "-3.5",
+  "avgLoss": "-3.9",
   "bestTrade": {
-    "token": "PURCH",
-    "pnl": -1.3,
+    "token": "PURPE",
+    "pnl": -2.9,
     "reason": "Volume dried up",
-    "time": "2026-02-25 05:01:34",
+    "time": "2026-02-25 05:19:04",
     "exitType": "exit"
   },
   "worstTrade": {
@@ -139,7 +132,7 @@
   "openList": [
     {
       "token": "VAULT",
-      "strategy": "paper_cluster"
+      "strategy": "paper_dca_paper_cluster"
     }
   ]
 }
