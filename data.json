@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T00:20:02.339Z",
+  "updated": "2026-02-25T00:25:03.286Z",
   "totalPositions": 118,
   "openPositions": 5,
   "closedPositions": 113,
@@ -69,18 +69,6 @@
   },
   "decisions": [
     {
-      "token": "Capybara",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "TROLL",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "CLANKER",
       "approved": false,
       "confidence": 0,
@@ -127,9 +115,25 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "COPPERINU",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Orangutan",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "COPPERINU",
+      "strategy": "paper_cluster"
+    },
     {
       "token": "RAY",
       "strategy": "paper_cluster"
@@ -144,10 +148,6 @@
     },
     {
       "token": "Punch",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "ORANMAMA",
       "strategy": "paper_cluster"
     }
   ]
