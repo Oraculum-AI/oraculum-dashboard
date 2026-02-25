@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T07:00:02.300Z",
+  "updated": "2026-02-25T07:05:01.878Z",
   "totalPositions": 148,
   "openPositions": 1,
   "closedPositions": 147,
@@ -83,12 +83,6 @@
   },
   "decisions": [
     {
-      "token": "RETARDS",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "SAVE",
       "approved": false,
       "confidence": 0,
@@ -138,6 +132,12 @@
     },
     {
       "token": "RETURN",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "MOBY",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
