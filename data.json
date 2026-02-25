@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-25T00:25:03.286Z",
+  "updated": "2026-02-25T00:30:02.209Z",
   "totalPositions": 118,
   "openPositions": 5,
   "closedPositions": 113,
   "trades": [
-    {
-      "token": "Capybara",
-      "pnl": 18.4,
-      "reason": "Timeout: 46min, only +18.4%",
-      "time": "2026-02-24 23:44:40",
-      "exitType": "timeout"
-    },
     {
       "token": ":",
       "pnl": -20,
@@ -45,20 +38,27 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 00:15:48",
       "exitType": "exit"
+    },
+    {
+      "token": "COPPERINU",
+      "pnl": -3.6,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 00:28:43",
+      "exitType": "exit"
     }
   ],
   "tradeCount": 6,
-  "winRate": "17",
-  "wins": 1,
-  "losses": 5,
-  "avgWin": "18.4",
-  "avgLoss": "-7.2",
+  "winRate": "0",
+  "wins": 0,
+  "losses": 6,
+  "avgWin": "0",
+  "avgLoss": "-6.6",
   "bestTrade": {
-    "token": "Capybara",
-    "pnl": 18.4,
-    "reason": "Timeout: 46min, only +18.4%",
-    "time": "2026-02-24 23:44:40",
-    "exitType": "timeout"
+    "token": "PYTH",
+    "pnl": -2.6,
+    "reason": "Volume dried up",
+    "time": "2026-02-25 00:05:38",
+    "exitType": "exit"
   },
   "worstTrade": {
     "token": ":",
@@ -68,30 +68,6 @@
     "exitType": "stop"
   },
   "decisions": [
-    {
-      "token": "CLANKER",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "TripleT",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "pwease",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "RI",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "?",
       "approved": false,
@@ -127,11 +103,35 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "PIGEON",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "WEN",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "COK",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "GOLDENERA",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "COPPERINU",
+      "token": "PIGEON ",
       "strategy": "paper_cluster"
     },
     {
