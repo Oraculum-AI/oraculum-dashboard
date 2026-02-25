@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T05:05:01.781Z",
+  "updated": "2026-02-25T05:10:02.505Z",
   "totalPositions": 146,
   "openPositions": 1,
   "closedPositions": 145,
@@ -76,24 +76,6 @@
   },
   "decisions": [
     {
-      "token": "DUPE",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "PURCH",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "ONE",
       "approved": false,
       "confidence": 0,
@@ -131,6 +113,24 @@
     },
     {
       "token": "TRENCH",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RETARDS",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Plex",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "LMAO!",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
