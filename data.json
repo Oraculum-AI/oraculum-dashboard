@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T08:25:02.731Z",
+  "updated": "2026-02-25T08:30:02.749Z",
   "totalPositions": 155,
-  "openPositions": 1,
-  "closedPositions": 154,
+  "openPositions": 0,
+  "closedPositions": 155,
   "trades": [
     {
       "token": "BabyPippin",
@@ -115,10 +115,5 @@
       "reasoning": ""
     }
   ],
-  "openList": [
-    {
-      "token": "TAI",
-      "strategy": "paper_cluster"
-    }
-  ]
+  "openList": []
 }
