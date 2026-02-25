@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T07:25:02.571Z",
+  "updated": "2026-02-25T07:30:02.351Z",
   "totalPositions": 151,
-  "openPositions": 1,
-  "closedPositions": 150,
+  "openPositions": 0,
+  "closedPositions": 151,
   "trades": [
     {
       "token": "gork",
@@ -69,24 +69,6 @@
   },
   "decisions": [
     {
-      "token": "LUCE",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "punchAMB",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "house",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "USA",
       "approved": true,
       "confidence": 0,
@@ -127,12 +109,25 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "house",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RETURN",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "LB",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": [
-    {
-      "token": "Rizzmas",
-      "strategy": "paper_cluster"
-    }
-  ]
+  "openList": []
 }
