@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T01:35:02.466Z",
+  "updated": "2026-02-25T01:40:02.109Z",
   "totalPositions": 133,
-  "openPositions": 9,
-  "closedPositions": 124,
+  "openPositions": 8,
+  "closedPositions": 125,
   "trades": [
     {
       "token": "COPPERINU",
@@ -62,12 +62,6 @@
   },
   "decisions": [
     {
-      "token": "LOOK",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "?",
       "approved": false,
       "confidence": 0,
@@ -120,15 +114,17 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "SOL",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
       "token": "testicle",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "pwease",
       "strategy": "paper_cluster"
     },
     {
