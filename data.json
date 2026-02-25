@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T03:00:02.478Z",
+  "updated": "2026-02-25T03:05:01.972Z",
   "totalPositions": 138,
   "openPositions": 1,
   "closedPositions": 137,
@@ -104,18 +104,6 @@
   },
   "decisions": [
     {
-      "token": "USDUC",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "MARTY",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "丙午",
       "approved": true,
       "confidence": 0,
@@ -159,6 +147,18 @@
     },
     {
       "token": "AgenC",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "ALFRED",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "RETURN",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
