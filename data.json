@@ -1,8 +1,8 @@
 {
-  "updated": "2026-02-25T00:05:01.907Z",
+  "updated": "2026-02-25T00:10:02.293Z",
   "totalPositions": 118,
-  "openPositions": 9,
-  "closedPositions": 109,
+  "openPositions": 8,
+  "closedPositions": 110,
   "trades": [
     {
       "token": "Clude",
@@ -31,14 +31,28 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 00:01:53",
       "exitType": "exit"
+    },
+    {
+      "token": "PYTH",
+      "pnl": -2.6,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 00:05:38",
+      "exitType": "exit"
+    },
+    {
+      "token": "BP",
+      "pnl": -6.7,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 00:07:49",
+      "exitType": "exit"
     }
   ],
-  "tradeCount": 4,
-  "winRate": "50",
+  "tradeCount": 6,
+  "winRate": "33",
   "wins": 2,
-  "losses": 2,
+  "losses": 4,
   "avgWin": "25.2",
-  "avgLoss": "-11.5",
+  "avgLoss": "-8.1",
   "bestTrade": {
     "token": "Clude",
     "pnl": 32,
@@ -77,9 +91,31 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "KMNO",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "MM",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "$HACHI",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "",
+      "strategy": "paper_launchpad_pump_fun"
+    },
     {
       "token": "RAY",
       "strategy": "paper_cluster"
@@ -90,14 +126,6 @@
     },
     {
       "token": "GROKIUS",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "BP",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "PYTH",
       "strategy": "paper_cluster"
     },
     {
