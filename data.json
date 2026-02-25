@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-25T08:20:02.361Z",
-  "totalPositions": 154,
-  "openPositions": 0,
+  "updated": "2026-02-25T08:25:02.731Z",
+  "totalPositions": 155,
+  "openPositions": 1,
   "closedPositions": 154,
   "trades": [
     {
@@ -55,12 +55,6 @@
   },
   "decisions": [
     {
-      "token": "RETURN",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "LB",
       "approved": false,
       "confidence": 0,
@@ -113,7 +107,18 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "TAI",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
-  "openList": []
+  "openList": [
+    {
+      "token": "TAI",
+      "strategy": "paper_cluster"
+    }
+  ]
 }
