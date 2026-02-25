@@ -1,5 +1,5 @@
 {
-  "updated": "2026-02-25T03:10:02.785Z",
+  "updated": "2026-02-25T03:15:02.086Z",
   "totalPositions": 138,
   "openPositions": 1,
   "closedPositions": 137,
@@ -97,24 +97,6 @@
   },
   "decisions": [
     {
-      "token": "TRENCH",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "SOBAT",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "MOLTIC",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
       "token": "AgenC",
       "approved": false,
       "confidence": 0,
@@ -152,6 +134,24 @@
     },
     {
       "token": "GoldPippin",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "MNDE",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "WANKEY",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "$WIF",
       "approved": false,
       "confidence": 0,
       "reasoning": ""
