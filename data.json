@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-25T01:15:02.141Z",
-  "totalPositions": 127,
-  "openPositions": 6,
-  "closedPositions": 121,
+  "updated": "2026-02-25T01:20:03.422Z",
+  "totalPositions": 128,
+  "openPositions": 8,
+  "closedPositions": 120,
   "trades": [
-    {
-      "token": ":",
-      "pnl": -20,
-      "reason": "stop_loss",
-      "time": "2026-02-24 23:55:57",
-      "exitType": "stop"
-    },
     {
       "token": "PENGU",
       "pnl": -3,
@@ -54,12 +47,12 @@
       "exitType": "exit"
     }
   ],
-  "tradeCount": 7,
+  "tradeCount": 6,
   "winRate": "0",
   "wins": 0,
-  "losses": 7,
+  "losses": 6,
   "avgWin": "0",
-  "avgLoss": "-6.0",
+  "avgLoss": "-3.7",
   "bestTrade": {
     "token": "PYTH",
     "pnl": -2.6,
@@ -68,25 +61,13 @@
     "exitType": "exit"
   },
   "worstTrade": {
-    "token": ":",
-    "pnl": -20,
-    "reason": "stop_loss",
-    "time": "2026-02-24 23:55:57",
-    "exitType": "stop"
+    "token": "BP",
+    "pnl": -6.7,
+    "reason": "Volume dried up",
+    "time": "2026-02-25 00:07:49",
+    "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "CLAW",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "?",
       "approved": false,
@@ -134,9 +115,29 @@
       "approved": true,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "GIGA",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Pippkin",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
+    {
+      "token": "Pippkin",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "GIGA",
+      "strategy": "paper_cluster"
+    },
     {
       "token": "PIGEON ",
       "strategy": "paper_cluster"
