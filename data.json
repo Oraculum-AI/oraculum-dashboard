@@ -1,16 +1,9 @@
 {
-  "updated": "2026-02-25T01:40:02.109Z",
-  "totalPositions": 133,
+  "updated": "2026-02-25T01:45:02.877Z",
+  "totalPositions": 134,
   "openPositions": 8,
-  "closedPositions": 125,
+  "closedPositions": 126,
   "trades": [
-    {
-      "token": "COPPERINU",
-      "pnl": -3.6,
-      "reason": "Volume dried up",
-      "time": "2026-02-25 00:28:43",
-      "exitType": "exit"
-    },
     {
       "token": "WOJAK",
       "pnl": -2.9,
@@ -38,6 +31,13 @@
       "reason": "Volume dried up",
       "time": "2026-02-25 01:30:41",
       "exitType": "exit"
+    },
+    {
+      "token": "COPPERINU",
+      "pnl": -3.3,
+      "reason": "Volume dried up",
+      "time": "2026-02-25 01:40:48",
+      "exitType": "exit"
     }
   ],
   "tradeCount": 5,
@@ -45,7 +45,7 @@
   "wins": 1,
   "losses": 4,
   "avgWin": "32.0",
-  "avgLoss": "-3.2",
+  "avgLoss": "-3.1",
   "bestTrade": {
     "token": "Djungelskog",
     "pnl": 32,
@@ -55,36 +55,12 @@
   },
   "worstTrade": {
     "token": "COPPERINU",
-    "pnl": -3.6,
+    "pnl": -3.3,
     "reason": "Volume dried up",
-    "time": "2026-02-25 00:28:43",
+    "time": "2026-02-25 01:40:48",
     "exitType": "exit"
   },
   "decisions": [
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "PYTH",
-      "approved": true,
-      "confidence": 0,
-      "reasoning": ""
-    },
-    {
-      "token": "?",
-      "approved": false,
-      "confidence": 0,
-      "reasoning": ""
-    },
     {
       "token": "?",
       "approved": false,
@@ -120,15 +96,43 @@
       "approved": false,
       "confidence": 0,
       "reasoning": ""
+    },
+    {
+      "token": "ZAUTH",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Percolator",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Djungelskog",
+      "approved": true,
+      "confidence": 0,
+      "reasoning": ""
+    },
+    {
+      "token": "Pipplin",
+      "approved": false,
+      "confidence": 0,
+      "reasoning": ""
     }
   ],
   "openList": [
     {
-      "token": "testicle",
+      "token": "Djungelskog",
       "strategy": "paper_cluster"
     },
     {
-      "token": "COPPERINU",
+      "token": "ZAUTH",
+      "strategy": "paper_cluster"
+    },
+    {
+      "token": "testicle",
       "strategy": "paper_cluster"
     },
     {
@@ -149,10 +153,6 @@
     },
     {
       "token": "Pippkin",
-      "strategy": "paper_cluster"
-    },
-    {
-      "token": "Clippy",
       "strategy": "paper_cluster"
     }
   ]
